@@ -1,0 +1,40 @@
+name: Update DSH Plugin Index
+
+on:
+  schedule:
+    # 每天 UTC 15:00 = 北京时间 23:00（dsh.market 每日自动收录之后）
+    - cron: '0 15 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-index:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run update script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update-index.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "dsh-index-bot"
+          git config user.email "actions@github.com"
+          git add plugins.json
+          if git diff --cached --quiet; then
+            echo "No changes - index is up to date"
+          else
+            git commit -m "chore: auto-update plugin index ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+            git push
+            echo "Pushed update"
+          fi
