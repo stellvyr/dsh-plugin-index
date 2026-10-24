@@ -31,7 +31,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/zhu1090093659/dsh-web",
-      "commit": "9c1523417f76ea36516db80e831953c1f1062007"
+      "commit": "5e551535cd15d4b28501b6538728245c34ce79be"
      },
      "engines": {
       "dsh": "^0.2.1-rc.2"
@@ -121,7 +121,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/c1overzz/dsh-bili-scroll",
-      "commit": "1bfcf294efac5c842c485d0146f1235e91ee2efc"
+      "commit": "5be5f6d57c47c7e79ad9bc4ce39457b68a160dfa"
      },
      "engines": {
       "dsh": ">=0.1.7-rc.1"
@@ -331,7 +331,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-auto-review",
-      "commit": "ccd7978cee0352a69a5fd7ccaa9cbb0004f51ab3"
+      "commit": "db7d806052b05c02a30d01c8ffe65385aca136cc"
      },
      "engines": {
       "dsh": ">=0.2.1-0 <0.3.0"
@@ -661,7 +661,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/Tyan66666/billion-context-dsh",
-      "commit": "91a8a1e581927d68511caf0678419a45040f2245"
+      "commit": "3b893134452810909f2b31fe1643b7c70cf77ea4"
      },
      "engines": {
       "dsh": "0.2.0-rc.2"
@@ -721,7 +721,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-memento",
-      "commit": "6515216630486dd52b9d8eee93b0213aea2704f2"
+      "commit": "93cbdcb4c0de77f87e3b9059f89715e69562cb8e"
      },
      "engines": {
       "dsh": "0.2.1-rc.2"
@@ -820,6 +820,36 @@
    ]
   },
   {
+   "name": "@inaringt-ofiicial/dsh-bili-humanism",
+   "title": {
+    "en": "dsh-bili-humanism",
+    "zh": "dsh-bili-humanism"
+   },
+   "description": {
+    "en": "用多彩的人类世界，训练 DSH 的人格：默认积累信笺反思于专用 human-world.md；允许通过 DSH 与外部插件接驳。历史、收藏、点赞与投币独立默认关闭；本项目不提供评论接口。",
+    "zh": "用B站多彩内容训练DSH人格，默认把信笺反思积累到专用文件，历史收藏点赞投币默认关闭。"
+   },
+   "author": "InariNGT-Ofiicial",
+   "homepage": "https://github.com/InariNGT-Ofiicial/dsh-bili-humanism",
+   "repository": {
+    "url": "https://github.com/InariNGT-Ofiicial/dsh-bili-humanism"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1792723651,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/InariNGT-Ofiicial/dsh-bili-humanism",
+      "commit": "641636f24ddb9bb8fcd7da8aed250f628c0f55b3"
+     },
+     "engines": {
+      "dsh": "0.2.1-rc.2"
+     }
+    }
+   ]
+  },
+  {
    "name": "@polinnizhong/dsh-personal-center",
    "title": {
     "en": "dsh-personal-center",
@@ -845,36 +875,6 @@
      },
      "engines": {
       "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@inaringt-ofiicial/dsh-bili-humanism",
-   "title": {
-    "en": "dsh-bili-humanism",
-    "zh": "dsh-bili-humanism"
-   },
-   "description": {
-    "en": "用多彩的人类世界，训练 DSH 的人格：默认积累信笺反思于专用 human-world.md；允许通过 DSH 与外部插件接驳。历史、收藏、点赞与投币独立默认关闭；本项目不提供评论接口。",
-    "zh": "用B站多彩内容训练DSH人格，默认把信笺反思积累到专用文件，历史收藏点赞投币默认关闭。"
-   },
-   "author": "InariNGT-Ofiicial",
-   "homepage": "https://github.com/InariNGT-Ofiicial/dsh-bili-humanism",
-   "repository": {
-    "url": "https://github.com/InariNGT-Ofiicial/dsh-bili-humanism"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1792723651,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/InariNGT-Ofiicial/dsh-bili-humanism",
-      "commit": "22cbb1d8d44a95d325bf4fcf916792b773cf1e17"
-     },
-     "engines": {
-      "dsh": "0.2.1-rc.2"
      }
     }
    ]
@@ -961,7 +961,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/Noob-stupid/dsh-plugin-gating-hub",
-      "commit": "deaea0ec1af9d8fedbfb9cf7194d7230e5ec1ba5"
+      "commit": "4b4dac0af5486657f3c940336784a444cca0759e"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -1111,7 +1111,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/PensiveFei/dsh-secure-audit",
-      "commit": "430113f16f43e7885dadd10494a9770dd9b20443"
+      "commit": "902c044714f3b0b59284c330650349c3aded324e"
      },
      "engines": {
       "dsh": "0.1.2-rc.1"
@@ -1270,6 +1270,36 @@
    ]
   },
   {
+   "name": "@yuuyuko-uu/dsh-fish-memory",
+   "title": {
+    "en": "dsh-fish-memory",
+    "zh": "dsh-fish-memory"
+   },
+   "description": {
+    "en": "🐋 DSH 鱼的记忆：给会话一份会淡忘的长期记忆，每条都带时间。名字里的「鱼」来自 DeepSeek 的鲸鱼。",
+    "zh": "给 DSH 会话加一份会随时间淡忘的长期记忆，每条都带时间，该记的自动记、该忘的慢慢忘。"
+   },
+   "author": "Yuuyuko-uu",
+   "homepage": "https://github.com/Yuuyuko-uu/dsh-fish-memory",
+   "repository": {
+    "url": "https://github.com/Yuuyuko-uu/dsh-fish-memory"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1792720460,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/Yuuyuko-uu/dsh-fish-memory",
+      "commit": "eb766be1542ff928a731636dba7e1e79a27f8339"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
    "name": "@cloader/dsh-taskboard",
    "title": {
     "en": "dsh-taskboard",
@@ -1360,36 +1390,6 @@
    ]
   },
   {
-   "name": "@yuuyuko-uu/dsh-fish-memory",
-   "title": {
-    "en": "dsh-fish-memory",
-    "zh": "dsh-fish-memory"
-   },
-   "description": {
-    "en": "🐋 DSH 鱼的记忆：给会话一份会淡忘的长期记忆，每条都带时间。名字里的「鱼」来自 DeepSeek 的鲸鱼。",
-    "zh": "给 DSH 会话加一份会随时间淡忘的长期记忆，每条都带时间，该记的自动记、该忘的慢慢忘。"
-   },
-   "author": "Yuuyuko-uu",
-   "homepage": "https://github.com/Yuuyuko-uu/dsh-fish-memory",
-   "repository": {
-    "url": "https://github.com/Yuuyuko-uu/dsh-fish-memory"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1792720460,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/Yuuyuko-uu/dsh-fish-memory",
-      "commit": "b49938f77b36b8610d061d3a24f2d6ca95214044"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
    "name": "@rosynb666/dsh-whale-catch",
    "title": {
     "en": "dsh-whale-catch",
@@ -1411,7 +1411,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/Rosynb666/dsh-whale-catch",
-      "commit": "89e1b4e00d2a01b79264c7bd814f4141eb12d548"
+      "commit": "24bca76b382affcfebe2d424fcc6ffc677f6f23e"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -1531,7 +1531,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/masknull/dsh-qoder-connect",
-      "commit": "b1a48268eb4f316cd3c5b1435f9fb55cc674a01e"
+      "commit": "1faee3b776bb49b29e6b13104b7dcb3bd602daaa"
      },
      "engines": {
       "dsh": ">=0.2.1-rc.1"
@@ -1647,11 +1647,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1792509997,
+     "publishTimestamp": 1792779920,
      "source": {
       "type": "git",
       "url": "https://github.com/UncleK/dsh-think-translate",
-      "commit": "3b6f3ff8b5799f0532a7c45b720adfdbdd164191"
+      "commit": "bde33fdd07e3565ece9a119b4e6f92bb6eb74db3"
      },
      "engines": {
       "dsh": ">=0.1.0-rc.6"
@@ -1720,36 +1720,6 @@
    ]
   },
   {
-   "name": "@vncntvx/dsh-zotero",
-   "title": {
-    "en": "dsh-zotero",
-    "zh": "dsh-zotero"
-   },
-   "description": {
-    "en": "Zotero plugin for DeepSeek Harness: search papers, read full-text PDFs and notes, extract relevant passages, and inspect sources in the conversation tab.",
-    "zh": "将 Zotero 文献管理接入 DeepSeek Harness，方便 AI 助手读取和引用你的文献库。"
-   },
-   "author": "Vncntvx",
-   "homepage": "https://github.com/Vncntvx/dsh-zotero",
-   "repository": {
-    "url": "https://github.com/Vncntvx/dsh-zotero"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1792743193,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/Vncntvx/dsh-zotero",
-      "commit": "1762eee20f0827e970f8bddf3ab73dac8f786062"
-     },
-     "engines": {
-      "dsh": ">=0.2.1-rc.2"
-     }
-    }
-   ]
-  },
-  {
    "name": "@yuuyuko-uu/dsh-tts-bridge",
    "title": {
     "en": "dsh-tts-bridge",
@@ -1775,6 +1745,36 @@
      },
      "engines": {
       "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@vncntvx/dsh-zotero",
+   "title": {
+    "en": "dsh-zotero",
+    "zh": "dsh-zotero"
+   },
+   "description": {
+    "en": "Zotero plugin for DeepSeek Harness: search papers, read full-text PDFs and notes, extract relevant passages, and inspect sources in the conversation tab.",
+    "zh": "将 Zotero 文献管理接入 DeepSeek Harness，方便 AI 助手读取和引用你的文献库。"
+   },
+   "author": "Vncntvx",
+   "homepage": "https://github.com/Vncntvx/dsh-zotero",
+   "repository": {
+    "url": "https://github.com/Vncntvx/dsh-zotero"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1792743193,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/Vncntvx/dsh-zotero",
+      "commit": "1c31aaa49e0f7739f3d9476c66c7645d17555c35"
+     },
+     "engines": {
+      "dsh": ">=0.2.1-rc.2"
      }
     }
    ]
@@ -1861,7 +1861,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/niiang/dsh-kimino-theme",
-      "commit": "711448c5872c4bddd4272678ee9e48ab96814d3d"
+      "commit": "d4837823c536e48da494d4034f1413fc7070e51d"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -2011,7 +2011,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/Yuuyuko-uu/dsh-feiyu-mood",
-      "commit": "2f278fcdeee00a78d43f3e7acbd6976428a3e6b1"
+      "commit": "7eb89c1bf971bd2255a9e79972328dee59d51f5c"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -2045,36 +2045,6 @@
      },
      "engines": {
       "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@hellodigua/dsh-share",
-   "title": {
-    "en": "dsh-share",
-    "zh": "dsh-share"
-   },
-   "description": {
-    "en": "Share DSH conversations.",
-    "zh": "把 DSH 对话导出成图片或 Markdown，支持单轮多轮挑选，分享起来很方便。"
-   },
-   "author": "hellodigua",
-   "homepage": "https://github.com/hellodigua/dsh-share",
-   "repository": {
-    "url": "https://github.com/hellodigua/dsh-share"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1791623690,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/hellodigua/dsh-share",
-      "commit": "b5212ef748ac56aeb4d56c6f8a86be836921114f"
-     },
-     "engines": {
-      "dsh": "0.2.0-rc.2"
      }
     }
    ]
@@ -2140,31 +2110,31 @@
    ]
   },
   {
-   "name": "@yuhub233/dsh-effort-slider",
+   "name": "@hellodigua/dsh-share",
    "title": {
-    "en": "dsh-effort-slider",
-    "zh": "dsh-effort-slider"
+    "en": "dsh-share",
+    "zh": "dsh-share"
    },
    "description": {
-    "en": "科幻推理等级滑条 for DeepSeek Harness：Ultra 档 + 闪电编排模式 + 子代理 tok/s 读数 / A sci-fi reasoning-effort slider for DSH",
-    "zh": "给 DSH 输入框加一条科幻发光滑条，随手调推理等级，还能开 Ultra 档和闪电模式。"
+    "en": "Share DSH conversations.",
+    "zh": "把 DSH 对话导出成图片或 Markdown，支持单轮多轮挑选，分享起来很方便。"
    },
-   "author": "yuhub233",
-   "homepage": "https://github.com/yuhub233/dsh-effort-slider",
+   "author": "hellodigua",
+   "homepage": "https://github.com/hellodigua/dsh-share",
    "repository": {
-    "url": "https://github.com/yuhub233/dsh-effort-slider"
+    "url": "https://github.com/hellodigua/dsh-share"
    },
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1791176120,
+     "publishTimestamp": 1791623690,
      "source": {
       "type": "git",
-      "url": "https://github.com/yuhub233/dsh-effort-slider",
-      "commit": "6f08315d16d4dd542b27c2f380a91c9e74295a59"
+      "url": "https://github.com/hellodigua/dsh-share",
+      "commit": "b5212ef748ac56aeb4d56c6f8a86be836921114f"
      },
      "engines": {
-      "dsh": ">=0.1.0"
+      "dsh": "0.2.0-rc.2"
      }
     }
    ]
@@ -2192,6 +2162,36 @@
       "type": "git",
       "url": "https://github.com/fourzkw/dsh-drawai",
       "commit": "485a19c7d20d537b5d93c2be651af288e58d8a9d"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@yuhub233/dsh-effort-slider",
+   "title": {
+    "en": "dsh-effort-slider",
+    "zh": "dsh-effort-slider"
+   },
+   "description": {
+    "en": "科幻推理等级滑条 for DeepSeek Harness：Ultra 档 + 闪电编排模式 + 子代理 tok/s 读数 / A sci-fi reasoning-effort slider for DSH",
+    "zh": "给 DSH 输入框加一条科幻发光滑条，随手调推理等级，还能开 Ultra 档和闪电模式。"
+   },
+   "author": "yuhub233",
+   "homepage": "https://github.com/yuhub233/dsh-effort-slider",
+   "repository": {
+    "url": "https://github.com/yuhub233/dsh-effort-slider"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1791176120,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/yuhub233/dsh-effort-slider",
+      "commit": "6f08315d16d4dd542b27c2f380a91c9e74295a59"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -2290,36 +2290,6 @@
    ]
   },
   {
-   "name": "@pk14742952-ad/dsh-host-rsi",
-   "title": {
-    "en": "dsh-host-rsi",
-    "zh": "dsh-host-rsi"
-   },
-   "description": {
-    "en": "DSH host RSI for local LLMs (currently Qwen3.8 27B): per-use continual self-improvement, counter-reason self-check, critic escalation, and memory retrieval.简单来说根据论文建立的长期反思教训机制，让大模型不再犯错，越用越强！重点是千问3.8 27B/FLASH这种本地LLM模型！当然在线大模型理论上也可以通用！",
-    "zh": "让本地大模型边用边学，记住教训不再犯同样的错，越用越聪明。"
-   },
-   "author": "pk14742952-AD",
-   "homepage": "https://github.com/pk14742952-AD/dsh-host-rsi",
-   "repository": {
-    "url": "https://github.com/pk14742952-AD/dsh-host-rsi"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1792301256,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/pk14742952-AD/dsh-host-rsi",
-      "commit": "6d4a593b4e6514b262a701b4297bfdd69917cdbe"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
    "name": "@imzl-zl/dsh-toolbox-ui",
    "title": {
     "en": "dsh-toolbox-ui",
@@ -2345,6 +2315,36 @@
      },
      "engines": {
       "dsh": "^0.2.0-rc.2"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@pk14742952-ad/dsh-host-rsi",
+   "title": {
+    "en": "dsh-host-rsi",
+    "zh": "dsh-host-rsi"
+   },
+   "description": {
+    "en": "DSH host RSI for local LLMs (currently Qwen3.8 27B): per-use continual self-improvement, counter-reason self-check, critic escalation, and memory retrieval.简单来说根据论文建立的长期反思教训机制，让大模型不再犯错，越用越强！重点是千问3.8 27B/FLASH这种本地LLM模型！当然在线大模型理论上也可以通用！",
+    "zh": "让本地大模型边用边学，记住教训不再犯同样的错，越用越聪明。"
+   },
+   "author": "pk14742952-AD",
+   "homepage": "https://github.com/pk14742952-AD/dsh-host-rsi",
+   "repository": {
+    "url": "https://github.com/pk14742952-AD/dsh-host-rsi"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1792301256,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/pk14742952-AD/dsh-host-rsi",
+      "commit": "6d4a593b4e6514b262a701b4297bfdd69917cdbe"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
      }
     }
    ]
