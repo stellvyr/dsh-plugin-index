@@ -27,11 +27,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793427318,
+     "publishTimestamp": 1793446052,
      "source": {
       "type": "git",
       "url": "https://github.com/zhu1090093659/dsh-web",
-      "commit": "4ca79dda75867331b26e06df079e94d5e493b299"
+      "commit": "6df920e75666574171d1c9ec3c5aa315134c7d1a"
      },
      "engines": {
       "dsh": "^0.2.1-rc.3"
@@ -87,7 +87,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793167085,
+     "publishTimestamp": 1793445251,
      "source": {
       "type": "git",
       "url": "https://github.com/c1overzz/dsh-bili-scroll",
@@ -220,36 +220,6 @@
    ]
   },
   {
-   "name": "@yuuyuko-uu/dsh-fish-memory",
-   "title": {
-    "en": "dsh-fish-memory",
-    "zh": "dsh-fish-memory"
-   },
-   "description": {
-    "en": "🐋 DSH 鱼的记忆：给会话一份会淡忘的长期记忆，每条都带时间。名字里的「鱼」来自 DeepSeek 的鲸鱼。",
-    "zh": "给 DSH 会话加一份会随时间淡忘的长期记忆，每条都带时间，该记的自动记、该忘的慢慢忘。"
-   },
-   "author": "Yuuyuko-uu",
-   "homepage": "https://github.com/Yuuyuko-uu/dsh-fish-memory",
-   "repository": {
-    "url": "https://github.com/Yuuyuko-uu/dsh-fish-memory"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1793388880,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/Yuuyuko-uu/dsh-fish-memory",
-      "commit": "2a25e04a3d192359207fa5455cdbc73b31ddf209"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
    "name": "@xdtrees/dsh-xdpool",
    "title": {
     "en": "dsh-xdpool",
@@ -267,7 +237,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793324802,
+     "publishTimestamp": 1793446893,
      "source": {
       "type": "git",
       "url": "https://github.com/XDTrees/dsh-xdpool",
@@ -297,11 +267,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793024775,
+     "publishTimestamp": 1793470890,
      "source": {
       "type": "git",
       "url": "https://github.com/Phant0Meow/dsh-meow-memory",
-      "commit": "d6bb39dc749e8c6cda5a80c96ca2da07bdf59502"
+      "commit": "86a85a2926e61d4aa643cce9c83540f06d961ea1"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -391,7 +361,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-auto-review",
-      "commit": "81b3655f25b75ca4eb2890cb5ff3f80c571a8ef5"
+      "commit": "f2dc189f4b3e9ec1452e2ab134656d5681655ebc"
      },
      "engines": {
       "dsh": ">=0.2.1-0 <0.3.0"
@@ -421,7 +391,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/Fishquito7/dsh-skill-mcp-panel",
-      "commit": "83adb6cd68827b84ceb44b6ed698013c73041af1"
+      "commit": "71a98be56ac8f6ddfcffcd0445513bcbc584d255"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -451,10 +421,40 @@
      "source": {
       "type": "git",
       "url": "https://github.com/Rain-kl/dsh-preset-plus",
-      "commit": "a6f5446be1f8516164c1b2623e45334cecf32b18"
+      "commit": "90674c90ec91a8c60a52d29e92c5218c0edad8e9"
      },
      "engines": {
       "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@inaringt-ofiicial/dsh-bili-humanism",
+   "title": {
+    "en": "dsh-bili-humanism",
+    "zh": "dsh-bili-humanism"
+   },
+   "description": {
+    "en": "用多彩的人类世界，训练 DSH 的人格：默认积累信笺反思于专用 human-world.md；允许通过 DSH 与外部插件接驳。历史、收藏、点赞与投币独立默认关闭；本项目不提供评论接口。",
+    "zh": "用B站多彩内容训练DSH人格，默认把信笺反思积累到专用文件，历史收藏点赞投币默认关闭。"
+   },
+   "author": "InariNGT-Ofiicial",
+   "homepage": "https://github.com/InariNGT-Ofiicial/dsh-bili-humanism",
+   "repository": {
+    "url": "https://github.com/InariNGT-Ofiicial/dsh-bili-humanism"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1793339595,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/InariNGT-Ofiicial/dsh-bili-humanism",
+      "commit": "2ec50417e64a72a28b9445c06872d7f14d9dbf24"
+     },
+     "engines": {
+      "dsh": "0.2.1-rc.2"
      }
     }
    ]
@@ -490,36 +490,6 @@
    ]
   },
   {
-   "name": "@inaringt-ofiicial/dsh-bili-humanism",
-   "title": {
-    "en": "dsh-bili-humanism",
-    "zh": "dsh-bili-humanism"
-   },
-   "description": {
-    "en": "用多彩的人类世界，训练 DSH 的人格：默认积累信笺反思于专用 human-world.md；允许通过 DSH 与外部插件接驳。历史、收藏、点赞与投币独立默认关闭；本项目不提供评论接口。",
-    "zh": "用B站多彩内容训练DSH人格，默认把信笺反思积累到专用文件，历史收藏点赞投币默认关闭。"
-   },
-   "author": "InariNGT-Ofiicial",
-   "homepage": "https://github.com/InariNGT-Ofiicial/dsh-bili-humanism",
-   "repository": {
-    "url": "https://github.com/InariNGT-Ofiicial/dsh-bili-humanism"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1793339595,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/InariNGT-Ofiicial/dsh-bili-humanism",
-      "commit": "9739534ef70ee7e1ccbf9ad2e8ed0fb91574b103"
-     },
-     "engines": {
-      "dsh": "0.2.1-rc.2"
-     }
-    }
-   ]
-  },
-  {
    "name": "@ayase34/gal-view",
    "title": {
     "en": "gal-view",
@@ -542,36 +512,6 @@
       "type": "git",
       "url": "https://github.com/Ayase34/gal-view",
       "commit": "d002fe0e7051c618a2665af3c653f9838cd6aa8a"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@yuuyuko-uu/dsh-feiyu-mood",
-   "title": {
-    "en": "dsh-feiyu-mood",
-    "zh": "dsh-feiyu-mood"
-   },
-   "description": {
-    "en": "给 AI 伙伴一个会自己判断、你看得见的心情 —— 每轮聊完自动判断涨跌，右下角挂饰看数值、情绪和时间线",
-    "zh": "给 AI 伙伴加个会自己判断的心情，每轮聊完自动涨跌，右下角挂饰随时看情绪和时间线"
-   },
-   "author": "Yuuyuko-uu",
-   "homepage": "https://github.com/Yuuyuko-uu/dsh-feiyu-mood",
-   "repository": {
-    "url": "https://github.com/Yuuyuko-uu/dsh-feiyu-mood"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1793388869,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/Yuuyuko-uu/dsh-feiyu-mood",
-      "commit": "824841cb5eb3313725c40dc7ef7f7cd3609af67a"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -610,6 +550,36 @@
    ]
   },
   {
+   "name": "@huaguoxingkong/dsh-prompt-rewriter",
+   "title": {
+    "en": "dsh-prompt-rewriter",
+    "zh": "dsh-prompt-rewriter"
+   },
+   "description": {
+    "en": "One-click prompt enhancement beside the DeepSeek Harness composer: rewrites a draft in place without sending it.",
+    "zh": "在输入框旁一键润色提示词，原地改写草稿，不发送也能让表达更清晰。"
+   },
+   "author": "huaguoxingkong",
+   "homepage": "https://github.com/huaguoxingkong/dsh-prompt-rewriter",
+   "repository": {
+    "url": "https://github.com/huaguoxingkong/dsh-prompt-rewriter"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1793437726,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/huaguoxingkong/dsh-prompt-rewriter",
+      "commit": "943820b4ffd4fb17c0d16cc5dd3a6d8e8d1cfcbd"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
    "name": "@graysilver/dsh-evolve-modes",
    "title": {
     "en": "dsh-evolve-modes",
@@ -640,58 +610,28 @@
    ]
   },
   {
-   "name": "@yuuyuko-uu/dsh-tts-bridge",
+   "name": "@op7418/dsh-guizang-design",
    "title": {
-    "en": "dsh-tts-bridge",
-    "zh": "dsh-tts-bridge"
+    "en": "dsh-guizang-design",
+    "zh": "dsh-guizang-design"
    },
    "description": {
-    "en": "DSH 朗读桥：会话里的话自动交给 DeepSeek 网页端朗读，声音从你自己的电脑里出来",
-    "zh": "把 DSH 会话里的话自动送到 DeepSeek 网页端朗读，声音从你自己电脑里出来，不用盯着页面。"
+    "en": "歸藏设计 · DeepSeek Harness 插件：网页 PPT、图文卡片、网页排版、去 AI 味四个 skill，一套设计系统；作品库、内容生产工作流、语气档案",
+    "zh": "把歸藏的内容生产 skill 装进 dsh：网页 PPT、图文卡片、网页排版、去 AI 味，还能学你的写作语气。"
    },
-   "author": "Yuuyuko-uu",
-   "homepage": "https://github.com/Yuuyuko-uu/dsh-tts-bridge",
+   "author": "op7418",
+   "homepage": "https://github.com/op7418/dsh-guizang-design",
    "repository": {
-    "url": "https://github.com/Yuuyuko-uu/dsh-tts-bridge"
+    "url": "https://github.com/op7418/dsh-guizang-design"
    },
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793388893,
+     "publishTimestamp": 1793422509,
      "source": {
       "type": "git",
-      "url": "https://github.com/Yuuyuko-uu/dsh-tts-bridge",
-      "commit": "02060a151ade616cbc69a89a8dd63728417408d8"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@yuuyuko-uu/dsh-speak-up",
-   "title": {
-    "en": "dsh-speak-up",
-    "zh": "dsh-speak-up"
-   },
-   "description": {
-    "en": "DSH 插件：让她在没人跟她说话的时候主动搭话（本地掷骰子，掷中就走 DSH 自己的一轮）",
-    "zh": "让 DSH 会话在没人说话时掷骰子决定要不要主动开口，自己起话头。"
-   },
-   "author": "Yuuyuko-uu",
-   "homepage": "https://github.com/Yuuyuko-uu/dsh-speak-up",
-   "repository": {
-    "url": "https://github.com/Yuuyuko-uu/dsh-speak-up"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1793388865,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/Yuuyuko-uu/dsh-speak-up",
-      "commit": "8a4768ba30155ecccd692033996fbdf96762cb2a"
+      "url": "https://github.com/op7418/dsh-guizang-design",
+      "commit": "d16cea63497e1c6a95a63804b5274f93939ddb1d"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -725,36 +665,6 @@
      },
      "engines": {
       "dsh": "0.1.2-rc.1"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@huaguoxingkong/dsh-prompt-rewriter",
-   "title": {
-    "en": "dsh-prompt-rewriter",
-    "zh": "dsh-prompt-rewriter"
-   },
-   "description": {
-    "en": "One-click prompt enhancement beside the DeepSeek Harness composer: rewrites a draft in place without sending it.",
-    "zh": "在输入框旁一键润色提示词，原地改写草稿，不发送也能让表达更清晰。"
-   },
-   "author": "huaguoxingkong",
-   "homepage": "https://github.com/huaguoxingkong/dsh-prompt-rewriter",
-   "repository": {
-    "url": "https://github.com/huaguoxingkong/dsh-prompt-rewriter"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1793369911,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/huaguoxingkong/dsh-prompt-rewriter",
-      "commit": "943820b4ffd4fb17c0d16cc5dd3a6d8e8d1cfcbd"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
      }
     }
    ]
@@ -910,10 +820,10 @@
    ]
   },
   {
-   "name": "@yuuyuko-uu/dsh-qq-bridge",
+   "name": "@yuuyuko-uu/dsh-qq-link",
    "title": {
-    "en": "dsh-qq-bridge",
-    "zh": "dsh-qq-bridge"
+    "en": "dsh-qq-link",
+    "zh": "dsh-qq-link"
    },
    "description": {
     "en": "通到 QQ：DSH 里的 AI 伙伴和 QQ 双向互通 —— 它说完话自动发到 QQ，你在 QQ 说的话自动转进 DSH（走 OneBot 11 HTTP，NapCat / SnowLuma 都行）",
@@ -922,16 +832,16 @@
    "author": "Yuuyuko-uu",
    "homepage": "https://github.com/Yuuyuko-uu/dsh-qq-bridge",
    "repository": {
-    "url": "https://github.com/Yuuyuko-uu/dsh-qq-bridge"
+    "url": "https://github.com/Yuuyuko-uu/dsh-qq-link"
    },
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793388872,
+     "publishTimestamp": 1793469542,
      "source": {
       "type": "git",
-      "url": "https://github.com/Yuuyuko-uu/dsh-qq-bridge",
-      "commit": "39b9fed5f217d4eed0509fbfdba96c77024a2958"
+      "url": "https://github.com/Yuuyuko-uu/dsh-qq-link",
+      "commit": "1c85658fdff81a72e67629db8d035f1868a8ca7d"
      },
      "engines": {
       "dsh": ">=0.2.1-rc.2"
@@ -957,11 +867,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793019335,
+     "publishTimestamp": 1793466046,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-memento",
-      "commit": "548033cc6d98af33882a599b999c4cb419546ee6"
+      "commit": "62aa8eab0df99e8d846b5feafa637d32cfa5eb78"
      },
      "engines": {
       "dsh": "0.2.1-rc.2"
@@ -1081,7 +991,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/Noob-stupid/dsh-plugin-gating-hub",
-      "commit": "b1db101419acab46d011138384176c349eea5d6e"
+      "commit": "82bb547c9931d388b1025e3d2423e709385dfbfa"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -1180,28 +1090,28 @@
    ]
   },
   {
-   "name": "@op7418/dsh-guizang-design",
+   "name": "@tasihi89/dsh-talk-map",
    "title": {
-    "en": "dsh-guizang-design",
-    "zh": "dsh-guizang-design"
+    "en": "dsh-talk-map",
+    "zh": "dsh-talk-map"
    },
    "description": {
-    "en": "歸藏设计 · DeepSeek Harness 插件：网页 PPT、图文卡片、网页排版、去 AI 味四个 skill，一套设计系统；作品库、内容生产工作流、语气档案",
-    "zh": "把歸藏的内容生产 skill 装进 dsh：网页 PPT、图文卡片、网页排版、去 AI 味，还能学你的写作语气。"
+    "en": "Visual conversation map for DeepSeek Harness — sessions as cards on a whiteboard: drag to arrange, double-click to chat, draw an edge to fork with injected context. ADHD-friendly spatial memory. · DSH 可视化对话地图",
+    "zh": "把每个会话变成白板上的卡片，拖拽排列、双击聊天、连线分支，用空间记忆替代工作记忆，专为 ADHD 友好设计。"
    },
-   "author": "op7418",
-   "homepage": "https://github.com/op7418/dsh-guizang-design",
+   "author": "Tasihi89",
+   "homepage": "https://github.com/Tasihi89/dsh-talk-map",
    "repository": {
-    "url": "https://github.com/op7418/dsh-guizang-design"
+    "url": "https://github.com/Tasihi89/dsh-talk-map"
    },
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793422509,
+     "publishTimestamp": 1787493559,
      "source": {
       "type": "git",
-      "url": "https://github.com/op7418/dsh-guizang-design",
-      "commit": "d16cea63497e1c6a95a63804b5274f93939ddb1d"
+      "url": "https://github.com/Tasihi89/dsh-talk-map",
+      "commit": "b2d36d69b65f1a6a2c76022b1226392683767b9d"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -1232,36 +1142,6 @@
       "type": "git",
       "url": "https://github.com/Sanqi-normal/dsh-webui-market-plugin",
       "commit": "f0cfc501a9e66b3c77da37e346d311d092cb1e41"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@tasihi89/dsh-talk-map",
-   "title": {
-    "en": "dsh-talk-map",
-    "zh": "dsh-talk-map"
-   },
-   "description": {
-    "en": "Visual conversation map for DeepSeek Harness — sessions as cards on a whiteboard: drag to arrange, double-click to chat, draw an edge to fork with injected context. ADHD-friendly spatial memory. · DSH 可视化对话地图",
-    "zh": "把每个会话变成白板上的卡片，拖拽排列、双击聊天、连线分支，用空间记忆替代工作记忆，专为 ADHD 友好设计。"
-   },
-   "author": "Tasihi89",
-   "homepage": "https://github.com/Tasihi89/dsh-talk-map",
-   "repository": {
-    "url": "https://github.com/Tasihi89/dsh-talk-map"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1787493559,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/Tasihi89/dsh-talk-map",
-      "commit": "b2d36d69b65f1a6a2c76022b1226392683767b9d"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -1510,6 +1390,36 @@
    ]
   },
   {
+   "name": "@aitabby/dockyard-dsh",
+   "title": {
+    "en": "dockyard-dsh",
+    "zh": "dockyard-dsh"
+   },
+   "description": {
+    "en": "A macOS-only native account-pool and provider plugin for DeepSeek Harness.",
+    "zh": "macOS 专属账号池与原生登录插件，帮你轻松管理多个 DeepSeek Harness 账号，自动切换免折腾。"
+   },
+   "author": "AITabby",
+   "homepage": "https://github.com/AITabby/dockyard-dsh",
+   "repository": {
+    "url": "https://github.com/AITabby/dockyard-dsh"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1793475454,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/AITabby/dockyard-dsh",
+      "commit": "c4a6d34ce823d6f93b0539e1b58b2b73114330d5"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
    "name": "@mishibeikejie/zat-dsh-engine",
    "title": {
     "en": "zat-dsh-engine",
@@ -1535,66 +1445,6 @@
      },
      "engines": {
       "dsh": "0.1.0-rc.6"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@aitabby/dockyard-dsh",
-   "title": {
-    "en": "dockyard-dsh",
-    "zh": "dockyard-dsh"
-   },
-   "description": {
-    "en": "A macOS-only native account-pool and provider plugin for DeepSeek Harness.",
-    "zh": "macOS 专属账号池与原生登录插件，帮你轻松管理多个 DeepSeek Harness 账号，自动切换免折腾。"
-   },
-   "author": "AITabby",
-   "homepage": "https://github.com/AITabby/dockyard-dsh",
-   "repository": {
-    "url": "https://github.com/AITabby/dockyard-dsh"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1793421200,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/AITabby/dockyard-dsh",
-      "commit": "32af138d0d60027fe1d518f4f722c9b7b35c853b"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@cloader/dsh-taskboard",
-   "title": {
-    "en": "dsh-taskboard",
-    "zh": "dsh-taskboard"
-   },
-   "description": {
-    "en": "deepseekharness 任务看板插件 ",
-    "zh": "在 DeepSeek Harness 里直接管理任务进度，像看板一样拖拽卡片，一目了然。"
-   },
-   "author": "cloader",
-   "homepage": "https://www.npmjs.com/package/dsh-taskboard",
-   "repository": {
-    "url": "https://github.com/cloader/dsh-taskboard"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1793426042,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/cloader/dsh-taskboard",
-      "commit": "fb97e7fa1a7c77d775675f4f2931ebf45ee23430"
-     },
-     "engines": {
-      "dsh": "^0.2.1-rc.5"
      }
     }
    ]
@@ -1630,6 +1480,36 @@
    ]
   },
   {
+   "name": "@cloader/dsh-taskboard",
+   "title": {
+    "en": "dsh-taskboard",
+    "zh": "dsh-taskboard"
+   },
+   "description": {
+    "en": "deepseekharness 任务看板插件 ",
+    "zh": "在 DeepSeek Harness 里直接管理任务进度，像看板一样拖拽卡片，一目了然。"
+   },
+   "author": "cloader",
+   "homepage": "https://www.npmjs.com/package/dsh-taskboard",
+   "repository": {
+    "url": "https://github.com/cloader/dsh-taskboard"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1793426042,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/cloader/dsh-taskboard",
+      "commit": "b2f31b6bc298f9e1b2f3deda0bfdc54028bbdb2b"
+     },
+     "engines": {
+      "dsh": "^0.2.1-rc.5"
+     }
+    }
+   ]
+  },
+  {
    "name": "@unclek/dsh-think-translate",
    "title": {
     "en": "dsh-think-translate",
@@ -1651,7 +1531,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/UncleK/dsh-think-translate",
-      "commit": "4e53eadcaf1c945da94b1909b4695a26546d6485"
+      "commit": "742c0f969cd4a7917be7c168918a200827fbb374"
      },
      "engines": {
       "dsh": ">=0.1.0-rc.6"
@@ -1750,6 +1630,36 @@
    ]
   },
   {
+   "name": "@2026heshao/dsh-armory",
+   "title": {
+    "en": "dsh-armory",
+    "zh": "dsh-armory"
+   },
+   "description": {
+    "en": "All-in-one board for DeepSeek Harness: MCP manager + Skills + WorkBuddy experts (attach/switch/detach any time) + tool-usage tailor + three direct markets (WorkBuddy connectors, SkillHub 190k+ skills) with one-click install · DSH 一体化看板：MCP/技能/专家随时挂换/工具账本/三大市场直连安装",
+    "zh": "一个看板管齐 MCP、技能、专家和插件，随时挂载切换，还能逛市场一键装。"
+   },
+   "author": "2026heshao",
+   "homepage": "https://github.com/2026heshao/dsh-armory#readme",
+   "repository": {
+    "url": "https://github.com/2026heshao/dsh-armory"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1793456907,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/2026heshao/dsh-armory",
+      "commit": "badda0793cbcd973492d47aa064d0caf5d4f8f25"
+     },
+     "engines": {
+      "dsh": ">=0.1.5-rc.1"
+     }
+    }
+   ]
+  },
+  {
    "name": "@keleus/deepseek-pet",
    "title": {
     "en": "deepseek-pet",
@@ -1810,66 +1720,6 @@
    ]
   },
   {
-   "name": "@vlln/plugin-registry",
-   "title": {
-    "en": "plugin-registry",
-    "zh": "plugin-registry"
-   },
-   "description": {
-    "en": "Plugin console + make-dsh-plugin skill + dev guide.",
-    "zh": "在 DSH 里管理插件、查看插件市场索引，还附带插件开发指南和技能，方便你开发和调试插件。"
-   },
-   "author": "vlln",
-   "homepage": "https://github.com/vlln/plugin-registry",
-   "repository": {
-    "url": "https://github.com/vlln/plugin-registry"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1793178429,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/vlln/plugin-registry",
-      "commit": "e087e75c089c0c72109fb3315594b5d36a902465"
-     },
-     "engines": {
-      "dsh": "0.2.1-rc.2"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@2026heshao/dsh-armory",
-   "title": {
-    "en": "dsh-armory",
-    "zh": "dsh-armory"
-   },
-   "description": {
-    "en": "All-in-one board for DeepSeek Harness: MCP manager + Skills + WorkBuddy experts (attach/switch/detach any time) + tool-usage tailor + three direct markets (WorkBuddy connectors, SkillHub 190k+ skills) with one-click install · DSH 一体化看板：MCP/技能/专家随时挂换/工具账本/三大市场直连安装",
-    "zh": "一个看板管齐 MCP、技能、专家和插件，随时挂载切换，还能逛市场一键装。"
-   },
-   "author": "2026heshao",
-   "homepage": "https://github.com/2026heshao/dsh-armory#readme",
-   "repository": {
-    "url": "https://github.com/2026heshao/dsh-armory"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1793417259,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/2026heshao/dsh-armory",
-      "commit": "0d63e393b0ad0b6bc1a289566e655f5423040734"
-     },
-     "engines": {
-      "dsh": ">=0.1.5-rc.1"
-     }
-    }
-   ]
-  },
-  {
    "name": "@vibe-any/dsh-plugin-save-token",
    "title": {
     "en": "dsh-plugin-save-token",
@@ -1900,31 +1750,61 @@
    ]
   },
   {
-   "name": "@fourzkw/dsh-drawai",
+   "name": "@vlln/plugin-registry",
    "title": {
-    "en": "dsh-drawai",
-    "zh": "dsh-drawai"
+    "en": "plugin-registry",
+    "zh": "plugin-registry"
    },
    "description": {
-    "en": "DSH 右侧栏里的可编辑画布 —— 加上让模型直接改图的两个工具",
-    "zh": "在 DSH 右侧栏放一块可编辑画布，还能让模型直接动手帮你改图。"
+    "en": "Plugin console + make-dsh-plugin skill + dev guide.",
+    "zh": "在 DSH 里管理插件、查看插件市场索引，还附带插件开发指南和技能，方便你开发和调试插件。"
    },
-   "author": "fourzkw",
-   "homepage": "https://github.com/fourzkw/dsh-drawai",
+   "author": "vlln",
+   "homepage": "https://github.com/vlln/plugin-registry",
    "repository": {
-    "url": "https://github.com/fourzkw/dsh-drawai"
+    "url": "https://github.com/vlln/plugin-registry"
    },
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1792982609,
+     "publishTimestamp": 1793178429,
      "source": {
       "type": "git",
-      "url": "https://github.com/fourzkw/dsh-drawai",
-      "commit": "80eb15e0a3a11cb4c88cf8716382d03cdf0e5b03"
+      "url": "https://github.com/vlln/plugin-registry",
+      "commit": "463e751782561277a36d9a79ea19afcf5af00e28"
      },
      "engines": {
-      "dsh": ">=0.1.0"
+      "dsh": "0.2.1-rc.2"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@vncntvx/dsh-zotero",
+   "title": {
+    "en": "dsh-zotero",
+    "zh": "dsh-zotero"
+   },
+   "description": {
+    "en": "Zotero plugin for DeepSeek Harness: search and read papers in conversation, audit the literature trail, and browse the literature panel.",
+    "zh": "将 Zotero 文献管理接入 DeepSeek Harness，方便 AI 助手读取和引用你的文献库。"
+   },
+   "author": "Vncntvx",
+   "homepage": "https://github.com/Vncntvx/dsh-zotero",
+   "repository": {
+    "url": "https://github.com/Vncntvx/dsh-zotero"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1793422336,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/Vncntvx/dsh-zotero",
+      "commit": "0ff6e9d037aefd2e036fd7c4b76cfdbe2b3f9afc"
+     },
+     "engines": {
+      "dsh": ">=0.2.2-alpha.2"
      }
     }
    ]
@@ -1960,31 +1840,31 @@
    ]
   },
   {
-   "name": "@vncntvx/dsh-zotero",
+   "name": "@fourzkw/dsh-drawai",
    "title": {
-    "en": "dsh-zotero",
-    "zh": "dsh-zotero"
+    "en": "dsh-drawai",
+    "zh": "dsh-drawai"
    },
    "description": {
-    "en": "Zotero plugin for DeepSeek Harness: search and read papers in conversation, audit the literature trail, and browse the literature panel.",
-    "zh": "将 Zotero 文献管理接入 DeepSeek Harness，方便 AI 助手读取和引用你的文献库。"
+    "en": "DSH 右侧栏里的可编辑画布 —— 加上让模型直接改图的两个工具",
+    "zh": "在 DSH 右侧栏放一块可编辑画布，还能让模型直接动手帮你改图。"
    },
-   "author": "Vncntvx",
-   "homepage": "https://github.com/Vncntvx/dsh-zotero",
+   "author": "fourzkw",
+   "homepage": "https://github.com/fourzkw/dsh-drawai",
    "repository": {
-    "url": "https://github.com/Vncntvx/dsh-zotero"
+    "url": "https://github.com/fourzkw/dsh-drawai"
    },
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793422336,
+     "publishTimestamp": 1792982609,
      "source": {
       "type": "git",
-      "url": "https://github.com/Vncntvx/dsh-zotero",
-      "commit": "0ff6e9d037aefd2e036fd7c4b76cfdbe2b3f9afc"
+      "url": "https://github.com/fourzkw/dsh-drawai",
+      "commit": "80eb15e0a3a11cb4c88cf8716382d03cdf0e5b03"
      },
      "engines": {
-      "dsh": ">=0.2.2-alpha.2"
+      "dsh": ">=0.1.0"
      }
     }
    ]
@@ -2110,6 +1990,36 @@
    ]
   },
   {
+   "name": "@caoyiwei850/dsh-ssh-ops",
+   "title": {
+    "en": "dsh-ssh-ops",
+    "zh": "dsh-ssh-ops"
+   },
+   "description": {
+    "en": "DeepSeek Harness SSH 运维插件：主对话驱动 SSH，带高危命令保护与右侧终端。",
+    "zh": "在 DSH 主对话里直接操作远程服务器，高危命令有保护，右侧还带真实终端。"
+   },
+   "author": "caoyiwei850",
+   "homepage": "https://github.com/caoyiwei850/dsh-ssh-ops",
+   "repository": {
+    "url": "https://github.com/caoyiwei850/dsh-ssh-ops"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1792949999,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/caoyiwei850/dsh-ssh-ops",
+      "commit": "bdf94ba6d8ba24c5bc331e0d52d6fc5195854bd7"
+     },
+     "engines": {
+      "dsh": ">=0.1.5-alpha.1"
+     }
+    }
+   ]
+  },
+  {
    "name": "@len7183/dsh-think-zh",
    "title": {
     "en": "DSH-Think-zh",
@@ -2195,36 +2105,6 @@
      },
      "engines": {
       "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@caoyiwei850/dsh-ssh-ops",
-   "title": {
-    "en": "dsh-ssh-ops",
-    "zh": "dsh-ssh-ops"
-   },
-   "description": {
-    "en": "DeepSeek Harness SSH 运维插件：主对话驱动 SSH，带高危命令保护与右侧终端。",
-    "zh": "在 DSH 主对话里直接操作远程服务器，高危命令有保护，右侧还带真实终端。"
-   },
-   "author": "caoyiwei850",
-   "homepage": "https://github.com/caoyiwei850/dsh-ssh-ops",
-   "repository": {
-    "url": "https://github.com/caoyiwei850/dsh-ssh-ops"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1792949999,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/caoyiwei850/dsh-ssh-ops",
-      "commit": "bdf94ba6d8ba24c5bc331e0d52d6fc5195854bd7"
-     },
-     "engines": {
-      "dsh": ">=0.1.5-alpha.1"
      }
     }
    ]
@@ -2341,7 +2221,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/niiang/dsh-kimino-theme",
-      "commit": "1bb4c2b560c42ad57ad955cf270b031f685beed0"
+      "commit": "4b3c50257c554c196c99e0b59f8a5c802392e9e0"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -2405,6 +2285,126 @@
      },
      "engines": {
       "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@hellodigua/dsh-share",
+   "title": {
+    "en": "dsh-share",
+    "zh": "dsh-share"
+   },
+   "description": {
+    "en": "Share DSH conversations.",
+    "zh": "把 DSH 对话导出成图片或 Markdown，支持单轮多轮挑选，分享起来很方便。"
+   },
+   "author": "hellodigua",
+   "homepage": "https://github.com/hellodigua/dsh-share",
+   "repository": {
+    "url": "https://github.com/hellodigua/dsh-share"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1791623690,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/hellodigua/dsh-share",
+      "commit": "b5212ef748ac56aeb4d56c6f8a86be836921114f"
+     },
+     "engines": {
+      "dsh": "0.2.0-rc.2"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@kw78/dsh-office-tools",
+   "title": {
+    "en": "dsh-office-tools",
+    "zh": "dsh-office-tools"
+   },
+   "description": {
+    "en": "Model-facing Office tools for DeepSeek Harness: Word (.docx), Excel (.xlsx), and PowerPoint (.pptx) create/read/update with workspace-safe paths and PPT image embedding.",
+    "zh": "在 DeepSeek Harness 里直接读写 Word、Excel、PPT 文件，还能往幻灯片里嵌图片，办公文档处理一步到位。"
+   },
+   "author": "kw78",
+   "homepage": "https://github.com/kw78/dsh-office-tools",
+   "repository": {
+    "url": "https://github.com/kw78/dsh-office-tools"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1793021520,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/kw78/dsh-office-tools",
+      "commit": "5ec874b0b164c5eac878554ff078d23eae27299f"
+     },
+     "engines": {
+      "dsh": "0.1.2-rc.1"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@jiesou/dsh-opencode-zen-free-provider",
+   "title": {
+    "en": "dsh-opencode-zen-free-provider",
+    "zh": "dsh-opencode-zen-free-provider"
+   },
+   "description": {
+    "en": "OpenCode Zen 免费模型接入 DeepSeek Harness。1M 上下文，同步全部元数据",
+    "zh": "把 OpenCode Zen 的免费模型接进 DSH，支持 1M 超长上下文，元数据自动同步。"
+   },
+   "author": "jiesou",
+   "homepage": "https://www.npmjs.com/package/@jiesou/dsh-opencode-zen-free-provider",
+   "repository": {
+    "url": "https://github.com/jiesou/dsh-opencode-zen-free-provider"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1792626899,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/jiesou/dsh-opencode-zen-free-provider",
+      "commit": "7b84a19befa6530dd026ec316195aed5a95f24ed"
+     },
+     "engines": {
+      "dsh": "0.2.0-rc.2"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@imzl-zl/dsh-toolbox-ui",
+   "title": {
+    "en": "dsh-toolbox-ui",
+    "zh": "dsh-toolbox-ui"
+   },
+   "description": {
+    "en": "Toolbox panel for DeepSeek Harness Web: MCP manager (tools & JSON Schema, market, import, workspace copy) and skills manager (scopes & shadowing, enable/disable, model auto-invocation, skillhub.cn market).",
+    "zh": "在 DeepSeek Harness Web 里统一管理 MCP 工具和技能，支持市场导入、启停与自动调用。"
+   },
+   "author": "Imzl-zl",
+   "homepage": "https://www.npmjs.com/package/dsh-toolbox-ui",
+   "repository": {
+    "url": "https://github.com/Imzl-zl/dsh-toolbox-ui"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1793335366,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/Imzl-zl/dsh-toolbox-ui",
+      "commit": "cb02d6e68dcb3093255f91d04a54930f52b2ec93"
+     },
+     "engines": {
+      "dsh": "0.2.1-rc.5"
      }
     }
    ]
