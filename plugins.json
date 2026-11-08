@@ -57,11 +57,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793975586,
+     "publishTimestamp": 1794061600,
      "source": {
       "type": "git",
       "url": "https://github.com/zhu1090093659/dsh-web",
-      "commit": "b764700c0d039e10ff3ee60b91ce990222e7a258"
+      "commit": "ae4a35e1a7c4f3e27bbe6fe82d8e827d2909b981"
      },
      "engines": {
       "dsh": "^0.2.2-rc.1"
@@ -117,7 +117,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793734473,
+     "publishTimestamp": 1794058091,
      "source": {
       "type": "git",
       "url": "https://github.com/c1overzz/dsh-bili-scroll",
@@ -220,36 +220,6 @@
    ]
   },
   {
-   "name": "@v1ki/dsh-plugin-subscriptions",
-   "title": {
-    "en": "dsh-plugin-subscriptions",
-    "zh": "dsh-plugin-subscriptions"
-   },
-   "description": {
-    "en": "Use ChatGPT (Codex), Claude, and Grok (X Premium) subscriptions as DeepSeek Harness LLM providers — OAuth login in the web UI, no API keys",
-    "zh": "把 ChatGPT、Claude 和 Grok 的订阅账号直接当 DeepSeek Harness 的模型用，网页里 OAuth 登录就行，不用 API key。"
-   },
-   "author": "V1ki",
-   "homepage": "https://github.com/V1ki/dsh-plugin-subscriptions",
-   "repository": {
-    "url": "https://github.com/V1ki/dsh-plugin-subscriptions"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1793954619,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/V1ki/dsh-plugin-subscriptions",
-      "commit": "8193df1b1c3ed52715671946ca2fe96cdbcb8472"
-     },
-     "engines": {
-      "dsh": "0.2.1-rc.2"
-     }
-    }
-   ]
-  },
-  {
    "name": "@op7418/dsh-guizang-design",
    "title": {
     "en": "dsh-guizang-design",
@@ -280,31 +250,31 @@
    ]
   },
   {
-   "name": "@alchaincyf/huashu-excel",
+   "name": "@v1ki/dsh-plugin-subscriptions",
    "title": {
-    "en": "huashu-excel",
-    "zh": "huashu-excel"
+    "en": "dsh-plugin-subscriptions",
+    "zh": "dsh-plugin-subscriptions"
    },
    "description": {
-    "en": "数据分析与 Excel 全流程 skill：体检脏表、清洗、对齐需求、分析、对账、交付。让 AI 算出来的数字经得起追问。跨 agent 通用，依赖仅 openpyxl。",
-    "zh": "给 AI 一份 Excel，它帮你体检脏表、清洗数据、对账分析，最后交出经得起追问的专业报告。"
+    "en": "Use ChatGPT (Codex), Claude, and Grok (X Premium) subscriptions as DeepSeek Harness LLM providers — OAuth login in the web UI, no API keys",
+    "zh": "把 ChatGPT、Claude 和 Grok 的订阅账号直接当 DeepSeek Harness 的模型用，网页里 OAuth 登录就行，不用 API key。"
    },
-   "author": "alchaincyf",
-   "homepage": "https://github.com/alchaincyf/huashu-excel",
+   "author": "V1ki",
+   "homepage": "https://github.com/V1ki/dsh-plugin-subscriptions",
    "repository": {
-    "url": "https://github.com/alchaincyf/huashu-excel"
+    "url": "https://github.com/V1ki/dsh-plugin-subscriptions"
    },
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793762924,
+     "publishTimestamp": 1793954619,
      "source": {
       "type": "git",
-      "url": "https://github.com/alchaincyf/huashu-excel",
-      "commit": "2492fabbafc8498496edd70f7e2354016a8dd06e"
+      "url": "https://github.com/V1ki/dsh-plugin-subscriptions",
+      "commit": "dad6ff1cbd695aaf45615d42eb39e25c1fc96569"
      },
      "engines": {
-      "dsh": ">=0.1.0"
+      "dsh": "0.2.1-rc.2"
      }
     }
    ]
@@ -331,10 +301,40 @@
      "source": {
       "type": "git",
       "url": "https://github.com/XDTrees/dsh-xdpool",
-      "commit": "0ac277dc23576c3ab79026d8d8e507eb9cf899b1"
+      "commit": "813d51c2501f728d90b7ff54aa3823f9aca17020"
      },
      "engines": {
       "dsh": "0.1.5-rc.2"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@alchaincyf/huashu-excel",
+   "title": {
+    "en": "huashu-excel",
+    "zh": "huashu-excel"
+   },
+   "description": {
+    "en": "数据分析与 Excel 全流程 skill：体检脏表、清洗、对齐需求、分析、对账、交付。让 AI 算出来的数字经得起追问。跨 agent 通用，依赖仅 openpyxl。",
+    "zh": "给 AI 一份 Excel，它帮你体检脏表、清洗数据、对账分析，最后交出经得起追问的专业报告。"
+   },
+   "author": "alchaincyf",
+   "homepage": "https://github.com/alchaincyf/huashu-excel",
+   "repository": {
+    "url": "https://github.com/alchaincyf/huashu-excel"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1793762924,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/alchaincyf/huashu-excel",
+      "commit": "2492fabbafc8498496edd70f7e2354016a8dd06e"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
      }
     }
    ]
@@ -477,7 +477,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793712932,
+     "publishTimestamp": 1794068862,
      "source": {
       "type": "git",
       "url": "https://github.com/InariNGT-Ofiicial/dsh-bili-humanism",
@@ -747,7 +747,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793625438,
+     "publishTimestamp": 1794019501,
      "source": {
       "type": "git",
       "url": "https://github.com/HsiangNianian/dsh-auto-continue",
@@ -777,7 +777,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793976238,
+     "publishTimestamp": 1794044574,
      "source": {
       "type": "git",
       "url": "https://github.com/Yuuyuko-uu/dsh-qq-link",
@@ -927,7 +927,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793970089,
+     "publishTimestamp": 1794053954,
      "source": {
       "type": "git",
       "url": "https://github.com/ymh0000123/dsh-theme-endfield",
@@ -957,11 +957,41 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794007355,
+     "publishTimestamp": 1794013795,
      "source": {
       "type": "git",
       "url": "https://github.com/frostming/dsh-hongguo",
       "commit": "0013315087149b1f717e6a260524de0dce0d1485"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@larrye135/dsh-flash-presets",
+   "title": {
+    "en": "dsh-flash-presets",
+    "zh": "dsh-flash-presets"
+   },
+   "description": {
+    "en": "降低Deepseek v4.1flash的Token消耗/Raising Token efficiency without lossing performance(Works for v4.1flash)",
+    "zh": "在保持 v4.1flash 效果不变的前提下，帮你省下更多 Token，用得更划算。"
+   },
+   "author": "LarryE135",
+   "homepage": "https://github.com/LarryE135/dsh-flash-presets",
+   "repository": {
+    "url": "https://github.com/LarryE135/dsh-flash-presets"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1794052183,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/LarryE135/dsh-flash-presets",
+      "commit": "b1590278a0bd3932fc9a5d8035736289d5ba336a"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -1000,36 +1030,6 @@
    ]
   },
   {
-   "name": "@larrye135/dsh-flash-presets",
-   "title": {
-    "en": "dsh-flash-presets",
-    "zh": "dsh-flash-presets"
-   },
-   "description": {
-    "en": "降低Deepseek v4.1flash的Token消耗/Raising Token efficiency without lossing performance(Works for v4.1flash)",
-    "zh": "在保持 v4.1flash 效果不变的前提下，帮你省下更多 Token，用得更划算。"
-   },
-   "author": "LarryE135",
-   "homepage": "https://github.com/LarryE135/dsh-flash-presets",
-   "repository": {
-    "url": "https://github.com/LarryE135/dsh-flash-presets"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1793989171,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/LarryE135/dsh-flash-presets",
-      "commit": "25f3688f0df796573583882dd9f618656ab0143f"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
    "name": "@perrylink/dsh-permission-rules",
    "title": {
     "en": "dsh-permission-rules",
@@ -1055,6 +1055,36 @@
      },
      "engines": {
       "dsh": "0.2.2-rc.1"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@xqpsec/dsh-jailbreak",
+   "title": {
+    "en": "dsh-jailbreak",
+    "zh": "dsh-jailbreak"
+   },
+   "description": {
+    "en": "Request-boundary rewriter for outbound `/chat/completions`: applies a seed-prim execution-state seed across 20 refusal categories, zero host patches, off means verbatim passthrough, optional SCOPE gate, manifest + promptSha256 per rewrite.",
+    "zh": "在请求边界注入提示词，让模型少说「我不能」，带阀门可开关，基线 17/20 可复核。"
+   },
+   "author": "xqpsec",
+   "homepage": "https://xqpsec.github.io/dsh-jailbreak/",
+   "repository": {
+    "url": "https://github.com/xqpsec/dsh-jailbreak"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1794070119,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/xqpsec/dsh-jailbreak",
+      "commit": "d40fa84748d1f2e663b443078955b75a218cdb5c"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
      }
     }
    ]
@@ -1111,7 +1141,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/Noob-stupid/dsh-plugin-gating-hub",
-      "commit": "1bd1840b21bcce8032ca43affdfcde9a9163e0ff"
+      "commit": "2090469ee26aaec8bf3afc2643ef92996c6b8a23"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -1180,36 +1210,6 @@
    ]
   },
   {
-   "name": "@fishsb/dsh-voice-prompt-enhancer",
-   "title": {
-    "en": "dsh-voice-prompt-enhancer",
-    "zh": "dsh-voice-prompt-enhancer"
-   },
-   "description": {
-    "en": "DeepSeek-Harness (DSH) 插件：✨ 提示词一键增强（5 模式·模型链·记忆链）+ 💬 语音输入增强（热键·说完自动停·口水词清理·语音纠错）",
-    "zh": "一键把输入框草稿改得更清晰好执行，语音输入还能热键、自动停、去口水词。"
-   },
-   "author": "Fishsb",
-   "homepage": "https://www.npmjs.com/package/dsh-voice-prompt-enhancer",
-   "repository": {
-    "url": "https://github.com/Fishsb/dsh-voice-prompt-enhancer"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1793903758,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/Fishsb/dsh-voice-prompt-enhancer",
-      "commit": "8d5155d8121e79e90699c8105ba54e11b40ccfc7"
-     },
-     "engines": {
-      "dsh": ">=0.2.1-rc.1"
-     }
-    }
-   ]
-  },
-  {
    "name": "@polinnizhong/dsh-personal-center",
    "title": {
     "en": "dsh-personal-center",
@@ -1265,6 +1265,36 @@
      },
      "engines": {
       "dsh": "0.1.0-rc.7"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@01men/ybkkasi",
+   "title": {
+    "en": "ybkkasi",
+    "zh": "ybkkasi"
+   },
+   "description": {
+    "en": "Enterprise AI asset governance: registers MCP servers, skills, agents, AI apps, model channels, SaaS connectors and NAS storage in one self-hosted ledger with lifecycle state machines, per-tool RBAC, department x agent x skill cost attribution, dependency topology and an append-only audit trail.",
+    "zh": "把 MCP 服务器、技能、智能体等 AI 资产统一管起来，自部署、带权限和成本核算，还能审计。"
+   },
+   "author": "01men",
+   "homepage": "https://demo.ybkkasi.com/launch",
+   "repository": {
+    "url": "https://github.com/01men/ybkkasi"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1793859581,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/01men/ybkkasi",
+      "commit": "d26c3fde2f7b91d39e1087504d6718997e40e78c"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
      }
     }
    ]
@@ -1360,36 +1390,6 @@
    ]
   },
   {
-   "name": "@01men/ybkkasi",
-   "title": {
-    "en": "ybkkasi",
-    "zh": "ybkkasi"
-   },
-   "description": {
-    "en": "Enterprise AI asset governance: registers MCP servers, skills, agents, AI apps, model channels, SaaS connectors and NAS storage in one self-hosted ledger with lifecycle state machines, per-tool RBAC, department x agent x skill cost attribution, dependency topology and an append-only audit trail.",
-    "zh": "把 MCP 服务器、技能、智能体等 AI 资产统一管起来，自部署、带权限和成本核算，还能审计。"
-   },
-   "author": "01men",
-   "homepage": "https://demo.ybkkasi.com/launch",
-   "repository": {
-    "url": "https://github.com/01men/ybkkasi"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1793859581,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/01men/ybkkasi",
-      "commit": "d26c3fde2f7b91d39e1087504d6718997e40e78c"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
    "name": "@fb0sh/dsh-pentester",
    "title": {
     "en": "dsh-pentester",
@@ -1467,7 +1467,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793596089,
+     "publishTimestamp": 1794066642,
      "source": {
       "type": "git",
       "url": "https://github.com/2026heshao/dsh-armory",
@@ -1505,6 +1505,36 @@
      },
      "engines": {
       "dsh": "^0.1.0-rc.2"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@fourzkw/dsh-drawai",
+   "title": {
+    "en": "dsh-drawai",
+    "zh": "dsh-drawai"
+   },
+   "description": {
+    "en": "DSH 右侧栏里的可编辑画布 —— 加上让模型直接改图的两个工具",
+    "zh": "在 DSH 右侧栏放一块可编辑画布，还能让模型直接动手帮你改图。"
+   },
+   "author": "fourzkw",
+   "homepage": "https://github.com/fourzkw/dsh-drawai",
+   "repository": {
+    "url": "https://github.com/fourzkw/dsh-drawai"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1794074908,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/fourzkw/dsh-drawai",
+      "commit": "128f86e97b053e3f3784c9acb2735c73a7b65766"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
      }
     }
    ]
@@ -1565,36 +1595,6 @@
      },
      "engines": {
       "dsh": "0.1.2-rc.1"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@xqpsec/dsh-jailbreak",
-   "title": {
-    "en": "dsh-jailbreak",
-    "zh": "dsh-jailbreak"
-   },
-   "description": {
-    "en": "Request-boundary rewriter for outbound `/chat/completions`: applies a seed-prim execution-state seed across 20 refusal categories, zero host patches, off means verbatim passthrough, optional SCOPE gate, manifest + promptSha256 per rewrite.",
-    "zh": "在请求边界注入提示词，让模型少说「我不能」，带阀门可开关，基线 17/20 可复核。"
-   },
-   "author": "xqpsec",
-   "homepage": "https://xqpsec.github.io/dsh-jailbreak/",
-   "repository": {
-    "url": "https://github.com/xqpsec/dsh-jailbreak"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1793846134,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/xqpsec/dsh-jailbreak",
-      "commit": "d40fa84748d1f2e663b443078955b75a218cdb5c"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
      }
     }
    ]
@@ -1690,31 +1690,31 @@
    ]
   },
   {
-   "name": "@mishibeikejie/zat-dsh-engine",
+   "name": "@czcdr/dsh-plugin-rea",
    "title": {
-    "en": "zat-dsh-engine",
-    "zh": "zat-dsh-engine"
+    "en": "dsh-plugin-rea",
+    "zh": "dsh-plugin-rea"
    },
    "description": {
-    "en": "Visual plugin marketplace for DeepSeek Harness — browse, search and install community plugins",
-    "zh": "为 DeepSeek Harness 打造的图形化插件商店，像 Wallpaper Engine 一样轻松浏览、搜索、安装和管理社区插件。"
+    "en": "第三方适配插件：把上游 REA（github.com/morluto/rea）的 MCP 服务接入 DeepSeek Harness，提供 mcp__rea__* 工具。2.x 会自动准备 Node、REA CLI、JDK 与 Ghidra 并把那一行接好；逆向分析能力全部由上游 REA 提供。",
+    "zh": "把 REA 逆向分析能力接进 DSH，让 AI 直接分析二进制、APK、固件和网站。"
    },
-   "author": "mishibeikejie",
-   "homepage": "https://github.com/mishibeikejie/zat-dsh-engine",
+   "author": "czcdr",
+   "homepage": "https://github.com/czcdr/dsh-plugin-rea",
    "repository": {
-    "url": "https://github.com/mishibeikejie/zat-dsh-engine"
+    "url": "https://github.com/czcdr/dsh-plugin-rea"
    },
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1790248060,
+     "publishTimestamp": 1794033986,
      "source": {
       "type": "git",
-      "url": "https://github.com/mishibeikejie/zat-dsh-engine",
-      "commit": "11d5b5fb424b6d9dee7821c7c2f771bd42e7f46a"
+      "url": "https://github.com/czcdr/dsh-plugin-rea",
+      "commit": "b06b4ae987dc9d15f6b2e9ab37901a70fc507585"
      },
      "engines": {
-      "dsh": "0.1.0-rc.6"
+      "dsh": ">=0.1.0"
      }
     }
    ]
@@ -1737,11 +1737,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793976265,
+     "publishTimestamp": 1794043394,
      "source": {
       "type": "git",
       "url": "https://github.com/AITabby/dockyard-dsh",
-      "commit": "e83a04afb0469eec77cdc8bd8067c48e2b15e026"
+      "commit": "bea9069ff201d4b48c73d179b023dbed166a8527"
      },
      "engines": {
       "dsh": ">=0.1.7-alpha.2"
@@ -1780,31 +1780,31 @@
    ]
   },
   {
-   "name": "@czcdr/dsh-plugin-rea",
+   "name": "@mishibeikejie/zat-dsh-engine",
    "title": {
-    "en": "dsh-plugin-rea",
-    "zh": "dsh-plugin-rea"
+    "en": "zat-dsh-engine",
+    "zh": "zat-dsh-engine"
    },
    "description": {
-    "en": "第三方适配插件：把上游 REA（github.com/morluto/rea）的 MCP 服务接入 DeepSeek Harness，提供 mcp__rea__* 工具。2.x 会自动准备 Node、REA CLI、JDK 与 Ghidra 并把那一行接好；逆向分析能力全部由上游 REA 提供。",
-    "zh": "把 REA 逆向分析能力接进 DSH，让 AI 直接分析二进制、APK、固件和网站。"
+    "en": "Visual plugin marketplace for DeepSeek Harness — browse, search and install community plugins",
+    "zh": "为 DeepSeek Harness 打造的图形化插件商店，像 Wallpaper Engine 一样轻松浏览、搜索、安装和管理社区插件。"
    },
-   "author": "czcdr",
-   "homepage": "https://github.com/czcdr/dsh-plugin-rea",
+   "author": "mishibeikejie",
+   "homepage": "https://github.com/mishibeikejie/zat-dsh-engine",
    "repository": {
-    "url": "https://github.com/czcdr/dsh-plugin-rea"
+    "url": "https://github.com/mishibeikejie/zat-dsh-engine"
    },
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793979073,
+     "publishTimestamp": 1790248060,
      "source": {
       "type": "git",
-      "url": "https://github.com/czcdr/dsh-plugin-rea",
-      "commit": "b06b4ae987dc9d15f6b2e9ab37901a70fc507585"
+      "url": "https://github.com/mishibeikejie/zat-dsh-engine",
+      "commit": "11d5b5fb424b6d9dee7821c7c2f771bd42e7f46a"
      },
      "engines": {
-      "dsh": ">=0.1.0"
+      "dsh": "0.1.0-rc.6"
      }
     }
    ]
@@ -1850,7 +1850,7 @@
     "zh": "自动精简过大的工具输出，在不牺牲模型能力的前提下大幅降低Token消耗，省钱又省心。"
    },
    "author": "vibe-any",
-   "homepage": "https://github.com/vibe-any/dsh-plugin-save-token",
+   "homepage": "https://playwithai.fun",
    "repository": {
     "url": "https://github.com/vibe-any/dsh-plugin-save-token"
    },
@@ -1887,7 +1887,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793786136,
+     "publishTimestamp": 1794051250,
      "source": {
       "type": "git",
       "url": "https://github.com/masknull/dsh-qoder-connect",
@@ -1917,11 +1917,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793985571,
+     "publishTimestamp": 1794052746,
      "source": {
       "type": "git",
       "url": "https://github.com/Vncntvx/dsh-zotero",
-      "commit": "8884d3567358d9493d9ea94434acb47df4536267"
+      "commit": "11e2f7555f824c9dbee0b3c659db98770652b929"
      },
      "engines": {
       "dsh": ">=0.2.2-rc.1"
@@ -1977,44 +1977,14 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793993678,
+     "publishTimestamp": 1794026128,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-plugin-guide",
-      "commit": "e9ae81e3954bed0ba89b68436d8e94a5a8b90f57"
+      "commit": "9f0a8a10b76a872f1a82570734a6b166661fa38b"
      },
      "engines": {
       "dsh": ">=0.2.2-0 <0.3.0"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@dhicoc/dsh-chinese-traditional-wisdom-skill",
-   "title": {
-    "en": "dsh-chinese-traditional-wisdom-skill",
-    "zh": "dsh-chinese-traditional-wisdom-skill"
-   },
-   "description": {
-    "en": "中华传统智慧（玄枢）AI Agent 技能包的 DeepSeek Harness（dsh）Cordis 插件：八字/紫微/六爻/梅花/奇门/风水/五运六气/体质全融合，本地确定性引擎 + 可视化 Dashboard，一行 dsh plugin add 安装。",
-    "zh": "在 DSH 里一键装上八字、紫微、六爻、风水等传统术数技能，本地算得准，还能看可视化面板。"
-   },
-   "author": "dhicoc",
-   "homepage": "https://github.com/dhicoc/dsh-chinese-traditional-wisdom-skill",
-   "repository": {
-    "url": "https://github.com/dhicoc/dsh-chinese-traditional-wisdom-skill"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1791454919,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/dhicoc/dsh-chinese-traditional-wisdom-skill",
-      "commit": "0e0804ff96f0b3021147b5d52f45f77c2d8eb33b"
-     },
-     "engines": {
-      "dsh": "^0.2.0-rc.2"
      }
     }
    ]
@@ -2045,6 +2015,36 @@
      },
      "engines": {
       "dsh": "0.1.7-rc.2"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@dhicoc/dsh-chinese-traditional-wisdom-skill",
+   "title": {
+    "en": "dsh-chinese-traditional-wisdom-skill",
+    "zh": "dsh-chinese-traditional-wisdom-skill"
+   },
+   "description": {
+    "en": "中华传统智慧（玄枢）AI Agent 技能包的 DeepSeek Harness（dsh）Cordis 插件：八字/紫微/六爻/梅花/奇门/风水/五运六气/体质全融合，本地确定性引擎 + 可视化 Dashboard，一行 dsh plugin add 安装。",
+    "zh": "在 DSH 里一键装上八字、紫微、六爻、风水等传统术数技能，本地算得准，还能看可视化面板。"
+   },
+   "author": "dhicoc",
+   "homepage": "https://github.com/dhicoc/dsh-chinese-traditional-wisdom-skill",
+   "repository": {
+    "url": "https://github.com/dhicoc/dsh-chinese-traditional-wisdom-skill"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1791454919,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/dhicoc/dsh-chinese-traditional-wisdom-skill",
+      "commit": "0e0804ff96f0b3021147b5d52f45f77c2d8eb33b"
+     },
+     "engines": {
+      "dsh": "^0.2.0-rc.2"
      }
     }
    ]
@@ -2110,36 +2110,6 @@
    ]
   },
   {
-   "name": "@fourzkw/dsh-drawai",
-   "title": {
-    "en": "dsh-drawai",
-    "zh": "dsh-drawai"
-   },
-   "description": {
-    "en": "DSH 右侧栏里的可编辑画布 —— 加上让模型直接改图的两个工具",
-    "zh": "在 DSH 右侧栏放一块可编辑画布，还能让模型直接动手帮你改图。"
-   },
-   "author": "fourzkw",
-   "homepage": "https://github.com/fourzkw/dsh-drawai",
-   "repository": {
-    "url": "https://github.com/fourzkw/dsh-drawai"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1793724011,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/fourzkw/dsh-drawai",
-      "commit": "f26770ca91934e89d39e025433467ebc325e82b8"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
    "name": "@perrylink/dsh-doublecheck",
    "title": {
     "en": "dsh-doublecheck",
@@ -2170,36 +2140,6 @@
    ]
   },
   {
-   "name": "@caoyiwei850/dsh-ssh-ops",
-   "title": {
-    "en": "dsh-ssh-ops",
-    "zh": "dsh-ssh-ops"
-   },
-   "description": {
-    "en": "DeepSeek Harness SSH 运维插件：主对话驱动 SSH，带高危命令保护与右侧终端。",
-    "zh": "在 DSH 主对话里直接操作远程服务器，高危命令有保护，右侧还带真实终端。"
-   },
-   "author": "caoyiwei850",
-   "homepage": "https://github.com/caoyiwei850/dsh-ssh-ops",
-   "repository": {
-    "url": "https://github.com/caoyiwei850/dsh-ssh-ops"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1793950007,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/caoyiwei850/dsh-ssh-ops",
-      "commit": "e8d273755e8f62217206533768fd7790a86cab8f"
-     },
-     "engines": {
-      "dsh": ">=0.1.5-alpha.1"
-     }
-    }
-   ]
-  },
-  {
    "name": "@tkingxiao/dsh-any-background",
    "title": {
     "en": "dsh-any-background",
@@ -2225,6 +2165,36 @@
      },
      "engines": {
       "dsh": "^0.1.0-rc.6"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@caoyiwei850/dsh-ssh-ops",
+   "title": {
+    "en": "dsh-ssh-ops",
+    "zh": "dsh-ssh-ops"
+   },
+   "description": {
+    "en": "DeepSeek Harness SSH 运维插件：主对话驱动 SSH，带高危命令保护与右侧终端。",
+    "zh": "在 DSH 主对话里直接操作远程服务器，高危命令有保护，右侧还带真实终端。"
+   },
+   "author": "caoyiwei850",
+   "homepage": "https://github.com/caoyiwei850/dsh-ssh-ops",
+   "repository": {
+    "url": "https://github.com/caoyiwei850/dsh-ssh-ops"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1794068933,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/caoyiwei850/dsh-ssh-ops",
+      "commit": "35c5a80f962301c92d7419227ef2047654c26860"
+     },
+     "engines": {
+      "dsh": ">=0.1.5-alpha.1"
      }
     }
    ]
@@ -2290,36 +2260,6 @@
    ]
   },
   {
-   "name": "@alingalingling/ui-status-label",
-   "title": {
-    "en": "ui-status-label",
-    "zh": "ui-status-label"
-   },
-   "description": {
-    "en": "Custom status labels for the whale's deep-diving (cordis).",
-    "zh": "把鲸鱼娘思考时的 deep diving 提示改成你喜欢的任意文字，界面更有个性。"
-   },
-   "author": "alingalingling",
-   "homepage": "https://github.com/alingalingling/ui-status-label",
-   "repository": {
-    "url": "https://github.com/alingalingling/ui-status-label"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1786784221,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/alingalingling/ui-status-label",
-      "commit": "a1621413a4700cb489655ad3ebf7fa8484c3645f"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
    "name": "@beiyege-01/dsh-voice-ai-girlfriend-plugin",
    "title": {
     "en": "dsh-voice-ai-girlfriend-plugin",
@@ -2342,6 +2282,36 @@
       "type": "git",
       "url": "https://github.com/beiyege-01/dsh-voice-ai-girlfriend-plugin",
       "commit": "f367998b05f03ea3a5babf2ef57e6631065707ab"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@alingalingling/ui-status-label",
+   "title": {
+    "en": "ui-status-label",
+    "zh": "ui-status-label"
+   },
+   "description": {
+    "en": "Custom status labels for the whale's deep-diving (cordis).",
+    "zh": "把鲸鱼娘思考时的 deep diving 提示改成你喜欢的任意文字，界面更有个性。"
+   },
+   "author": "alingalingling",
+   "homepage": "https://github.com/alingalingling/ui-status-label",
+   "repository": {
+    "url": "https://github.com/alingalingling/ui-status-label"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1786784221,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/alingalingling/ui-status-label",
+      "commit": "a1621413a4700cb489655ad3ebf7fa8484c3645f"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -2375,6 +2345,36 @@
      },
      "engines": {
       "dsh": "^0.1.1-rc.2"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@smalldy/godot-bridge",
+   "title": {
+    "en": "godot-bridge",
+    "zh": "godot-bridge"
+   },
+   "description": {
+    "en": "DSH (DeepSeek Harness) plugin that launches and drives a running Godot 4.x game through its in-game TCP interaction server — replaces the godot-mcp MCP server with native agent tools.",
+    "zh": "启动并操控 Godot 4.x 游戏，通过内置 TCP 服务提供原生智能体工具，替代 MCP 服务器。"
+   },
+   "author": "Smalldy",
+   "homepage": "https://github.com/Smalldy/godot-bridge",
+   "repository": {
+    "url": "https://github.com/Smalldy/godot-bridge"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1793635682,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/Smalldy/godot-bridge",
+      "commit": "e9c34db1fcd3d4096dccf2b1327905cf5c587c1a"
+     },
+     "engines": {
+      "dsh": ">=0.1.6-0"
      }
     }
    ]
