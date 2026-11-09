@@ -57,11 +57,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794061600,
+     "publishTimestamp": 1794152025,
      "source": {
       "type": "git",
       "url": "https://github.com/zhu1090093659/dsh-web",
-      "commit": "ae4a35e1a7c4f3e27bbe6fe82d8e827d2909b981"
+      "commit": "687ca453581db9cc7a2c6765d3bb80bb34a376a1"
      },
      "engines": {
       "dsh": "^0.2.2-rc.1"
@@ -91,7 +91,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/QingYunA/answer-me-with-html",
-      "commit": "053619b917c6bf2e17eae5496d05eb08e10fe889"
+      "commit": "5bebfd3974b20b7a89e039cae0fba5e11d933678"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -117,11 +117,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794058091,
+     "publishTimestamp": 1794171306,
      "source": {
       "type": "git",
       "url": "https://github.com/c1overzz/dsh-bili-scroll",
-      "commit": "1096b042e2d6d35a6ce3a373ebc0be51552e43c7"
+      "commit": "29510a0100d39da437814ce315f8ca4e1c4c211d"
      },
      "engines": {
       "dsh": ">=0.1.7-rc.1"
@@ -267,7 +267,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793954619,
+     "publishTimestamp": 1794107669,
      "source": {
       "type": "git",
       "url": "https://github.com/V1ki/dsh-plugin-subscriptions",
@@ -297,7 +297,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793958296,
+     "publishTimestamp": 1794142587,
      "source": {
       "type": "git",
       "url": "https://github.com/XDTrees/dsh-xdpool",
@@ -451,7 +451,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/Fishquito7/dsh-skill-mcp-panel",
-      "commit": "937aeb82580d7a8f3da8a04b6cf3dae96162dd07"
+      "commit": "a2293efe8fb81b4102c8436549b5a270693377c1"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -541,7 +541,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-auto-review",
-      "commit": "925990596f69454e55f425a68e32e69bd9a2d682"
+      "commit": "f52c41f033fadacb5228d06a17377ab73634e4a5"
      },
      "engines": {
       "dsh": ">=0.2.1-0 <0.3.0"
@@ -987,11 +987,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794052183,
+     "publishTimestamp": 1794139326,
      "source": {
       "type": "git",
       "url": "https://github.com/LarryE135/dsh-flash-presets",
-      "commit": "b1590278a0bd3932fc9a5d8035736289d5ba336a"
+      "commit": "e444ad95f71895b27e8ac148d9231b921a0f8109"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -1021,37 +1021,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-memento",
-      "commit": "99a2aad39ec87325ad2f0f70b1a41a612a3e9860"
-     },
-     "engines": {
-      "dsh": "0.2.2-rc.1"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@perrylink/dsh-permission-rules",
-   "title": {
-    "en": "dsh-permission-rules",
-    "zh": "dsh-permission-rules"
-   },
-   "description": {
-    "en": "Declarative allow/deny/ask permission rules on the tools/pre-execute waterfall: tool/argument/path/agent matching, session-log audit, dry-run mode, hot reload.",
-    "zh": "给 AI 工具调用加一套允许/拒绝/询问的权限规则，可按工具、参数、路径、Agent 匹配，还能审计和热重载。"
-   },
-   "author": "PerryLink",
-   "homepage": "https://www.npmjs.com/package/dsh-permission-rules",
-   "repository": {
-    "url": "https://github.com/PerryLink/dsh-permission-rules"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1793967964,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/PerryLink/dsh-permission-rules",
-      "commit": "78d207e7194635b136e51b94c9e722370afa52d3"
+      "commit": "011b093e4088cd7b670a1cc12154be28bc873435"
      },
      "engines": {
       "dsh": "0.2.2-rc.1"
@@ -1085,6 +1055,36 @@
      },
      "engines": {
       "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@perrylink/dsh-permission-rules",
+   "title": {
+    "en": "dsh-permission-rules",
+    "zh": "dsh-permission-rules"
+   },
+   "description": {
+    "en": "Declarative allow/deny/ask permission rules on the tools/pre-execute waterfall: tool/argument/path/agent matching, session-log audit, dry-run mode, hot reload.",
+    "zh": "给 AI 工具调用加一套允许/拒绝/询问的权限规则，可按工具、参数、路径、Agent 匹配，还能审计和热重载。"
+   },
+   "author": "PerryLink",
+   "homepage": "https://www.npmjs.com/package/dsh-permission-rules",
+   "repository": {
+    "url": "https://github.com/PerryLink/dsh-permission-rules"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1793967964,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/PerryLink/dsh-permission-rules",
+      "commit": "bfd31d7b3f1ec89da10ed0c3cfacf6179f6ecb62"
+     },
+     "engines": {
+      "dsh": "0.2.2-rc.1"
      }
     }
    ]
@@ -1137,11 +1137,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793998255,
+     "publishTimestamp": 1794166354,
      "source": {
       "type": "git",
       "url": "https://github.com/Noob-stupid/dsh-plugin-gating-hub",
-      "commit": "2090469ee26aaec8bf3afc2643ef92996c6b8a23"
+      "commit": "c1059002193c26300198289c8ce97b290e098f22"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -1287,11 +1287,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793859581,
+     "publishTimestamp": 1794094962,
      "source": {
       "type": "git",
       "url": "https://github.com/01men/ybkkasi",
-      "commit": "d26c3fde2f7b91d39e1087504d6718997e40e78c"
+      "commit": "1a95007990b0358e8121a28d10364a2c5bf6cd13"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -1390,6 +1390,36 @@
    ]
   },
   {
+   "name": "@2026heshao/dsh-armory",
+   "title": {
+    "en": "dsh-armory",
+    "zh": "dsh-armory"
+   },
+   "description": {
+    "en": "All-in-one board for DeepSeek Harness: MCP manager + Skills + WorkBuddy experts (attach/switch/detach any time) + tool-usage tailor + three direct markets (WorkBuddy connectors, SkillHub 190k+ skills) with one-click install · DSH 一体化看板：MCP/技能/专家随时挂换/工具账本/三大市场直连安装",
+    "zh": "一个看板管齐 MCP、技能、专家和插件，随时挂载切换，还能逛市场一键装。"
+   },
+   "author": "2026heshao",
+   "homepage": "https://github.com/2026heshao/dsh-armory#readme",
+   "repository": {
+    "url": "https://github.com/2026heshao/dsh-armory"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1794066642,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/2026heshao/dsh-armory",
+      "commit": "0fcf744cb4a67913c6af5cd1d32c38094a9c2f28"
+     },
+     "engines": {
+      "dsh": ">=0.1.5-rc.1"
+     }
+    }
+   ]
+  },
+  {
    "name": "@fb0sh/dsh-pentester",
    "title": {
     "en": "dsh-pentester",
@@ -1441,100 +1471,10 @@
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-mcp-panel",
-      "commit": "2c1dafd40e8dc69eb2d14295e0a974294a0ab30e"
+      "commit": "4a7cb29d140e9b0c98877059103e3637d668187c"
      },
      "engines": {
       "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@2026heshao/dsh-armory",
-   "title": {
-    "en": "dsh-armory",
-    "zh": "dsh-armory"
-   },
-   "description": {
-    "en": "All-in-one board for DeepSeek Harness: MCP manager + Skills + WorkBuddy experts (attach/switch/detach any time) + tool-usage tailor + three direct markets (WorkBuddy connectors, SkillHub 190k+ skills) with one-click install · DSH 一体化看板：MCP/技能/专家随时挂换/工具账本/三大市场直连安装",
-    "zh": "一个看板管齐 MCP、技能、专家和插件，随时挂载切换，还能逛市场一键装。"
-   },
-   "author": "2026heshao",
-   "homepage": "https://github.com/2026heshao/dsh-armory#readme",
-   "repository": {
-    "url": "https://github.com/2026heshao/dsh-armory"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1794066642,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/2026heshao/dsh-armory",
-      "commit": "da50e48319b909d9585d07fdc4ff3737dae84ab0"
-     },
-     "engines": {
-      "dsh": ">=0.1.5-rc.1"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@yj-liuzepeng/dsh-project-brain",
-   "title": {
-    "en": "dsh-project-brain",
-    "zh": "dsh-project-brain"
-   },
-   "description": {
-    "en": "Persistent project intelligence and memory plugin for DSH: architecture analysis, cross-session context, TODOs, and optional hybrid retrieval",
-    "zh": "给 DeepSeek Harness 装上项目大脑，跨会话记住架构、待办和上下文，随时检索项目情报。"
-   },
-   "author": "yj-liuzepeng",
-   "homepage": "https://github.com/yj-liuzepeng/dsh-project-brain",
-   "repository": {
-    "url": "https://github.com/yj-liuzepeng/dsh-project-brain"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1791449413,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/yj-liuzepeng/dsh-project-brain",
-      "commit": "978c2b6938f44e45ddd30a6bfbd45c6bec951cea"
-     },
-     "engines": {
-      "dsh": "^0.1.0-rc.2"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@fourzkw/dsh-drawai",
-   "title": {
-    "en": "dsh-drawai",
-    "zh": "dsh-drawai"
-   },
-   "description": {
-    "en": "DSH 右侧栏里的可编辑画布 —— 加上让模型直接改图的两个工具",
-    "zh": "在 DSH 右侧栏放一块可编辑画布，还能让模型直接动手帮你改图。"
-   },
-   "author": "fourzkw",
-   "homepage": "https://github.com/fourzkw/dsh-drawai",
-   "repository": {
-    "url": "https://github.com/fourzkw/dsh-drawai"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1794074908,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/fourzkw/dsh-drawai",
-      "commit": "128f86e97b053e3f3784c9acb2735c73a7b65766"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
      }
     }
    ]
@@ -1565,6 +1505,36 @@
      },
      "engines": {
       "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@yj-liuzepeng/dsh-project-brain",
+   "title": {
+    "en": "dsh-project-brain",
+    "zh": "dsh-project-brain"
+   },
+   "description": {
+    "en": "Persistent project intelligence and memory plugin for DSH: architecture analysis, cross-session context, TODOs, and optional hybrid retrieval",
+    "zh": "给 DeepSeek Harness 装上项目大脑，跨会话记住架构、待办和上下文，随时检索项目情报。"
+   },
+   "author": "yj-liuzepeng",
+   "homepage": "https://github.com/yj-liuzepeng/dsh-project-brain",
+   "repository": {
+    "url": "https://github.com/yj-liuzepeng/dsh-project-brain"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1791449413,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/yj-liuzepeng/dsh-project-brain",
+      "commit": "978c2b6938f44e45ddd30a6bfbd45c6bec951cea"
+     },
+     "engines": {
+      "dsh": "^0.1.0-rc.2"
      }
     }
    ]
@@ -1630,6 +1600,36 @@
    ]
   },
   {
+   "name": "@czcdr/dsh-plugin-rea",
+   "title": {
+    "en": "dsh-plugin-rea",
+    "zh": "dsh-plugin-rea"
+   },
+   "description": {
+    "en": "第三方适配插件：把上游 REA（github.com/morluto/rea）的 MCP 服务接入 DeepSeek Harness，提供 mcp__rea__* 工具。2.x 会自动准备 Node、REA CLI、JDK 与 Ghidra 并把那一行接好；逆向分析能力全部由上游 REA 提供。",
+    "zh": "把 REA 逆向分析能力接进 DSH，让 AI 直接分析二进制、APK、固件和网站。"
+   },
+   "author": "czcdr",
+   "homepage": "https://github.com/czcdr/dsh-plugin-rea",
+   "repository": {
+    "url": "https://github.com/czcdr/dsh-plugin-rea"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1794033986,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/czcdr/dsh-plugin-rea",
+      "commit": "21fddc8ecf1d55e6c134e08c96b5b6c4eab9a83d"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
    "name": "@wm-coder/custom-first-control-prompt",
    "title": {
     "en": "custom-first-control-prompt",
@@ -1685,66 +1685,6 @@
      },
      "engines": {
       "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@czcdr/dsh-plugin-rea",
-   "title": {
-    "en": "dsh-plugin-rea",
-    "zh": "dsh-plugin-rea"
-   },
-   "description": {
-    "en": "第三方适配插件：把上游 REA（github.com/morluto/rea）的 MCP 服务接入 DeepSeek Harness，提供 mcp__rea__* 工具。2.x 会自动准备 Node、REA CLI、JDK 与 Ghidra 并把那一行接好；逆向分析能力全部由上游 REA 提供。",
-    "zh": "把 REA 逆向分析能力接进 DSH，让 AI 直接分析二进制、APK、固件和网站。"
-   },
-   "author": "czcdr",
-   "homepage": "https://github.com/czcdr/dsh-plugin-rea",
-   "repository": {
-    "url": "https://github.com/czcdr/dsh-plugin-rea"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1794033986,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/czcdr/dsh-plugin-rea",
-      "commit": "b06b4ae987dc9d15f6b2e9ab37901a70fc507585"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@aitabby/dockyard-dsh",
-   "title": {
-    "en": "dockyard-dsh",
-    "zh": "dockyard-dsh"
-   },
-   "description": {
-    "en": "A native account-pool and provider plugin for DeepSeek Harness — Codex, Antigravity, Grok, Claude, Cursor, WorkBuddy, Command Code, Hermes and OpenRouter Free, on macOS and Windows.dsh-plugin",
-    "zh": "macOS 专属账号池与原生登录插件，帮你轻松管理多个 DeepSeek Harness 账号，自动切换免折腾。"
-   },
-   "author": "AITabby",
-   "homepage": "https://github.com/AITabby/dockyard-dsh",
-   "repository": {
-    "url": "https://github.com/AITabby/dockyard-dsh"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1794043394,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/AITabby/dockyard-dsh",
-      "commit": "bea9069ff201d4b48c73d179b023dbed166a8527"
-     },
-     "engines": {
-      "dsh": ">=0.1.7-alpha.2"
      }
     }
    ]
@@ -1810,31 +1750,31 @@
    ]
   },
   {
-   "name": "@unclek/dsh-think-translate",
+   "name": "@aitabby/dockyard-dsh",
    "title": {
-    "en": "dsh-think-translate",
-    "zh": "dsh-think-translate"
+    "en": "dockyard-dsh",
+    "zh": "dockyard-dsh"
    },
    "description": {
-    "en": "Translate the reasoning / thinking chain (chain-of-thought), task cards and answers of the DeepSeek Harness Web UI into one of 8 target languages",
-    "zh": "把 DeepSeek Harness 网页里的思考链、任务卡和回答一键翻成 8 种语言，看 AI 推理不再卡在英文上。"
+    "en": "A native account-pool and provider plugin for DeepSeek Harness — Codex, Antigravity, Grok, Claude, Cursor, WorkBuddy, Command Code, Hermes and OpenRouter Free, on macOS and Windows.dsh-plugin",
+    "zh": "macOS 专属账号池与原生登录插件，帮你轻松管理多个 DeepSeek Harness 账号，自动切换免折腾。"
    },
-   "author": "UncleK",
-   "homepage": "https://github.com/UncleK/dsh-think-translate",
+   "author": "AITabby",
+   "homepage": "https://github.com/AITabby/dockyard-dsh",
    "repository": {
-    "url": "https://github.com/UncleK/dsh-think-translate"
+    "url": "https://github.com/AITabby/dockyard-dsh"
    },
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793987457,
+     "publishTimestamp": 1794144804,
      "source": {
       "type": "git",
-      "url": "https://github.com/UncleK/dsh-think-translate",
-      "commit": "c213ed92de264fc9eb4ca3d552618db85a54ebb7"
+      "url": "https://github.com/AITabby/dockyard-dsh",
+      "commit": "2ee49191504ac5c00c00d0b329d1edff4c0ad779"
      },
      "engines": {
-      "dsh": ">=0.1.0-rc.6"
+      "dsh": ">=0.1.7-alpha.2"
      }
     }
    ]
@@ -1870,6 +1810,36 @@
    ]
   },
   {
+   "name": "@unclek/dsh-think-translate",
+   "title": {
+    "en": "dsh-think-translate",
+    "zh": "dsh-think-translate"
+   },
+   "description": {
+    "en": "Translate the reasoning / thinking chain (chain-of-thought), task cards and answers of the DeepSeek Harness Web UI into one of 8 target languages",
+    "zh": "把 DeepSeek Harness 网页里的思考链、任务卡和回答一键翻成 8 种语言，看 AI 推理不再卡在英文上。"
+   },
+   "author": "UncleK",
+   "homepage": "https://github.com/UncleK/dsh-think-translate",
+   "repository": {
+    "url": "https://github.com/UncleK/dsh-think-translate"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1793987457,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/UncleK/dsh-think-translate",
+      "commit": "91219d871a9b2be52c89d3ee7bdf1c64885be016"
+     },
+     "engines": {
+      "dsh": ">=0.1.0-rc.6"
+     }
+    }
+   ]
+  },
+  {
    "name": "@masknull/dsh-qoder-connect",
    "title": {
     "en": "dsh-qoder-connect",
@@ -1891,7 +1861,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/masknull/dsh-qoder-connect",
-      "commit": "186bc065e52ebb1702e2381cb5c8702211d93e81"
+      "commit": "09ce62a2dcb5b8a47f3cdd28f335632b488af194"
      },
      "engines": {
       "dsh": ">=0.2.1-rc.1"
@@ -1917,11 +1887,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794052746,
+     "publishTimestamp": 1794141642,
      "source": {
       "type": "git",
       "url": "https://github.com/Vncntvx/dsh-zotero",
-      "commit": "11e2f7555f824c9dbee0b3c659db98770652b929"
+      "commit": "7d93637244851b2676b0d4eaa727d4153d3fae58"
      },
      "engines": {
       "dsh": ">=0.2.2-rc.1"
@@ -1977,11 +1947,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794026128,
+     "publishTimestamp": 1794120209,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-plugin-guide",
-      "commit": "9f0a8a10b76a872f1a82570734a6b166661fa38b"
+      "commit": "d597c4b6396d52703d16fb3fa14cb5819dbda907"
      },
      "engines": {
       "dsh": ">=0.2.2-0 <0.3.0"
@@ -2131,7 +2101,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-doublecheck",
-      "commit": "c67c8537e041f180d4fa03c618eee25048d4485e"
+      "commit": "4b2de9afa18cc21a96d96f1b78783916e6682d06"
      },
      "engines": {
       "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
@@ -2161,7 +2131,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/Tkingxiao/dsh-any-background",
-      "commit": "c9b9490ba2118a4048df8e10961194a8a427bf5d"
+      "commit": "b25114a4239a65fea580cadae85ebe1d97a41ef5"
      },
      "engines": {
       "dsh": "^0.1.0-rc.6"
@@ -2187,14 +2157,14 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794068933,
+     "publishTimestamp": 1794109471,
      "source": {
       "type": "git",
       "url": "https://github.com/caoyiwei850/dsh-ssh-ops",
       "commit": "35c5a80f962301c92d7419227ef2047654c26860"
      },
      "engines": {
-      "dsh": ">=0.1.5-alpha.1"
+      "dsh": ">=0.2.0"
      }
     }
    ]
@@ -2290,6 +2260,36 @@
    ]
   },
   {
+   "name": "@smalldy/godot-bridge",
+   "title": {
+    "en": "godot-bridge",
+    "zh": "godot-bridge"
+   },
+   "description": {
+    "en": "DSH (DeepSeek Harness) plugin that launches and drives a running Godot 4.x game through its in-game TCP interaction server — replaces the godot-mcp MCP server with native agent tools.",
+    "zh": "启动并操控 Godot 4.x 游戏，通过内置 TCP 服务提供原生智能体工具，替代 MCP 服务器。"
+   },
+   "author": "Smalldy",
+   "homepage": "https://github.com/Smalldy/godot-bridge",
+   "repository": {
+    "url": "https://github.com/Smalldy/godot-bridge"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1794162098,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/Smalldy/godot-bridge",
+      "commit": "e9c34db1fcd3d4096dccf2b1327905cf5c587c1a"
+     },
+     "engines": {
+      "dsh": ">=0.1.6-0"
+     }
+    }
+   ]
+  },
+  {
    "name": "@alingalingling/ui-status-label",
    "title": {
     "en": "ui-status-label",
@@ -2337,7 +2337,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1791342947,
+     "publishTimestamp": 1794171346,
      "source": {
       "type": "git",
       "url": "https://github.com/Phant0Meow/dsh-meow-cachebilling",
@@ -2345,36 +2345,6 @@
      },
      "engines": {
       "dsh": "^0.1.1-rc.2"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@smalldy/godot-bridge",
-   "title": {
-    "en": "godot-bridge",
-    "zh": "godot-bridge"
-   },
-   "description": {
-    "en": "DSH (DeepSeek Harness) plugin that launches and drives a running Godot 4.x game through its in-game TCP interaction server — replaces the godot-mcp MCP server with native agent tools.",
-    "zh": "启动并操控 Godot 4.x 游戏，通过内置 TCP 服务提供原生智能体工具，替代 MCP 服务器。"
-   },
-   "author": "Smalldy",
-   "homepage": "https://github.com/Smalldy/godot-bridge",
-   "repository": {
-    "url": "https://github.com/Smalldy/godot-bridge"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1793635682,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/Smalldy/godot-bridge",
-      "commit": "e9c34db1fcd3d4096dccf2b1327905cf5c587c1a"
-     },
-     "engines": {
-      "dsh": ">=0.1.6-0"
      }
     }
    ]
@@ -2405,6 +2375,36 @@
      },
      "engines": {
       "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@meredith2328/dsh-sticky-note",
+   "title": {
+    "en": "dsh-sticky-note",
+    "zh": "dsh-sticky-note"
+   },
+   "description": {
+    "en": "Quick sticky notes in the composer: ideas/feelings/TODO with Markdown preview, auto-save, one-click send to chat.",
+    "zh": "在输入框左下角随手记点子、感想和 TODO，自动保存还能一键发到聊天里。"
+   },
+   "author": "Meredith2328",
+   "homepage": "https://github.com/Meredith2328/dsh-sticky-note",
+   "repository": {
+    "url": "https://github.com/Meredith2328/dsh-sticky-note"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1793349232,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/Meredith2328/dsh-sticky-note",
+      "commit": "fb36ba7c3d4a0e85fc993cafd1d3c87481a8a881"
+     },
+     "engines": {
+      "dsh": "^0.2.0-rc.2"
      }
     }
    ]
