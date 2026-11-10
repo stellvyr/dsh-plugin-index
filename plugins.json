@@ -27,11 +27,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793695883,
+     "publishTimestamp": 1794271273,
      "source": {
       "type": "git",
       "url": "https://github.com/alchaincyf/nuwa-skill",
-      "commit": "5bb9b659b7750e2ae775308bf2af706e37cbae30"
+      "commit": "b2ae4a2243306b7a61011b7932c697056a6a0c4f"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -57,11 +57,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794152025,
+     "publishTimestamp": 1794242289,
      "source": {
       "type": "git",
       "url": "https://github.com/zhu1090093659/dsh-web",
-      "commit": "687ca453581db9cc7a2c6765d3bb80bb34a376a1"
+      "commit": "29e4dc579d6cd691f0987925ff3fdd769bb77823"
      },
      "engines": {
       "dsh": "^0.2.2-rc.1"
@@ -87,11 +87,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793864301,
+     "publishTimestamp": 1794226877,
      "source": {
       "type": "git",
       "url": "https://github.com/QingYunA/answer-me-with-html",
-      "commit": "5bebfd3974b20b7a89e039cae0fba5e11d933678"
+      "commit": "edccab07c012e2141585f8ddb18a62e01664fa2b"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -301,7 +301,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/XDTrees/dsh-xdpool",
-      "commit": "813d51c2501f728d90b7ff54aa3823f9aca17020"
+      "commit": "3b94973a3f196758e63af25ea4c8c669d9834aa9"
      },
      "engines": {
       "dsh": "0.1.5-rc.2"
@@ -447,14 +447,14 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793890974,
+     "publishTimestamp": 1794221648,
      "source": {
       "type": "git",
       "url": "https://github.com/Fishquito7/dsh-skill-mcp-panel",
-      "commit": "a2293efe8fb81b4102c8436549b5a270693377c1"
+      "commit": "8e5989911617fd03b9f3676bfd36df976964e707"
      },
      "engines": {
-      "dsh": ">=0.1.0"
+      "dsh": "^0.2.2-rc.1"
      }
     }
    ]
@@ -537,7 +537,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793969224,
+     "publishTimestamp": 1794193254,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-auto-review",
@@ -661,7 +661,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-research-report",
-      "commit": "06ade6c9741dd7f4049aeb4cf4fdae7631aa2859"
+      "commit": "7aeae61cec0dd77475507d17cc90e75661cf1116"
      },
      "engines": {
       "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
@@ -751,7 +751,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/HsiangNianian/dsh-auto-continue",
-      "commit": "2900e7e9e14271fe026fc06e65d78a92732e8958"
+      "commit": "92afc6f4b62fe467c48de950e1f0f9a64c058180"
      },
      "engines": {
       "dsh": "0.1.2-rc.1"
@@ -781,7 +781,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/Yuuyuko-uu/dsh-qq-link",
-      "commit": "21567a31736e73545a436af89c1fdc2be40530d1"
+      "commit": "e6a8463b1f2ca717864abc22e45dd8d27a213d87"
      },
      "engines": {
       "dsh": ">=0.2.1-rc.2"
@@ -970,66 +970,6 @@
    ]
   },
   {
-   "name": "@larrye135/dsh-flash-presets",
-   "title": {
-    "en": "dsh-flash-presets",
-    "zh": "dsh-flash-presets"
-   },
-   "description": {
-    "en": "降低Deepseek v4.1flash的Token消耗/Raising Token efficiency without lossing performance(Works for v4.1flash)",
-    "zh": "在保持 v4.1flash 效果不变的前提下，帮你省下更多 Token，用得更划算。"
-   },
-   "author": "LarryE135",
-   "homepage": "https://github.com/LarryE135/dsh-flash-presets",
-   "repository": {
-    "url": "https://github.com/LarryE135/dsh-flash-presets"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1794139326,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/LarryE135/dsh-flash-presets",
-      "commit": "e444ad95f71895b27e8ac148d9231b921a0f8109"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@perrylink/dsh-memento",
-   "title": {
-    "en": "dsh-memento",
-    "zh": "dsh-memento"
-   },
-   "description": {
-    "en": "Bounded, layered, approval-gated, auditable cross-session memory: typed ctx.memory seam, zero-dependency SQLite provider, memory tool and frozen snapshot injection, plus the dsh-memory-protocol v1 rehearsal with an adapter registry and a conformance suite.",
-    "zh": "给 AI 助手加上跨会话记忆，分层存储、审批把关、可审计，还能注入快照。"
-   },
-   "author": "PerryLink",
-   "homepage": "https://www.npmjs.com/package/dsh-memento",
-   "repository": {
-    "url": "https://github.com/PerryLink/dsh-memento"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1793970312,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/PerryLink/dsh-memento",
-      "commit": "011b093e4088cd7b670a1cc12154be28bc873435"
-     },
-     "engines": {
-      "dsh": "0.2.2-rc.1"
-     }
-    }
-   ]
-  },
-  {
    "name": "@xqpsec/dsh-jailbreak",
    "title": {
     "en": "dsh-jailbreak",
@@ -1060,6 +1000,66 @@
    ]
   },
   {
+   "name": "@larrye135/dsh-flash-presets",
+   "title": {
+    "en": "dsh-flash-presets",
+    "zh": "dsh-flash-presets"
+   },
+   "description": {
+    "en": "降低Deepseek v4.1flash的Token消耗/Raising Token efficiency without lossing performance(Works for v4.1flash)",
+    "zh": "在保持 v4.1flash 效果不变的前提下，帮你省下更多 Token，用得更划算。"
+   },
+   "author": "LarryE135",
+   "homepage": "https://github.com/LarryE135/dsh-flash-presets",
+   "repository": {
+    "url": "https://github.com/LarryE135/dsh-flash-presets"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1794242517,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/LarryE135/dsh-flash-presets",
+      "commit": "49b96e736396ca7086968200218866bb54a45c4f"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@perrylink/dsh-memento",
+   "title": {
+    "en": "dsh-memento",
+    "zh": "dsh-memento"
+   },
+   "description": {
+    "en": "Bounded, layered, approval-gated, auditable cross-session memory: typed ctx.memory seam, zero-dependency SQLite provider, memory tool and frozen snapshot injection, plus the dsh-memory-protocol v1 rehearsal with an adapter registry and a conformance suite.",
+    "zh": "给 AI 助手加上跨会话记忆，分层存储、审批把关、可审计，还能注入快照。"
+   },
+   "author": "PerryLink",
+   "homepage": "https://www.npmjs.com/package/dsh-memento",
+   "repository": {
+    "url": "https://github.com/PerryLink/dsh-memento"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1794193281,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/PerryLink/dsh-memento",
+      "commit": "011b093e4088cd7b670a1cc12154be28bc873435"
+     },
+     "engines": {
+      "dsh": "0.2.2-rc.1"
+     }
+    }
+   ]
+  },
+  {
    "name": "@perrylink/dsh-permission-rules",
    "title": {
     "en": "dsh-permission-rules",
@@ -1077,7 +1077,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793967964,
+     "publishTimestamp": 1794193257,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-permission-rules",
@@ -1137,11 +1137,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794166354,
+     "publishTimestamp": 1794267946,
      "source": {
       "type": "git",
       "url": "https://github.com/Noob-stupid/dsh-plugin-gating-hub",
-      "commit": "c1059002193c26300198289c8ce97b290e098f22"
+      "commit": "cf2856e9bd367b82b621544f48021f91098882df"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -1287,11 +1287,71 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794094962,
+     "publishTimestamp": 1794267310,
      "source": {
       "type": "git",
       "url": "https://github.com/01men/ybkkasi",
-      "commit": "1a95007990b0358e8121a28d10364a2c5bf6cd13"
+      "commit": "03031c74d818c332b10306b1d4366e9e632aef6e"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@2026heshao/dsh-armory",
+   "title": {
+    "en": "dsh-armory",
+    "zh": "dsh-armory"
+   },
+   "description": {
+    "en": "All-in-one board for DeepSeek Harness: MCP manager + Skills + WorkBuddy experts (attach/switch/detach any time) + tool-usage tailor + three direct markets (WorkBuddy connectors, SkillHub 190k+ skills) with one-click install · DSH 一体化看板：MCP/技能/专家随时挂换/工具账本/三大市场直连安装",
+    "zh": "一个看板管齐 MCP、技能、专家和插件，随时挂载切换，还能逛市场一键装。"
+   },
+   "author": "2026heshao",
+   "homepage": "https://github.com/2026heshao/dsh-armory#readme",
+   "repository": {
+    "url": "https://github.com/2026heshao/dsh-armory"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1794234566,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/2026heshao/dsh-armory",
+      "commit": "0fcf744cb4a67913c6af5cd1d32c38094a9c2f28"
+     },
+     "engines": {
+      "dsh": ">=0.1.5-rc.1"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@luminousyyh/skill-wb-exec",
+   "title": {
+    "en": "skill-wb-exec",
+    "zh": "skill-wb-exec"
+   },
+   "description": {
+    "en": "Delegate bounded coding tasks to a headless WorkBuddy/CodeBuddy CLI agent from DeepSeek Harness — structured result, real diff, path whitelist and worktree isolation.",
+    "zh": "把有限的编码任务交给后台 CLI 代理执行，自动返回结构化结果和真实 diff，省心又安全。"
+   },
+   "author": "Luminousyyh",
+   "homepage": "https://github.com/Luminousyyh/skill-wb-exec",
+   "repository": {
+    "url": "https://github.com/Luminousyyh/skill-wb-exec"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1794156537,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/Luminousyyh/skill-wb-exec",
+      "commit": "f02c7f259bab490722dc2f2adc41481500cfd61d"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -1390,36 +1450,6 @@
    ]
   },
   {
-   "name": "@2026heshao/dsh-armory",
-   "title": {
-    "en": "dsh-armory",
-    "zh": "dsh-armory"
-   },
-   "description": {
-    "en": "All-in-one board for DeepSeek Harness: MCP manager + Skills + WorkBuddy experts (attach/switch/detach any time) + tool-usage tailor + three direct markets (WorkBuddy connectors, SkillHub 190k+ skills) with one-click install · DSH 一体化看板：MCP/技能/专家随时挂换/工具账本/三大市场直连安装",
-    "zh": "一个看板管齐 MCP、技能、专家和插件，随时挂载切换，还能逛市场一键装。"
-   },
-   "author": "2026heshao",
-   "homepage": "https://github.com/2026heshao/dsh-armory#readme",
-   "repository": {
-    "url": "https://github.com/2026heshao/dsh-armory"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1794066642,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/2026heshao/dsh-armory",
-      "commit": "0fcf744cb4a67913c6af5cd1d32c38094a9c2f28"
-     },
-     "engines": {
-      "dsh": ">=0.1.5-rc.1"
-     }
-    }
-   ]
-  },
-  {
    "name": "@fb0sh/dsh-pentester",
    "title": {
     "en": "dsh-pentester",
@@ -1467,7 +1497,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793969248,
+     "publishTimestamp": 1794193242,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-mcp-panel",
@@ -1617,11 +1647,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794033986,
+     "publishTimestamp": 1794230102,
      "source": {
       "type": "git",
       "url": "https://github.com/czcdr/dsh-plugin-rea",
-      "commit": "21fddc8ecf1d55e6c134e08c96b5b6c4eab9a83d"
+      "commit": "e27a3e8ac43da973816c99c5939824a7300f75cf"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -1720,6 +1750,36 @@
    ]
   },
   {
+   "name": "@vibe-any/dsh-plugin-save-token",
+   "title": {
+    "en": "dsh-plugin-save-token",
+    "zh": "dsh-plugin-save-token"
+   },
+   "description": {
+    "en": "A DeepSeek Harness (dsh) dynamic plugin that cuts token cost without cutting model intelligence",
+    "zh": "自动精简过大的工具输出，在不牺牲模型能力的前提下大幅降低Token消耗，省钱又省心。"
+   },
+   "author": "vibe-any",
+   "homepage": "https://playwithai.fun",
+   "repository": {
+    "url": "https://github.com/vibe-any/dsh-plugin-save-token"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1792804576,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/vibe-any/dsh-plugin-save-token",
+      "commit": "eb85c421758e56d6a1ae8c87dd10f0d38e621559"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
    "name": "@mishibeikejie/zat-dsh-engine",
    "title": {
     "en": "zat-dsh-engine",
@@ -1767,7 +1827,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794144804,
+     "publishTimestamp": 1794192637,
      "source": {
       "type": "git",
       "url": "https://github.com/AITabby/dockyard-dsh",
@@ -1775,36 +1835,6 @@
      },
      "engines": {
       "dsh": ">=0.1.7-alpha.2"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@vibe-any/dsh-plugin-save-token",
-   "title": {
-    "en": "dsh-plugin-save-token",
-    "zh": "dsh-plugin-save-token"
-   },
-   "description": {
-    "en": "A DeepSeek Harness (dsh) dynamic plugin that cuts token cost without cutting model intelligence",
-    "zh": "自动精简过大的工具输出，在不牺牲模型能力的前提下大幅降低Token消耗，省钱又省心。"
-   },
-   "author": "vibe-any",
-   "homepage": "https://playwithai.fun",
-   "repository": {
-    "url": "https://github.com/vibe-any/dsh-plugin-save-token"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1792804576,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/vibe-any/dsh-plugin-save-token",
-      "commit": "eb85c421758e56d6a1ae8c87dd10f0d38e621559"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
      }
     }
    ]
@@ -1827,7 +1857,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793987457,
+     "publishTimestamp": 1794189975,
      "source": {
       "type": "git",
       "url": "https://github.com/UncleK/dsh-think-translate",
@@ -1857,7 +1887,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794051250,
+     "publishTimestamp": 1794223358,
      "source": {
       "type": "git",
       "url": "https://github.com/masknull/dsh-qoder-connect",
@@ -1887,7 +1917,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794141642,
+     "publishTimestamp": 1794230069,
      "source": {
       "type": "git",
       "url": "https://github.com/Vncntvx/dsh-zotero",
@@ -1947,7 +1977,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794120209,
+     "publishTimestamp": 1794193106,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-plugin-guide",
@@ -1955,36 +1985,6 @@
      },
      "engines": {
       "dsh": ">=0.2.2-0 <0.3.0"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@opdsh/unity-plugin",
-   "title": {
-    "en": "unity-plugin",
-    "zh": "unity-plugin"
-   },
-   "description": {
-    "en": "DeepSeek Harness plugin: control the Unity Editor through the unity CLI",
-    "zh": "通过 unity 命令行驱动 Unity 编辑器，让智能体帮你自动构建和调试游戏。"
-   },
-   "author": "opdsh",
-   "homepage": "https://github.com/opdsh/unity-plugin",
-   "repository": {
-    "url": "https://github.com/opdsh/unity-plugin"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1790563306,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/opdsh/unity-plugin",
-      "commit": "1cfcc6c33962152c8db22ada853179957d69c43b"
-     },
-     "engines": {
-      "dsh": "0.1.7-rc.2"
      }
     }
    ]
@@ -2020,31 +2020,31 @@
    ]
   },
   {
-   "name": "@vlln/plugin-registry",
+   "name": "@opdsh/unity-plugin",
    "title": {
-    "en": "plugin-registry",
-    "zh": "plugin-registry"
+    "en": "unity-plugin",
+    "zh": "unity-plugin"
    },
    "description": {
-    "en": "Plugin console + make-dsh-plugin skill + dev guide.",
-    "zh": "在 DSH 里管理插件、查看插件市场索引，还附带插件开发指南和技能，方便你开发和调试插件。"
+    "en": "DeepSeek Harness plugin: control the Unity Editor through the unity CLI",
+    "zh": "通过 unity 命令行驱动 Unity 编辑器，让智能体帮你自动构建和调试游戏。"
    },
-   "author": "vlln",
-   "homepage": "https://github.com/vlln/plugin-registry",
+   "author": "opdsh",
+   "homepage": "https://github.com/opdsh/unity-plugin",
    "repository": {
-    "url": "https://github.com/vlln/plugin-registry"
+    "url": "https://github.com/opdsh/unity-plugin"
    },
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793700983,
+     "publishTimestamp": 1790563306,
      "source": {
       "type": "git",
-      "url": "https://github.com/vlln/plugin-registry",
-      "commit": "b237efdfd8227b71c385d36b62e323de08a9848f"
+      "url": "https://github.com/opdsh/unity-plugin",
+      "commit": "1cfcc6c33962152c8db22ada853179957d69c43b"
      },
      "engines": {
-      "dsh": "0.2.1-rc.2"
+      "dsh": "0.1.7-rc.2"
      }
     }
    ]
@@ -2080,6 +2080,36 @@
    ]
   },
   {
+   "name": "@vlln/plugin-registry",
+   "title": {
+    "en": "plugin-registry",
+    "zh": "plugin-registry"
+   },
+   "description": {
+    "en": "Plugin console + make-dsh-plugin skill + dev guide.",
+    "zh": "在 DSH 里管理插件、查看插件市场索引，还附带插件开发指南和技能，方便你开发和调试插件。"
+   },
+   "author": "vlln",
+   "homepage": "https://github.com/vlln/plugin-registry",
+   "repository": {
+    "url": "https://github.com/vlln/plugin-registry"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1793700983,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/vlln/plugin-registry",
+      "commit": "b237efdfd8227b71c385d36b62e323de08a9848f"
+     },
+     "engines": {
+      "dsh": "0.2.1-rc.2"
+     }
+    }
+   ]
+  },
+  {
    "name": "@perrylink/dsh-doublecheck",
    "title": {
     "en": "dsh-doublecheck",
@@ -2097,7 +2127,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793973202,
+     "publishTimestamp": 1794193261,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-doublecheck",
@@ -2127,7 +2157,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793614972,
+     "publishTimestamp": 1794179395,
      "source": {
       "type": "git",
       "url": "https://github.com/Tkingxiao/dsh-any-background",
@@ -2200,36 +2230,6 @@
    ]
   },
   {
-   "name": "@kddkbd/deepseek-splash-animation",
-   "title": {
-    "en": "DeepSeek-splash-animation",
-    "zh": "DeepSeek-splash-animation"
-   },
-   "description": {
-    "en": "给 DSH 加一段自定义开屏动画",
-    "zh": "给 DSH 加一段自定义开屏动画，启动时播放视频，播完渐隐进入界面，自带默认视频装上就能用。"
-   },
-   "author": "KDDKBD",
-   "homepage": "https://github.com/KDDKBD/DeepSeek-splash-animation",
-   "repository": {
-    "url": "https://github.com/KDDKBD/DeepSeek-splash-animation"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1791024664,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/KDDKBD/DeepSeek-splash-animation",
-      "commit": "bd82a5718507ecb752f04492d9639058ee9291d8"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
    "name": "@beiyege-01/dsh-voice-ai-girlfriend-plugin",
    "title": {
     "en": "dsh-voice-ai-girlfriend-plugin",
@@ -2252,6 +2252,36 @@
       "type": "git",
       "url": "https://github.com/beiyege-01/dsh-voice-ai-girlfriend-plugin",
       "commit": "f367998b05f03ea3a5babf2ef57e6631065707ab"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@kddkbd/deepseek-splash-animation",
+   "title": {
+    "en": "DeepSeek-splash-animation",
+    "zh": "DeepSeek-splash-animation"
+   },
+   "description": {
+    "en": "给 DSH 加一段自定义开屏动画",
+    "zh": "给 DSH 加一段自定义开屏动画，启动时播放视频，播完渐隐进入界面，自带默认视频装上就能用。"
+   },
+   "author": "KDDKBD",
+   "homepage": "https://github.com/KDDKBD/DeepSeek-splash-animation",
+   "repository": {
+    "url": "https://github.com/KDDKBD/DeepSeek-splash-animation"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1791024664,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/KDDKBD/DeepSeek-splash-animation",
+      "commit": "bd82a5718507ecb752f04492d9639058ee9291d8"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -2375,36 +2405,6 @@
      },
      "engines": {
       "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@meredith2328/dsh-sticky-note",
-   "title": {
-    "en": "dsh-sticky-note",
-    "zh": "dsh-sticky-note"
-   },
-   "description": {
-    "en": "Quick sticky notes in the composer: ideas/feelings/TODO with Markdown preview, auto-save, one-click send to chat.",
-    "zh": "在输入框左下角随手记点子、感想和 TODO，自动保存还能一键发到聊天里。"
-   },
-   "author": "Meredith2328",
-   "homepage": "https://github.com/Meredith2328/dsh-sticky-note",
-   "repository": {
-    "url": "https://github.com/Meredith2328/dsh-sticky-note"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1793349232,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/Meredith2328/dsh-sticky-note",
-      "commit": "fb36ba7c3d4a0e85fc993cafd1d3c87481a8a881"
-     },
-     "engines": {
-      "dsh": "^0.2.0-rc.2"
      }
     }
    ]
