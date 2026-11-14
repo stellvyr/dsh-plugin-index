@@ -61,7 +61,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/zhu1090093659/dsh-web",
-      "commit": "e94bb1ea6c6b996acc6839e2abadfafe3693d6c6"
+      "commit": "4603293b4019265e3348110f2897d9e759158e5d"
      },
      "engines": {
       "dsh": "^0.2.2-rc.2"
@@ -421,7 +421,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/dhicoc/dsh-reverse-skill",
-      "commit": "f1b61cf3deec370198ae81a23b8512338002d073"
+      "commit": "a4da9b7ec4b01d2516596213b14769945f071b7f"
      },
      "engines": {
       "dsh": "^0.2.0-rc.2"
@@ -601,7 +601,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-auto-review",
-      "commit": "92a4e5c523fc60c649a4f17268ca40587297d66d"
+      "commit": "7fc45989d7a0ca3bd368763e2df9ccdfff00fb79"
      },
      "engines": {
       "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
@@ -790,6 +790,36 @@
    ]
   },
   {
+   "name": "@yusaltyfish/dsh-onebot-qq",
+   "title": {
+    "en": "dsh-onebot-qq",
+    "zh": "dsh-onebot-qq"
+   },
+   "description": {
+    "en": "DeepSeek Harness 的原生 QQ 机器人插件：微内核 + 子插件，Linux/Windows 通用。收消息、发图、生图、发表情，装完就能聊。此项目为个人因需求爱好，人力设计方案AI构建代码的插件，所以bug和不够合理的地方有许多，发出来仅为学习和分享",
+    "zh": "装完填几项就能用的 QQ 机器人，收消息、发图、生图、发表情，Linux 和 Windows 都能跑。"
+   },
+   "author": "YUsaltyfish",
+   "homepage": "https://github.com/YUsaltyfish/dsh-onebot-qq",
+   "repository": {
+    "url": "https://github.com/YUsaltyfish/dsh-onebot-qq"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1794571472,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/YUsaltyfish/dsh-onebot-qq",
+      "commit": "a6b6a86db16e46cb68ba107fecf1620a7ef758c5"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
    "name": "@hsiangnianian/dsh-auto-continue",
    "title": {
     "en": "dsh-auto-continue",
@@ -841,37 +871,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/LarryE135/dsh-flash-presets",
-      "commit": "4b2717775c5ff54e196f97fad5e5cbbf389c8173"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@yusaltyfish/dsh-onebot-qq",
-   "title": {
-    "en": "dsh-onebot-qq",
-    "zh": "dsh-onebot-qq"
-   },
-   "description": {
-    "en": "DeepSeek Harness 的原生 QQ 机器人插件：微内核 + 子插件，Linux/Windows 通用。收消息、发图、生图、发表情，装完就能聊。此项目为个人因需求爱好，人力设计方案AI构建代码的插件，所以bug和不够合理的地方有许多，发出来仅为学习和分享",
-    "zh": "装完填几项就能用的 QQ 机器人，收消息、发图、生图、发表情，Linux 和 Windows 都能跑。"
-   },
-   "author": "YUsaltyfish",
-   "homepage": "https://github.com/YUsaltyfish/dsh-onebot-qq",
-   "repository": {
-    "url": "https://github.com/YUsaltyfish/dsh-onebot-qq"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1794571472,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/YUsaltyfish/dsh-onebot-qq",
-      "commit": "8ff9182908cee9ed1c68b37821cdb9a746b5f8ad"
+      "commit": "9c18b34bcd987a0334a64002dc84a429cf618849"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -901,7 +901,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/Yuuyuko-uu/dsh-qq-link",
-      "commit": "4ad27f4ca8177ca409aae30dd5ba25f0ef9aaa64"
+      "commit": "80801b2fecbf06634deb71cd0063b65a5f16b9de"
      },
      "engines": {
       "dsh": ">=0.2.1-rc.2"
@@ -1171,7 +1171,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-permission-rules",
-      "commit": "a387d9df88e328d8c225a868a3f78244f8413104"
+      "commit": "624a17028f4020c6212e3b65f586fa84a0a7ce3d"
      },
      "engines": {
       "dsh": "0.2.2-rc.3"
@@ -1231,7 +1231,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/Noob-stupid/dsh-plugin-gating-hub",
-      "commit": "1f5025c869a60856047ca3f239d7d5fa8f6bb76a"
+      "commit": "40a9f42a8e2d872e72cb598544c23e8e9ce53176"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -1351,7 +1351,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/2026heshao/dsh-armory",
-      "commit": "d73175b720fb79169ef4a0fb4806a0afbd1657e0"
+      "commit": "49d34707f46177b87182fe3a7a92233b3b88c0a0"
      },
      "engines": {
       "dsh": ">=0.1.5-rc.1"
@@ -1690,36 +1690,6 @@
    ]
   },
   {
-   "name": "@unclek/dsh-think-translate",
-   "title": {
-    "en": "dsh-think-translate",
-    "zh": "dsh-think-translate"
-   },
-   "description": {
-    "en": "Translate the reasoning / thinking chain (chain-of-thought), task cards and answers of the DeepSeek Harness Web UI into one of 8 target languages",
-    "zh": "把 DeepSeek Harness 网页里的思考链、任务卡和回答一键翻成 8 种语言，看 AI 推理不再卡在英文上。"
-   },
-   "author": "UncleK",
-   "homepage": "https://github.com/UncleK/dsh-think-translate",
-   "repository": {
-    "url": "https://github.com/UncleK/dsh-think-translate"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1794421842,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/UncleK/dsh-think-translate",
-      "commit": "3d4cc09ca1c3b7650c647871ffc63028637b6cb1"
-     },
-     "engines": {
-      "dsh": ">=0.1.0-rc.6"
-     }
-    }
-   ]
-  },
-  {
    "name": "@vibe-any/dsh-plugin-save-token",
    "title": {
     "en": "dsh-plugin-save-token",
@@ -1745,6 +1715,36 @@
      },
      "engines": {
       "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@unclek/dsh-think-translate",
+   "title": {
+    "en": "dsh-think-translate",
+    "zh": "dsh-think-translate"
+   },
+   "description": {
+    "en": "Translate the reasoning / thinking chain (chain-of-thought), task cards and answers of the DeepSeek Harness Web UI into one of 8 target languages",
+    "zh": "把 DeepSeek Harness 网页里的思考链、任务卡和回答一键翻成 8 种语言，看 AI 推理不再卡在英文上。"
+   },
+   "author": "UncleK",
+   "homepage": "https://github.com/UncleK/dsh-think-translate",
+   "repository": {
+    "url": "https://github.com/UncleK/dsh-think-translate"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1794421842,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/UncleK/dsh-think-translate",
+      "commit": "3d4cc09ca1c3b7650c647871ffc63028637b6cb1"
+     },
+     "engines": {
+      "dsh": ">=0.1.0-rc.6"
      }
     }
    ]
@@ -1947,11 +1947,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794592513,
+     "publishTimestamp": 1794592730,
      "source": {
       "type": "git",
       "url": "https://github.com/Vncntvx/dsh-zotero",
-      "commit": "6b469672fdd43376f35e56176cae78ddf4beb965"
+      "commit": "63bbb018da48ce37676099b2cc2513ca6d87d05a"
      },
      "engines": {
       "dsh": ">=0.2.2-rc.2"
@@ -2007,7 +2007,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794326325,
+     "publishTimestamp": 1794594462,
      "source": {
       "type": "git",
       "url": "https://github.com/john-walks-slow/dsh-inject",
@@ -2101,7 +2101,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-plugin-guide",
-      "commit": "5350eae66cca162a88ef321d4ce90db865fb9056"
+      "commit": "f59c42500aa2e4211026570ac755405cdb35a9c4"
      },
      "engines": {
       "dsh": ">=0.2.2-0 <0.3.0"
@@ -2251,7 +2251,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/caoyiwei850/dsh-ssh-ops",
-      "commit": "29529fc20fd43fd55f81754cfb801921f6698fd7"
+      "commit": "3146370470f50781ad47ba508103dd3c8b90ed2d"
      },
      "engines": {
       "dsh": ">=0.2.0"
