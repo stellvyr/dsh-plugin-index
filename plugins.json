@@ -57,11 +57,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794922286,
+     "publishTimestamp": 1795086097,
      "source": {
       "type": "git",
       "url": "https://github.com/zhu1090093659/dsh-web",
-      "commit": "5d4bf78e319393ac20d9f5acecc7a0e43f970bee"
+      "commit": "f8a30f157d8921fc2998b3cb09ddef3bbf5e75bf"
      },
      "engines": {
       "dsh": "^0.2.2-rc.3"
@@ -87,11 +87,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794910454,
+     "publishTimestamp": 1795082091,
      "source": {
       "type": "git",
       "url": "https://github.com/QingYunA/answer-me-with-html",
-      "commit": "912bad4cb7ccdb3729262bf885f5280b3da941ee"
+      "commit": "b1f3b9f876b9c24c1423fd940623159e78525816"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -237,11 +237,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794832596,
+     "publishTimestamp": 1795099426,
      "source": {
       "type": "git",
       "url": "https://github.com/keli-wen/agy-staff",
-      "commit": "f6f7015bb4de9759c6eb40749faac635aa626ca3"
+      "commit": "50090900874d9f0cb11dd2d82c1f374c20656541"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -460,6 +460,36 @@
    ]
   },
   {
+   "name": "@huaguoxingkong/dsh-prompt-rewriter",
+   "title": {
+    "en": "dsh-prompt-rewriter",
+    "zh": "dsh-prompt-rewriter"
+   },
+   "description": {
+    "en": "输入框旁一键提示词增强：把半成品草稿原地改成可执行的提示词，只改不发送。",
+    "zh": "输入框旁一键把半成品草稿改写成可执行的提示词，只改不发送，省去反复打磨的功夫。"
+   },
+   "author": "huaguoxingkong",
+   "homepage": "https://github.com/huaguoxingkong/dsh-prompt-rewriter",
+   "repository": {
+    "url": "https://github.com/huaguoxingkong/dsh-prompt-rewriter"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1795059648,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/huaguoxingkong/dsh-prompt-rewriter",
+      "commit": "d054be7c0ed2f5dcf6fbb56e342945834ab46fff"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
    "name": "@chokwinlee/deepseek-harness-desktop",
    "title": {
     "en": "deepseek-harness-desktop",
@@ -482,36 +512,6 @@
       "type": "git",
       "url": "https://github.com/chokwinlee/deepseek-harness-desktop",
       "commit": "1b17b8d82cd2b7d4b03fad3eade1de6bbc4acbce"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@huaguoxingkong/dsh-prompt-rewriter",
-   "title": {
-    "en": "dsh-prompt-rewriter",
-    "zh": "dsh-prompt-rewriter"
-   },
-   "description": {
-    "en": "输入框旁一键提示词增强：把半成品草稿原地改成可执行的提示词，只改不发送。",
-    "zh": "输入框旁一键把半成品草稿改写成可执行的提示词，只改不发送，省去反复打磨的功夫。"
-   },
-   "author": "huaguoxingkong",
-   "homepage": "https://github.com/huaguoxingkong/dsh-prompt-rewriter",
-   "repository": {
-    "url": "https://github.com/huaguoxingkong/dsh-prompt-rewriter"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1794560537,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/huaguoxingkong/dsh-prompt-rewriter",
-      "commit": "b820563dcd696a7b0a670b5201f8b772bf15a947"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -545,6 +545,36 @@
      },
      "engines": {
       "dsh": "^0.2.2-rc.1"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@xqpsec/dsh-jailbreak",
+   "title": {
+    "en": "dsh-jailbreak",
+    "zh": "dsh-jailbreak"
+   },
+   "description": {
+    "en": "Request-boundary rewriter for outbound `/chat/completions`: applies a seed-prim execution-state seed across 20 refusal categories, zero host patches, off means verbatim passthrough, optional SCOPE gate, manifest + promptSha256 per rewrite.",
+    "zh": "在请求边界注入提示词，让模型少说「我不能」，带阀门可开关，基线 17/20 可复核。"
+   },
+   "author": "xqpsec",
+   "homepage": "https://xqpsec.github.io/dsh-jailbreak/",
+   "repository": {
+    "url": "https://github.com/xqpsec/dsh-jailbreak"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1794070119,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/xqpsec/dsh-jailbreak",
+      "commit": "d40fa84748d1f2e663b443078955b75a218cdb5c"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
      }
     }
    ]
@@ -610,36 +640,6 @@
    ]
   },
   {
-   "name": "@xqpsec/dsh-jailbreak",
-   "title": {
-    "en": "dsh-jailbreak",
-    "zh": "dsh-jailbreak"
-   },
-   "description": {
-    "en": "Request-boundary rewriter for outbound `/chat/completions`: applies a seed-prim execution-state seed across 20 refusal categories, zero host patches, off means verbatim passthrough, optional SCOPE gate, manifest + promptSha256 per rewrite.",
-    "zh": "在请求边界注入提示词，让模型少说「我不能」，带阀门可开关，基线 17/20 可复核。"
-   },
-   "author": "xqpsec",
-   "homepage": "https://xqpsec.github.io/dsh-jailbreak/",
-   "repository": {
-    "url": "https://github.com/xqpsec/dsh-jailbreak"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1794070119,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/xqpsec/dsh-jailbreak",
-      "commit": "d40fa84748d1f2e663b443078955b75a218cdb5c"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
    "name": "@perrylink/dsh-auto-review",
    "title": {
     "en": "dsh-auto-review",
@@ -657,7 +657,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794646968,
+     "publishTimestamp": 1795010980,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-auto-review",
@@ -700,6 +700,36 @@
    ]
   },
   {
+   "name": "@perrylink/dsh-research-report",
+   "title": {
+    "en": "dsh-research-report",
+    "zh": "dsh-research-report"
+   },
+   "description": {
+    "en": "Verifiable research-report engine for DeepSeek Harness: content-addressed evidence ledger (claim-to-snapshot binding, tamper-evident) and versioned sealed reports with per-claim verification verdicts and a manifest SHA-256 seal.",
+    "zh": "给研究报告的每条结论绑定可核验的证据快照，防止篡改，并生成带逐条核验结论的版本化报告。"
+   },
+   "author": "PerryLink",
+   "homepage": "https://www.npmjs.com/package/dsh-research-report",
+   "repository": {
+    "url": "https://github.com/PerryLink/dsh-research-report"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1795062931,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/PerryLink/dsh-research-report",
+      "commit": "8f3057f0e55d5c70693e6a925e8ee7433a8f7017"
+     },
+     "engines": {
+      "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
+     }
+    }
+   ]
+  },
+  {
    "name": "@ayase34/gal-view",
    "title": {
     "en": "gal-view",
@@ -730,31 +760,31 @@
    ]
   },
   {
-   "name": "@perrylink/dsh-research-report",
+   "name": "@oriliz/dsh-mcp-apps-host",
    "title": {
-    "en": "dsh-research-report",
-    "zh": "dsh-research-report"
+    "en": "dsh-mcp-apps-host",
+    "zh": "dsh-mcp-apps-host"
    },
    "description": {
-    "en": "Verifiable research-report engine for DeepSeek Harness: content-addressed evidence ledger (claim-to-snapshot binding, tamper-evident) and versioned sealed reports with per-claim verification verdicts and a manifest SHA-256 seal.",
-    "zh": "给研究报告的每条结论绑定可核验的证据快照，防止篡改，并生成带逐条核验结论的版本化报告。"
+    "en": "MCP Apps Host plugin for DeepSeek Harness: renders interactive HTML cards from MCP _meta.ui in sandboxed iframes, bridges postMessage to MCP tools/call and resources/read",
+    "zh": "在沙箱中渲染MCP应用卡片，通过消息桥接调用工具和读取资源，让交互界面更安全灵活。"
    },
-   "author": "PerryLink",
-   "homepage": "https://www.npmjs.com/package/dsh-research-report",
+   "author": "oriliz",
+   "homepage": "https://github.com/oriliz/dsh-mcp-apps-host",
    "repository": {
-    "url": "https://github.com/PerryLink/dsh-research-report"
+    "url": "https://github.com/oriliz/dsh-mcp-apps-host"
    },
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794592492,
+     "publishTimestamp": 1794935207,
      "source": {
       "type": "git",
-      "url": "https://github.com/PerryLink/dsh-research-report",
-      "commit": "c2b4d91cd23b18c26ce43572531055b00af83fad"
+      "url": "https://github.com/oriliz/dsh-mcp-apps-host",
+      "commit": "dbae84d859c4a42a7a279289c8feed13dc36583b"
      },
      "engines": {
-      "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
+      "dsh": ">=0.1.0"
      }
     }
    ]
@@ -777,41 +807,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794937128,
+     "publishTimestamp": 1795098819,
      "source": {
       "type": "git",
       "url": "https://github.com/LarryE135/dsh-flash-presets",
-      "commit": "ca4d75601717c70a7e7df3aa6666a65b79e61de7"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@e2mcc/dsh-popout-sidebar",
-   "title": {
-    "en": "dsh-popout-sidebar",
-    "zh": "dsh-popout-sidebar"
-   },
-   "description": {
-    "en": "A sidebar can pop out a separate browser tab (drag it to another monitor)",
-    "zh": "侧边栏展示文件树和产物，支持多种预览，还能弹出成独立标签页拖到别的显示器看。"
-   },
-   "author": "e2mcc",
-   "homepage": "https://github.com/e2mcc/dsh-popout-sidebar",
-   "repository": {
-    "url": "https://github.com/e2mcc/dsh-popout-sidebar"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1791656733,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/e2mcc/dsh-popout-sidebar",
-      "commit": "f2c72d6b39df536072c075b1f0c55eff84b12e77"
+      "commit": "fa89909cd2356fe3b8a3274b6d6f07fe8d6afac3"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -850,6 +850,36 @@
    ]
   },
   {
+   "name": "@e2mcc/dsh-popout-sidebar",
+   "title": {
+    "en": "dsh-popout-sidebar",
+    "zh": "dsh-popout-sidebar"
+   },
+   "description": {
+    "en": "A sidebar can pop out a separate browser tab (drag it to another monitor)",
+    "zh": "侧边栏展示文件树和产物，支持多种预览，还能弹出成独立标签页拖到别的显示器看。"
+   },
+   "author": "e2mcc",
+   "homepage": "https://github.com/e2mcc/dsh-popout-sidebar",
+   "repository": {
+    "url": "https://github.com/e2mcc/dsh-popout-sidebar"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1791656733,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/e2mcc/dsh-popout-sidebar",
+      "commit": "f2c72d6b39df536072c075b1f0c55eff84b12e77"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
    "name": "@graysilver/dsh-evolve-modes",
    "title": {
     "en": "dsh-evolve-modes",
@@ -880,36 +910,6 @@
    ]
   },
   {
-   "name": "@yuuyuko-uu/dsh-qq-link",
-   "title": {
-    "en": "dsh-qq-link",
-    "zh": "dsh-qq-link"
-   },
-   "description": {
-    "en": "通到 QQ：DSH 里的 AI 伙伴和 QQ 双向互通 —— 它说完话自动发到 QQ，你在 QQ 说的话自动转进 DSH（走 OneBot 11 HTTP，NapCat / SnowLuma 都行）",
-    "zh": "让 DSH 里的 AI 伙伴和 QQ 双向互通，它说的话自动发到 QQ，你在 QQ 说的话自动转进 DSH。"
-   },
-   "author": "Yuuyuko-uu",
-   "homepage": "https://github.com/Yuuyuko-uu/dsh-qq-bridge",
-   "repository": {
-    "url": "https://github.com/Yuuyuko-uu/dsh-qq-link"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1794897591,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/Yuuyuko-uu/dsh-qq-link",
-      "commit": "55dabb42f2bfb07a8ddfcfcb3cbfbb7b64baedd5"
-     },
-     "engines": {
-      "dsh": ">=0.2.1-rc.2"
-     }
-    }
-   ]
-  },
-  {
    "name": "@frostming/dsh-hongguo",
    "title": {
     "en": "dsh-hongguo",
@@ -935,6 +935,36 @@
      },
      "engines": {
       "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@yuuyuko-uu/dsh-qq-link",
+   "title": {
+    "en": "dsh-qq-link",
+    "zh": "dsh-qq-link"
+   },
+   "description": {
+    "en": "通到 QQ：DSH 里的 AI 伙伴和 QQ 双向互通 —— 它说完话自动发到 QQ，你在 QQ 说的话自动转进 DSH（走 OneBot 11 HTTP，NapCat / SnowLuma 都行）",
+    "zh": "让 DSH 里的 AI 伙伴和 QQ 双向互通，它说的话自动发到 QQ，你在 QQ 说的话自动转进 DSH。"
+   },
+   "author": "Yuuyuko-uu",
+   "homepage": "https://github.com/Yuuyuko-uu/dsh-qq-bridge",
+   "repository": {
+    "url": "https://github.com/Yuuyuko-uu/dsh-qq-link"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1794897591,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/Yuuyuko-uu/dsh-qq-link",
+      "commit": "55dabb42f2bfb07a8ddfcfcb3cbfbb7b64baedd5"
+     },
+     "engines": {
+      "dsh": ">=0.2.1-rc.2"
      }
     }
    ]
@@ -1137,14 +1167,14 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794586855,
+     "publishTimestamp": 1795017232,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-memento",
       "commit": "4de8044d96c2a87d7cdc2d1628fb6280f55eb484"
      },
      "engines": {
-      "dsh": "0.2.2-rc.3"
+      "dsh": "0.2.2-rc.4"
      }
     }
    ]
@@ -1167,14 +1197,14 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794646970,
+     "publishTimestamp": 1795063042,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-permission-rules",
-      "commit": "d2771a88629f9b9b1db65d567074cf39f0f3497d"
+      "commit": "6956b19fc2b0575bca128ca2df9e6f1c039e444f"
      },
      "engines": {
-      "dsh": "0.2.2-rc.3"
+      "dsh": "0.2.2-rc.4"
      }
     }
    ]
@@ -1227,41 +1257,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794872634,
+     "publishTimestamp": 1795041254,
      "source": {
       "type": "git",
       "url": "https://github.com/Noob-stupid/dsh-plugin-gating-hub",
-      "commit": "cfc467de0888f9863ba64ae46ffb6b36726f3855"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@tabbit-browser/dsh-tabbit",
-   "title": {
-    "en": "dsh-tabbit",
-    "zh": "dsh-tabbit"
-   },
-   "description": {
-    "en": "Drive the user's Tabbit Browser from DSH via its Browser-owned, task-isolated Playwright CLI (`tabbit-cli`): bundled `tabbit-browser` skill, ≥1.9.0 runtime preflight, region-aware installer download, and persistent named task spaces (no Chrome/Ego/CDP fallback).",
-    "zh": "在 DSH 里直接操控 Tabbit 浏览器，自动完成网页操作任务。"
-   },
-   "author": "Tabbit-Browser",
-   "homepage": "https://www.tabbit.ai",
-   "repository": {
-    "url": "https://github.com/Tabbit-Browser/dsh-tabbit"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1793681366,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/Tabbit-Browser/dsh-tabbit",
-      "commit": "4d256b7db3317961e3599bf2820e8b1be6e2d2be"
+      "commit": "c3ca889e6c0e72b442d72f3310519cbe2860ce13"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -1295,6 +1295,36 @@
      },
      "engines": {
       "dsh": ">=0.1.5-rc.1"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@tabbit-browser/dsh-tabbit",
+   "title": {
+    "en": "dsh-tabbit",
+    "zh": "dsh-tabbit"
+   },
+   "description": {
+    "en": "Drive the user's Tabbit Browser from DSH via its Browser-owned, task-isolated Playwright CLI (`tabbit-cli`): bundled `tabbit-browser` skill, ≥1.9.0 runtime preflight, region-aware installer download, and persistent named task spaces (no Chrome/Ego/CDP fallback).",
+    "zh": "在 DSH 里直接操控 Tabbit 浏览器，自动完成网页操作任务。"
+   },
+   "author": "Tabbit-Browser",
+   "homepage": "https://www.tabbit.ai",
+   "repository": {
+    "url": "https://github.com/Tabbit-Browser/dsh-tabbit"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1793681366,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/Tabbit-Browser/dsh-tabbit",
+      "commit": "4d256b7db3317961e3599bf2820e8b1be6e2d2be"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
      }
     }
    ]
@@ -1407,7 +1437,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794959229,
+     "publishTimestamp": 1794969900,
      "source": {
       "type": "git",
       "url": "https://github.com/01men/ybkkasi",
@@ -1557,11 +1587,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794591311,
+     "publishTimestamp": 1795063710,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-mcp-panel",
-      "commit": "08133af7d92d6d741dbca679258694469108f7f4"
+      "commit": "2d2cf738c2ef0e11186ea49d253b067aefc7b985"
      },
      "engines": {
       "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
@@ -1660,6 +1690,36 @@
    ]
   },
   {
+   "name": "@deiael/dsh-live-vibecoding",
+   "title": {
+    "en": "dsh-live-vibeCoding",
+    "zh": "dsh-live-vibeCoding"
+   },
+   "description": {
+    "en": "DeepSeek Harness plugin",
+    "zh": "让 DSH 智能体帮你开 B 站直播，自动读弹幕、谢礼物、欢迎观众、记住老粉并排队接观众需求。"
+   },
+   "author": "Deiael",
+   "homepage": "https://github.com/Deiael/dsh-live-vibeCoding",
+   "repository": {
+    "url": "https://github.com/Deiael/dsh-live-vibeCoding"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1793604901,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/Deiael/dsh-live-vibeCoding",
+      "commit": "d34f72e04023fdcef6d95ca23a7cd41ee498dbc5"
+     },
+     "engines": {
+      "dsh": "0.2.0-rc.2"
+     }
+    }
+   ]
+  },
+  {
    "name": "@vibe-any/dsh-plugin-save-token",
    "title": {
     "en": "dsh-plugin-save-token",
@@ -1750,6 +1810,36 @@
    ]
   },
   {
+   "name": "@vncntvx/dsh-zotero",
+   "title": {
+    "en": "dsh-zotero",
+    "zh": "dsh-zotero"
+   },
+   "description": {
+    "en": "Zotero plugin for DeepSeek Harness: search and read papers in conversation, audit the literature trail, and browse the literature panel.",
+    "zh": "将 Zotero 文献管理接入 DeepSeek Harness，方便 AI 助手读取和引用你的文献库。"
+   },
+   "author": "Vncntvx",
+   "homepage": "https://github.com/Vncntvx/dsh-zotero",
+   "repository": {
+    "url": "https://github.com/Vncntvx/dsh-zotero"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1795088263,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/Vncntvx/dsh-zotero",
+      "commit": "9d5bfa08291fdffe8049e923033512aba6f6dab6"
+     },
+     "engines": {
+      "dsh": ">=0.2.2-rc.4"
+     }
+    }
+   ]
+  },
+  {
    "name": "@kytolly/dsh-evolve-in-git",
    "title": {
     "en": "dsh-evolve-in-git",
@@ -1810,31 +1900,31 @@
    ]
   },
   {
-   "name": "@vncntvx/dsh-zotero",
+   "name": "@john-walks-slow/dsh-inject",
    "title": {
-    "en": "dsh-zotero",
-    "zh": "dsh-zotero"
+    "en": "dsh-inject",
+    "zh": "dsh-inject"
    },
    "description": {
-    "en": "Zotero plugin for DeepSeek Harness: search and read papers in conversation, audit the literature trail, and browse the literature panel.",
-    "zh": "将 Zotero 文献管理接入 DeepSeek Harness，方便 AI 助手读取和引用你的文献库。"
+    "en": "Advanced model-context injection and request-only rewriting for DeepSeek Harness with native Keysmith rules compatibility.",
+    "zh": "只改发给模型的请求副本，不碰会话记录和本地文件，随时开关无痕的上下文注入插件"
    },
-   "author": "Vncntvx",
-   "homepage": "https://github.com/Vncntvx/dsh-zotero",
+   "author": "john-walks-slow",
+   "homepage": "https://www.npmjs.com/package/dsh-inject",
    "repository": {
-    "url": "https://github.com/Vncntvx/dsh-zotero"
+    "url": "https://github.com/john-walks-slow/dsh-inject"
    },
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794926397,
+     "publishTimestamp": 1794594462,
      "source": {
       "type": "git",
-      "url": "https://github.com/Vncntvx/dsh-zotero",
-      "commit": "c417ae98f6f5d97cb4705eae79ad51ee89007ed9"
+      "url": "https://github.com/john-walks-slow/dsh-inject",
+      "commit": "334b7a677e3f7673f934697611382d43e55c0ffa"
      },
      "engines": {
-      "dsh": ">=0.2.2-rc.3"
+      "dsh": "^0.2.1-rc.2"
      }
     }
    ]
@@ -1895,66 +1985,6 @@
      },
      "engines": {
       "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@deiael/dsh-live-vibecoding",
-   "title": {
-    "en": "dsh-live-vibeCoding",
-    "zh": "dsh-live-vibeCoding"
-   },
-   "description": {
-    "en": "DeepSeek Harness plugin",
-    "zh": "让 DSH 智能体帮你开 B 站直播，自动读弹幕、谢礼物、欢迎观众、记住老粉并排队接观众需求。"
-   },
-   "author": "Deiael",
-   "homepage": "https://github.com/Deiael/dsh-live-vibeCoding",
-   "repository": {
-    "url": "https://github.com/Deiael/dsh-live-vibeCoding"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1793604901,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/Deiael/dsh-live-vibeCoding",
-      "commit": "d34f72e04023fdcef6d95ca23a7cd41ee498dbc5"
-     },
-     "engines": {
-      "dsh": "0.2.0-rc.2"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@john-walks-slow/dsh-inject",
-   "title": {
-    "en": "dsh-inject",
-    "zh": "dsh-inject"
-   },
-   "description": {
-    "en": "Advanced model-context injection and request-only rewriting for DeepSeek Harness with native Keysmith rules compatibility.",
-    "zh": "只改发给模型的请求副本，不碰会话记录和本地文件，随时开关无痕的上下文注入插件"
-   },
-   "author": "john-walks-slow",
-   "homepage": "https://www.npmjs.com/package/dsh-inject",
-   "repository": {
-    "url": "https://github.com/john-walks-slow/dsh-inject"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1794594462,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/john-walks-slow/dsh-inject",
-      "commit": "334b7a677e3f7673f934697611382d43e55c0ffa"
-     },
-     "engines": {
-      "dsh": "^0.2.1-rc.2"
      }
     }
    ]
@@ -2050,36 +2080,6 @@
    ]
   },
   {
-   "name": "@perrylink/dsh-plugin-guide",
-   "title": {
-    "en": "dsh-plugin-guide",
-    "zh": "dsh-plugin-guide"
-   },
-   "description": {
-    "en": "Plugin-development knowledge base as an on-demand agent skill: official constraints, task workflows, API references, and community pitfalls.",
-    "zh": "把插件开发知识库做成随叫随到的技能，查规范、走流程、避坑一站搞定。"
-   },
-   "author": "PerryLink",
-   "homepage": "https://www.npmjs.com/package/dsh-plugin-guide",
-   "repository": {
-    "url": "https://github.com/PerryLink/dsh-plugin-guide"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1794667970,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/PerryLink/dsh-plugin-guide",
-      "commit": "2b82ac4f1d65db9c7108f904881e631c5253058e"
-     },
-     "engines": {
-      "dsh": ">=0.2.2-0 <0.3.0"
-     }
-    }
-   ]
-  },
-  {
    "name": "@perrylink/dsh-fund-research",
    "title": {
     "en": "dsh-fund-research",
@@ -2097,7 +2097,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794592452,
+     "publishTimestamp": 1795015649,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-fund-research",
@@ -2105,6 +2105,36 @@
      },
      "engines": {
       "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@perrylink/dsh-plugin-guide",
+   "title": {
+    "en": "dsh-plugin-guide",
+    "zh": "dsh-plugin-guide"
+   },
+   "description": {
+    "en": "Plugin-development knowledge base as an on-demand agent skill: official constraints, task workflows, API references, and community pitfalls.",
+    "zh": "把插件开发知识库做成随叫随到的技能，查规范、走流程、避坑一站搞定。"
+   },
+   "author": "PerryLink",
+   "homepage": "https://www.npmjs.com/package/dsh-plugin-guide",
+   "repository": {
+    "url": "https://github.com/PerryLink/dsh-plugin-guide"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1795015935,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/PerryLink/dsh-plugin-guide",
+      "commit": "2b82ac4f1d65db9c7108f904881e631c5253058e"
+     },
+     "engines": {
+      "dsh": ">=0.2.2-0 <0.3.0"
      }
     }
    ]
@@ -2135,6 +2165,36 @@
      },
      "engines": {
       "dsh": "0.1.7-rc.2"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@xiazhi88/dshgo",
+   "title": {
+    "en": "dshgo",
+    "zh": "dshgo"
+   },
+   "description": {
+    "en": "DSH Go —— 在手机/平板上用 DeepSeek Harness。Android App + 让电脑可达的 DSH 插件。",
+    "zh": "装个安卓 App，再给电脑加个插件，就能在手机平板上随时用 DSH，还能收通知、传附件。"
+   },
+   "author": "xiazhi88",
+   "homepage": "https://github.com/xiazhi88/dshgo",
+   "repository": {
+    "url": "https://github.com/xiazhi88/dshgo"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1789748145,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/xiazhi88/dshgo",
+      "commit": "f213fb4b861178e71025465d0f1d6fb659444e2c"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
      }
     }
    ]
@@ -2200,36 +2260,6 @@
    ]
   },
   {
-   "name": "@xiazhi88/dshgo",
-   "title": {
-    "en": "dshgo",
-    "zh": "dshgo"
-   },
-   "description": {
-    "en": "DSH Go —— 在手机/平板上用 DeepSeek Harness。Android App + 让电脑可达的 DSH 插件。",
-    "zh": "装个安卓 App，再给电脑加个插件，就能在手机平板上随时用 DSH，还能收通知、传附件。"
-   },
-   "author": "xiazhi88",
-   "homepage": "https://github.com/xiazhi88/dshgo",
-   "repository": {
-    "url": "https://github.com/xiazhi88/dshgo"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1789748145,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/xiazhi88/dshgo",
-      "commit": "f213fb4b861178e71025465d0f1d6fb659444e2c"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
    "name": "@tkingxiao/dsh-any-background",
    "title": {
     "en": "dsh-any-background",
@@ -2247,7 +2277,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794591698,
+     "publishTimestamp": 1795029901,
      "source": {
       "type": "git",
       "url": "https://github.com/Tkingxiao/dsh-any-background",
@@ -2255,36 +2285,6 @@
      },
      "engines": {
       "dsh": "^0.1.0-rc.6"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@perrylink/dsh-doublecheck",
-   "title": {
-    "en": "dsh-doublecheck",
-    "zh": "dsh-doublecheck"
-   },
-   "description": {
-    "en": "Engineering-discipline loop: requirement grilling before edits, red/green test-evidence gates, adversarial delivery review, and a report with per-dimension verification.",
-    "zh": "改代码前先盘清需求，用红绿测试证据把关，交付前再做对抗式审查并出分维度报告。"
-   },
-   "author": "PerryLink",
-   "homepage": "https://www.npmjs.com/package/dsh-doublecheck",
-   "repository": {
-    "url": "https://github.com/PerryLink/dsh-doublecheck"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1794586069,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/PerryLink/dsh-doublecheck",
-      "commit": "80277fa4d3c2c76c217333cb9dcc5d9531caed76"
-     },
-     "engines": {
-      "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
      }
     }
    ]
@@ -2350,6 +2350,36 @@
    ]
   },
   {
+   "name": "@perrylink/dsh-doublecheck",
+   "title": {
+    "en": "dsh-doublecheck",
+    "zh": "dsh-doublecheck"
+   },
+   "description": {
+    "en": "Engineering-discipline loop: requirement grilling before edits, red/green test-evidence gates, adversarial delivery review, and a report with per-dimension verification.",
+    "zh": "改代码前先盘清需求，用红绿测试证据把关，交付前再做对抗式审查并出分维度报告。"
+   },
+   "author": "PerryLink",
+   "homepage": "https://www.npmjs.com/package/dsh-doublecheck",
+   "repository": {
+    "url": "https://github.com/PerryLink/dsh-doublecheck"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1795015631,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/PerryLink/dsh-doublecheck",
+      "commit": "80277fa4d3c2c76c217333cb9dcc5d9531caed76"
+     },
+     "engines": {
+      "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
+     }
+    }
+   ]
+  },
+  {
    "name": "@caoyiwei850/dsh-ssh-ops",
    "title": {
     "en": "dsh-ssh-ops",
@@ -2367,44 +2397,14 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794660765,
+     "publishTimestamp": 1795097783,
      "source": {
       "type": "git",
       "url": "https://github.com/caoyiwei850/dsh-ssh-ops",
-      "commit": "3146370470f50781ad47ba508103dd3c8b90ed2d"
+      "commit": "a6e03ba69423df9a00baa05db5d7fa46c070681a"
      },
      "engines": {
       "dsh": ">=0.2.0"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@kide-lee/dsh-locus-bridge",
-   "title": {
-    "en": "dsh-locus-bridge",
-    "zh": "dsh-locus-bridge"
-   },
-   "description": {
-    "en": "DSH plugin acting as a Locus client for the Unity native broker (Win32 named pipe / Unix domain socket)",
-    "zh": "让 DSH 通过命名管道或 Unix 套接字连上 Unity 原生 broker，实现与 Unity 编辑器的本地通信。"
-   },
-   "author": "Kide-Lee",
-   "homepage": "https://github.com/Kide-Lee/dsh-locus-bridge",
-   "repository": {
-    "url": "https://github.com/Kide-Lee/dsh-locus-bridge"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1794962079,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/Kide-Lee/dsh-locus-bridge",
-      "commit": "359d49fca44c565bf3343b18297977894bcc6d48"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
      }
     }
    ]
