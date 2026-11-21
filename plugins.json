@@ -31,7 +31,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/alchaincyf/nuwa-skill",
-      "commit": "1723347cb54bcfdd63908df141ac9d87a92f3f33"
+      "commit": "8944932e35597bbcaf52b807e506c3900d0557c1"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -421,7 +421,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/Phant0Meow/dsh-meow-memory",
-      "commit": "435b26d3a17a41e5d7dc095f18f4b3336224d769"
+      "commit": "9203521665c4101bd8c36720da9054e249dded18"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -691,7 +691,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-auto-review",
-      "commit": "19bc4f8ba6eb83f3f9e028030bed0d4b6b5fc8b6"
+      "commit": "e67b7bc76e7e75e06aa7341e8be1fc53e5ac9b73"
      },
      "engines": {
       "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
@@ -751,7 +751,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-research-report",
-      "commit": "8f3057f0e55d5c70693e6a925e8ee7433a8f7017"
+      "commit": "10121b0245edcfe1f1758a6424a7b311673731db"
      },
      "engines": {
       "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
@@ -987,7 +987,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795156108,
+     "publishTimestamp": 1795201801,
      "source": {
       "type": "git",
       "url": "https://github.com/Yuuyuko-uu/dsh-qq-link",
@@ -1021,7 +1021,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/ymh0000123/dsh-theme-endfield",
-      "commit": "7f3a174e9162d78037695b98d92a08711ac202c1"
+      "commit": "798718b6a8350a67ef36f2d4c4969ea0a6404c72"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -1180,36 +1180,6 @@
    ]
   },
   {
-   "name": "@luminousyyh/skill-wb-exec",
-   "title": {
-    "en": "skill-wb-exec",
-    "zh": "skill-wb-exec"
-   },
-   "description": {
-    "en": "Delegate bounded coding tasks to a headless WorkBuddy/CodeBuddy CLI agent from DeepSeek Harness — structured result, real diff, path whitelist and worktree isolation.",
-    "zh": "把有限的编码任务交给后台 CLI 代理执行，自动返回结构化结果和真实 diff，省心又安全。"
-   },
-   "author": "Luminousyyh",
-   "homepage": "https://github.com/Luminousyyh/skill-wb-exec",
-   "repository": {
-    "url": "https://github.com/Luminousyyh/skill-wb-exec"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1794156537,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/Luminousyyh/skill-wb-exec",
-      "commit": "f02c7f259bab490722dc2f2adc41481500cfd61d"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
    "name": "@perrylink/dsh-memento",
    "title": {
     "en": "dsh-memento",
@@ -1231,7 +1201,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-memento",
-      "commit": "4de8044d96c2a87d7cdc2d1628fb6280f55eb484"
+      "commit": "56e89f8daf2a9e2c7f750f03ce4acd7c0e79a2e5"
      },
      "engines": {
       "dsh": "0.2.2-rc.4"
@@ -1261,40 +1231,10 @@
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-permission-rules",
-      "commit": "6956b19fc2b0575bca128ca2df9e6f1c039e444f"
+      "commit": "acffbbe854a8ecf68930c12fe367d1a0784e0ad7"
      },
      "engines": {
       "dsh": "0.2.2-rc.4"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@noob-stupid/dsh-plugin-gating-hub",
-   "title": {
-    "en": "dsh-plugin-gating-hub",
-    "zh": "dsh-plugin-gating-hub"
-   },
-   "description": {
-    "en": "A plugin manager and GitHub dsh-plugin marketplace for the DSH Web UI.",
-    "zh": "在 DSH Web 界面里管理插件、逛 GitHub 插件市场，还能安全升级和回滚。"
-   },
-   "author": "Noob-stupid",
-   "homepage": "https://github.com/Noob-stupid/dsh-plugin-hub/tree/main/docs",
-   "repository": {
-    "url": "https://github.com/Noob-stupid/dsh-plugin-gating-hub"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1795127960,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/Noob-stupid/dsh-plugin-gating-hub",
-      "commit": "c80c8fb677bb8882f2d4fe7e4cc23e29e80bbda9"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
      }
     }
    ]
@@ -1322,6 +1262,36 @@
       "type": "git",
       "url": "https://github.com/Renzic-Stone/DSH-EasyRewrite",
       "commit": "0fca0d993dd0b883f9aaa80e6cac634dfba20f07"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@noob-stupid/dsh-plugin-gating-hub",
+   "title": {
+    "en": "dsh-plugin-gating-hub",
+    "zh": "dsh-plugin-gating-hub"
+   },
+   "description": {
+    "en": "A plugin manager and GitHub dsh-plugin marketplace for the DSH Web UI.",
+    "zh": "在 DSH Web 界面里管理插件、逛 GitHub 插件市场，还能安全升级和回滚。"
+   },
+   "author": "Noob-stupid",
+   "homepage": "https://github.com/Noob-stupid/dsh-plugin-hub/tree/main/docs",
+   "repository": {
+    "url": "https://github.com/Noob-stupid/dsh-plugin-gating-hub"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1795127960,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/Noob-stupid/dsh-plugin-gating-hub",
+      "commit": "33357e925bcc95bf7345b04c7f5cce35333d8480"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -1651,10 +1621,40 @@
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-mcp-panel",
-      "commit": "2d2cf738c2ef0e11186ea49d253b067aefc7b985"
+      "commit": "a4cb74995e7f61013dc158b68d734a9eaaaa1738"
      },
      "engines": {
       "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@luminousyyh/skill-wb-exec",
+   "title": {
+    "en": "skill-wb-exec",
+    "zh": "skill-wb-exec"
+   },
+   "description": {
+    "en": "Delegate bounded coding tasks to a headless WorkBuddy/CodeBuddy CLI agent from DeepSeek Harness — structured result, real diff, path whitelist and worktree isolation.",
+    "zh": "把有限的编码任务交给后台 CLI 代理执行，自动返回结构化结果和真实 diff，省心又安全。"
+   },
+   "author": "Luminousyyh",
+   "homepage": "https://github.com/Luminousyyh/skill-wb-exec",
+   "repository": {
+    "url": "https://github.com/Luminousyyh/skill-wb-exec"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1794156537,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/Luminousyyh/skill-wb-exec",
+      "commit": "f02c7f259bab490722dc2f2adc41481500cfd61d"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
      }
     }
    ]
@@ -2020,36 +2020,6 @@
    ]
   },
   {
-   "name": "@aitabby/dockyard-dsh",
-   "title": {
-    "en": "dockyard-dsh",
-    "zh": "dockyard-dsh"
-   },
-   "description": {
-    "en": "A native account-pool and provider plugin for DeepSeek Harness — Codex, Antigravity, Grok, Claude, Cursor, WorkBuddy, Command Code, Hermes and OpenRouter Free, on macOS and Windows.dsh-plugin",
-    "zh": "macOS 专属账号池与原生登录插件，帮你轻松管理多个 DeepSeek Harness 账号，自动切换免折腾。"
-   },
-   "author": "AITabby",
-   "homepage": "https://github.com/AITabby/dockyard-dsh",
-   "repository": {
-    "url": "https://github.com/AITabby/dockyard-dsh"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1794852792,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/AITabby/dockyard-dsh",
-      "commit": "fa00cd810e02ce85213a42ea9c91bde84136323f"
-     },
-     "engines": {
-      "dsh": ">=0.1.7-alpha.2"
-     }
-    }
-   ]
-  },
-  {
    "name": "@yiheng-guo/dsh-boot-animation-pro",
    "title": {
     "en": "dsh-boot-animation-pro",
@@ -2075,6 +2045,36 @@
      },
      "engines": {
       "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@aitabby/dockyard-dsh",
+   "title": {
+    "en": "dockyard-dsh",
+    "zh": "dockyard-dsh"
+   },
+   "description": {
+    "en": "A native account-pool and provider plugin for DeepSeek Harness — Codex, Antigravity, Grok, Claude, Cursor, WorkBuddy, Command Code, Hermes and OpenRouter Free, on macOS and Windows.dsh-plugin",
+    "zh": "macOS 专属账号池与原生登录插件，帮你轻松管理多个 DeepSeek Harness 账号，自动切换免折腾。"
+   },
+   "author": "AITabby",
+   "homepage": "https://github.com/AITabby/dockyard-dsh",
+   "repository": {
+    "url": "https://github.com/AITabby/dockyard-dsh"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1794852792,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/AITabby/dockyard-dsh",
+      "commit": "fa00cd810e02ce85213a42ea9c91bde84136323f"
+     },
+     "engines": {
+      "dsh": ">=0.1.7-alpha.2"
      }
     }
    ]
@@ -2281,7 +2281,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-fund-research",
-      "commit": "575831d253ed7d4786dee7e0cc0081508b67f663"
+      "commit": "f35cd54526f5100978da8975ee729373d2bb8b2e"
      },
      "engines": {
       "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
@@ -2311,7 +2311,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-plugin-guide",
-      "commit": "2b82ac4f1d65db9c7108f904881e631c5253058e"
+      "commit": "c7867c177eccad87278433833cc83dd41ce87c58"
      },
      "engines": {
       "dsh": ">=0.2.2-0 <0.3.0"
