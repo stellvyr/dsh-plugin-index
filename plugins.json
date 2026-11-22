@@ -27,7 +27,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794895634,
+     "publishTimestamp": 1795255076,
      "source": {
       "type": "git",
       "url": "https://github.com/alchaincyf/nuwa-skill",
@@ -57,11 +57,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795172446,
+     "publishTimestamp": 1795311843,
      "source": {
       "type": "git",
       "url": "https://github.com/zhu1090093659/dsh-web",
-      "commit": "e525c7d83c09a4d742b3be0fde2b26554d60d156"
+      "commit": "716f469264218ad2f9f1c72a5c3cda7e573d952e"
      },
      "engines": {
       "dsh": "^0.2.2-rc.3"
@@ -327,7 +327,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795190148,
+     "publishTimestamp": 1795235256,
      "source": {
       "type": "git",
       "url": "https://github.com/V1ki/dsh-plugin-subscriptions",
@@ -361,7 +361,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/XDTrees/dsh-xdpool",
-      "commit": "ccd4db397a04d9d266a94c018ae035e66cd5aefe"
+      "commit": "2c1bac06d61ddb23d496636f1c1ae2e28b88c8cd"
      },
      "engines": {
       "dsh": "0.1.5-rc.2"
@@ -417,7 +417,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794934743,
+     "publishTimestamp": 1795282178,
      "source": {
       "type": "git",
       "url": "https://github.com/Phant0Meow/dsh-meow-memory",
@@ -490,36 +490,6 @@
    ]
   },
   {
-   "name": "@huaguoxingkong/dsh-prompt-rewriter",
-   "title": {
-    "en": "dsh-prompt-rewriter",
-    "zh": "dsh-prompt-rewriter"
-   },
-   "description": {
-    "en": "输入框旁一键提示词增强：把半成品草稿原地改成可执行的提示词，只改不发送。",
-    "zh": "输入框旁一键把半成品草稿改写成可执行的提示词，只改不发送，省去反复打磨的功夫。"
-   },
-   "author": "huaguoxingkong",
-   "homepage": "https://github.com/huaguoxingkong/dsh-prompt-rewriter",
-   "repository": {
-    "url": "https://github.com/huaguoxingkong/dsh-prompt-rewriter"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1795059648,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/huaguoxingkong/dsh-prompt-rewriter",
-      "commit": "d054be7c0ed2f5dcf6fbb56e342945834ab46fff"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
    "name": "@xqpsec/dsh-jailbreak",
    "title": {
     "en": "dsh-jailbreak",
@@ -542,6 +512,36 @@
       "type": "git",
       "url": "https://github.com/xqpsec/dsh-jailbreak",
       "commit": "d40fa84748d1f2e663b443078955b75a218cdb5c"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@huaguoxingkong/dsh-prompt-rewriter",
+   "title": {
+    "en": "dsh-prompt-rewriter",
+    "zh": "dsh-prompt-rewriter"
+   },
+   "description": {
+    "en": "输入框旁一键提示词增强：把半成品草稿原地改成可执行的提示词，只改不发送。",
+    "zh": "输入框旁一键把半成品草稿改写成可执行的提示词，只改不发送，省去反复打磨的功夫。"
+   },
+   "author": "huaguoxingkong",
+   "homepage": "https://github.com/huaguoxingkong/dsh-prompt-rewriter",
+   "repository": {
+    "url": "https://github.com/huaguoxingkong/dsh-prompt-rewriter"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1795059648,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/huaguoxingkong/dsh-prompt-rewriter",
+      "commit": "754e121dfbd6ebddb0d514fe3105b6a6b1398c46"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -687,11 +687,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795189183,
+     "publishTimestamp": 1795258886,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-auto-review",
-      "commit": "e67b7bc76e7e75e06aa7341e8be1fc53e5ac9b73"
+      "commit": "f65a1d844fe556c38571e28789f40a2e3c169834"
      },
      "engines": {
       "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
@@ -730,6 +730,36 @@
    ]
   },
   {
+   "name": "@larrye135/dsh-flash-presets",
+   "title": {
+    "en": "dsh-flash-presets",
+    "zh": "dsh-flash-presets"
+   },
+   "description": {
+    "en": "降低Deepseek v4.1flash的Token消耗/Raising Token efficiency without lossing performance(Works for v4.1flash)",
+    "zh": "在保持 v4.1flash 效果不变的前提下，帮你省下更多 Token，用得更划算。"
+   },
+   "author": "LarryE135",
+   "homepage": "https://github.com/LarryE135/dsh-flash-presets",
+   "repository": {
+    "url": "https://github.com/LarryE135/dsh-flash-presets"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1795268213,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/LarryE135/dsh-flash-presets",
+      "commit": "fa89909cd2356fe3b8a3274b6d6f07fe8d6afac3"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
    "name": "@perrylink/dsh-research-report",
    "title": {
     "en": "dsh-research-report",
@@ -747,11 +777,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795062931,
+     "publishTimestamp": 1795258718,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-research-report",
-      "commit": "10121b0245edcfe1f1758a6424a7b311673731db"
+      "commit": "95b9ad8b8143c0c4f0bb5e13bf686ac6d3d4bce3"
      },
      "engines": {
       "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
@@ -782,36 +812,6 @@
       "type": "git",
       "url": "https://github.com/Ayase34/gal-view",
       "commit": "d002fe0e7051c618a2665af3c653f9838cd6aa8a"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@larrye135/dsh-flash-presets",
-   "title": {
-    "en": "dsh-flash-presets",
-    "zh": "dsh-flash-presets"
-   },
-   "description": {
-    "en": "降低Deepseek v4.1flash的Token消耗/Raising Token efficiency without lossing performance(Works for v4.1flash)",
-    "zh": "在保持 v4.1flash 效果不变的前提下，帮你省下更多 Token，用得更划算。"
-   },
-   "author": "LarryE135",
-   "homepage": "https://github.com/LarryE135/dsh-flash-presets",
-   "repository": {
-    "url": "https://github.com/LarryE135/dsh-flash-presets"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1795183918,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/LarryE135/dsh-flash-presets",
-      "commit": "fa89909cd2356fe3b8a3274b6d6f07fe8d6afac3"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -1017,7 +1017,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794581748,
+     "publishTimestamp": 1795254207,
      "source": {
       "type": "git",
       "url": "https://github.com/ymh0000123/dsh-theme-endfield",
@@ -1060,36 +1060,6 @@
    ]
   },
   {
-   "name": "@seriousz158/dsh-memory",
-   "title": {
-    "en": "dsh-memory",
-    "zh": "dsh-memory"
-   },
-   "description": {
-    "en": "DeepSeek Harness plugin",
-    "zh": "为 DeepSeek Harness 提供基于 Git 的本地长期记忆，让 AI 跨会话记住关键信息，提升对话连续性。"
-   },
-   "author": "seriousz158",
-   "homepage": "https://github.com/seriousz158/dsh-memory",
-   "repository": {
-    "url": "https://github.com/seriousz158/dsh-memory"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1791647943,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/seriousz158/dsh-memory",
-      "commit": "f7b03757f8bf546d3c007f8e9a074a847b681d3d"
-     },
-     "engines": {
-      "dsh": "0.1.0-rc.7"
-     }
-    }
-   ]
-  },
-  {
    "name": "@laynechai/superpowers-dsh",
    "title": {
     "en": "superpowers-dsh",
@@ -1115,6 +1085,36 @@
      },
      "engines": {
       "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@seriousz158/dsh-memory",
+   "title": {
+    "en": "dsh-memory",
+    "zh": "dsh-memory"
+   },
+   "description": {
+    "en": "DeepSeek Harness plugin",
+    "zh": "为 DeepSeek Harness 提供基于 Git 的本地长期记忆，让 AI 跨会话记住关键信息，提升对话连续性。"
+   },
+   "author": "seriousz158",
+   "homepage": "https://github.com/seriousz158/dsh-memory",
+   "repository": {
+    "url": "https://github.com/seriousz158/dsh-memory"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1791647943,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/seriousz158/dsh-memory",
+      "commit": "f7b03757f8bf546d3c007f8e9a074a847b681d3d"
+     },
+     "engines": {
+      "dsh": "0.1.0-rc.7"
      }
     }
    ]
@@ -1197,11 +1197,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795017232,
+     "publishTimestamp": 1795258660,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-memento",
-      "commit": "56e89f8daf2a9e2c7f750f03ce4acd7c0e79a2e5"
+      "commit": "563e5565ecb91cf264cac4f3acc16794e509aa23"
      },
      "engines": {
       "dsh": "0.2.2-rc.4"
@@ -1227,44 +1227,14 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795063042,
+     "publishTimestamp": 1795258665,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-permission-rules",
-      "commit": "acffbbe854a8ecf68930c12fe367d1a0784e0ad7"
+      "commit": "0eb27d07a3d8443a24a21a47f902450ee5d328ba"
      },
      "engines": {
       "dsh": "0.2.2-rc.4"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@renzic-stone/dsh-easyrewrite",
-   "title": {
-    "en": "DSH-EasyRewrite",
-    "zh": "DSH-EasyRewrite"
-   },
-   "description": {
-    "en": "DSH Web内目前最无感的消息撤回、重编辑插件，原版体验，兼容性强，功能简单可开关，设置丰富，现代化轻量ui框架。The most seamless message recall & re-edit plugin for DSH Web — native experience, strong compatibility, simple toggles, rich settings, modern lightweight UI. DSH Web で最もシームレスなメッセージ撤回・再編集プラグイン——ネイティブ体験、高い互換性、シンプルなトグル、充実した設定、モダンで軽量な UI。",
-    "zh": "让 DSH Web 里的消息撤回和重编辑像原生功能一样自然，支持多语言和丰富设置，轻量好用。"
-   },
-   "author": "Renzic-Stone",
-   "homepage": "https://github.com/Renzic-Stone/DSH-EasyRewrite",
-   "repository": {
-    "url": "https://github.com/Renzic-Stone/DSH-EasyRewrite"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1794487909,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/Renzic-Stone/DSH-EasyRewrite",
-      "commit": "0fca0d993dd0b883f9aaa80e6cac634dfba20f07"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
      }
     }
    ]
@@ -1287,11 +1257,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795127960,
+     "publishTimestamp": 1795294375,
      "source": {
       "type": "git",
       "url": "https://github.com/Noob-stupid/dsh-plugin-gating-hub",
-      "commit": "33357e925bcc95bf7345b04c7f5cce35333d8480"
+      "commit": "73f3b20a958c15f170abf98eefe9f7386d0de652"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -1325,6 +1295,36 @@
      },
      "engines": {
       "dsh": ">=0.1.5-rc.1"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@renzic-stone/dsh-easyrewrite",
+   "title": {
+    "en": "DSH-EasyRewrite",
+    "zh": "DSH-EasyRewrite"
+   },
+   "description": {
+    "en": "DSH Web内目前最无感的消息撤回、重编辑插件，原版体验，兼容性强，功能简单可开关，设置丰富，现代化轻量ui框架。The most seamless message recall & re-edit plugin for DSH Web — native experience, strong compatibility, simple toggles, rich settings, modern lightweight UI. DSH Web で最もシームレスなメッセージ撤回・再編集プラグイン——ネイティブ体験、高い互換性、シンプルなトグル、充実した設定、モダンで軽量な UI。",
+    "zh": "让 DSH Web 里的消息撤回和重编辑像原生功能一样自然，支持多语言和丰富设置，轻量好用。"
+   },
+   "author": "Renzic-Stone",
+   "homepage": "https://github.com/Renzic-Stone/DSH-EasyRewrite",
+   "repository": {
+    "url": "https://github.com/Renzic-Stone/DSH-EasyRewrite"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1794487909,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/Renzic-Stone/DSH-EasyRewrite",
+      "commit": "0fca0d993dd0b883f9aaa80e6cac634dfba20f07"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
      }
     }
    ]
@@ -1617,74 +1617,14 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795063710,
+     "publishTimestamp": 1795258657,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-mcp-panel",
-      "commit": "a4cb74995e7f61013dc158b68d734a9eaaaa1738"
+      "commit": "d4722424f2270c4dad159d3896a0e2ceadf1ab27"
      },
      "engines": {
       "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@luminousyyh/skill-wb-exec",
-   "title": {
-    "en": "skill-wb-exec",
-    "zh": "skill-wb-exec"
-   },
-   "description": {
-    "en": "Delegate bounded coding tasks to a headless WorkBuddy/CodeBuddy CLI agent from DeepSeek Harness — structured result, real diff, path whitelist and worktree isolation.",
-    "zh": "把有限的编码任务交给后台 CLI 代理执行，自动返回结构化结果和真实 diff，省心又安全。"
-   },
-   "author": "Luminousyyh",
-   "homepage": "https://github.com/Luminousyyh/skill-wb-exec",
-   "repository": {
-    "url": "https://github.com/Luminousyyh/skill-wb-exec"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1794156537,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/Luminousyyh/skill-wb-exec",
-      "commit": "f02c7f259bab490722dc2f2adc41481500cfd61d"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@andersen216/dsh-whale-girl-live2d",
-   "title": {
-    "en": "dsh-whale-girl-live2d",
-    "zh": "dsh-whale-girl-live2d"
-   },
-   "description": {
-    "en": "🐋 鲸鱼娘桌宠 · Whale Girl Live2D —— DSH（DeepSeek Harness）Web 界面里的 Live2D 桌宠：跟着 agent 的真实状态换表情与动作，点一下就能直接跟 agent 说话，右键是钱包。A Live2D desktop pet for the DSH Web UI. 安装 Install: dsh plugin --profile web add github:Andersen216/dsh-whale-girl-live2d",
-    "zh": "DSH 网页界面里的鲸鱼娘 Live2D 桌宠，跟着 agent 状态变表情动作，点一下就能聊天，右键开钱包。"
-   },
-   "author": "Andersen216",
-   "homepage": "https://github.com/Andersen216/dsh-whale-girl-live2d#-安装--install",
-   "repository": {
-    "url": "https://github.com/Andersen216/dsh-whale-girl-live2d"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1792514475,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/Andersen216/dsh-whale-girl-live2d",
-      "commit": "f977bef508690e75ba6535cd8f4ce18e7f6ba9b0"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
      }
     }
    ]
@@ -1715,6 +1655,36 @@
      },
      "engines": {
       "dsh": "0.2.0-rc.2"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@andersen216/dsh-whale-girl-live2d",
+   "title": {
+    "en": "dsh-whale-girl-live2d",
+    "zh": "dsh-whale-girl-live2d"
+   },
+   "description": {
+    "en": "🐋 鲸鱼娘桌宠 · Whale Girl Live2D —— DSH（DeepSeek Harness）Web 界面里的 Live2D 桌宠：跟着 agent 的真实状态换表情与动作，点一下就能直接跟 agent 说话，右键是钱包。A Live2D desktop pet for the DSH Web UI. 安装 Install: dsh plugin --profile web add github:Andersen216/dsh-whale-girl-live2d",
+    "zh": "DSH 网页界面里的鲸鱼娘 Live2D 桌宠，跟着 agent 状态变表情动作，点一下就能聊天，右键开钱包。"
+   },
+   "author": "Andersen216",
+   "homepage": "https://github.com/Andersen216/dsh-whale-girl-live2d#-安装--install",
+   "repository": {
+    "url": "https://github.com/Andersen216/dsh-whale-girl-live2d"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1792514475,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/Andersen216/dsh-whale-girl-live2d",
+      "commit": "f977bef508690e75ba6535cd8f4ce18e7f6ba9b0"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
      }
     }
    ]
@@ -1780,36 +1750,6 @@
    ]
   },
   {
-   "name": "@czcdr/dsh-plugin-rea",
-   "title": {
-    "en": "dsh-plugin-rea",
-    "zh": "dsh-plugin-rea"
-   },
-   "description": {
-    "en": "第三方适配插件：把上游 REA（github.com/morluto/rea）的 MCP 服务接入 DeepSeek Harness，提供 mcp__rea__* 工具。2.x 会自动准备 Node、REA CLI、JDK 与 Ghidra 并把那一行接好；逆向分析能力全部由上游 REA 提供。",
-    "zh": "把 REA 逆向分析能力接进 DSH，让 AI 直接分析二进制、APK、固件和网站。"
-   },
-   "author": "czcdr",
-   "homepage": "https://github.com/czcdr/dsh-plugin-rea",
-   "repository": {
-    "url": "https://github.com/czcdr/dsh-plugin-rea"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1794573554,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/czcdr/dsh-plugin-rea",
-      "commit": "82a13e5cdb29685cd518a964f7552685a5c9e331"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
    "name": "@vibe-any/dsh-plugin-save-token",
    "title": {
     "en": "dsh-plugin-save-token",
@@ -1832,6 +1772,36 @@
       "type": "git",
       "url": "https://github.com/vibe-any/dsh-plugin-save-token",
       "commit": "eb85c421758e56d6a1ae8c87dd10f0d38e621559"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@czcdr/dsh-plugin-rea",
+   "title": {
+    "en": "dsh-plugin-rea",
+    "zh": "dsh-plugin-rea"
+   },
+   "description": {
+    "en": "第三方适配插件：把上游 REA（github.com/morluto/rea）的 MCP 服务接入 DeepSeek Harness，提供 mcp__rea__* 工具。2.x 会自动准备 Node、REA CLI、JDK 与 Ghidra 并把那一行接好；逆向分析能力全部由上游 REA 提供。",
+    "zh": "把 REA 逆向分析能力接进 DSH，让 AI 直接分析二进制、APK、固件和网站。"
+   },
+   "author": "czcdr",
+   "homepage": "https://github.com/czcdr/dsh-plugin-rea",
+   "repository": {
+    "url": "https://github.com/czcdr/dsh-plugin-rea"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1794573554,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/czcdr/dsh-plugin-rea",
+      "commit": "82a13e5cdb29685cd518a964f7552685a5c9e331"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -1921,10 +1891,40 @@
      "source": {
       "type": "git",
       "url": "https://github.com/Vncntvx/dsh-zotero",
-      "commit": "9d5bfa08291fdffe8049e923033512aba6f6dab6"
+      "commit": "0ad6f59e3943afc82418360dbcc8dd8cb7e11ede"
      },
      "engines": {
       "dsh": ">=0.2.2-rc.4"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@luminousyyh/skill-wb-exec",
+   "title": {
+    "en": "skill-wb-exec",
+    "zh": "skill-wb-exec"
+   },
+   "description": {
+    "en": "Delegate bounded coding tasks to a headless WorkBuddy/CodeBuddy CLI agent from DeepSeek Harness — structured result, real diff, path whitelist and worktree isolation.",
+    "zh": "把有限的编码任务交给后台 CLI 代理执行，自动返回结构化结果和真实 diff，省心又安全。"
+   },
+   "author": "Luminousyyh",
+   "homepage": "https://github.com/Luminousyyh/skill-wb-exec",
+   "repository": {
+    "url": "https://github.com/Luminousyyh/skill-wb-exec"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1794156537,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/Luminousyyh/skill-wb-exec",
+      "commit": "f02c7f259bab490722dc2f2adc41481500cfd61d"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
      }
     }
    ]
@@ -1955,6 +1955,36 @@
      },
      "engines": {
       "dsh": "^0.1.1-rc.2"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@john-walks-slow/dsh-inject",
+   "title": {
+    "en": "dsh-inject",
+    "zh": "dsh-inject"
+   },
+   "description": {
+    "en": "Advanced model-context injection and request-only rewriting for DeepSeek Harness with native Keysmith rules compatibility.",
+    "zh": "只改发给模型的请求副本，不碰会话记录和本地文件，随时开关无痕的上下文注入插件"
+   },
+   "author": "john-walks-slow",
+   "homepage": "https://www.npmjs.com/package/dsh-inject",
+   "repository": {
+    "url": "https://github.com/john-walks-slow/dsh-inject"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1794594462,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/john-walks-slow/dsh-inject",
+      "commit": "334b7a677e3f7673f934697611382d43e55c0ffa"
+     },
+     "engines": {
+      "dsh": "^0.2.1-rc.2"
      }
     }
    ]
@@ -2075,36 +2105,6 @@
      },
      "engines": {
       "dsh": ">=0.1.7-alpha.2"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@john-walks-slow/dsh-inject",
-   "title": {
-    "en": "dsh-inject",
-    "zh": "dsh-inject"
-   },
-   "description": {
-    "en": "Advanced model-context injection and request-only rewriting for DeepSeek Harness with native Keysmith rules compatibility.",
-    "zh": "只改发给模型的请求副本，不碰会话记录和本地文件，随时开关无痕的上下文注入插件"
-   },
-   "author": "john-walks-slow",
-   "homepage": "https://www.npmjs.com/package/dsh-inject",
-   "repository": {
-    "url": "https://github.com/john-walks-slow/dsh-inject"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1794594462,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/john-walks-slow/dsh-inject",
-      "commit": "334b7a677e3f7673f934697611382d43e55c0ffa"
-     },
-     "engines": {
-      "dsh": "^0.2.1-rc.2"
      }
     }
    ]
@@ -2277,11 +2277,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795015649,
+     "publishTimestamp": 1795258702,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-fund-research",
-      "commit": "f35cd54526f5100978da8975ee729373d2bb8b2e"
+      "commit": "688e9020cfa371641699655efbe62ca0f838d78a"
      },
      "engines": {
       "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
@@ -2307,11 +2307,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795015935,
+     "publishTimestamp": 1795258726,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-plugin-guide",
-      "commit": "c7867c177eccad87278433833cc83dd41ce87c58"
+      "commit": "fa04d2c62359cdd910e21126dbd41fe80b85acfd"
      },
      "engines": {
       "dsh": ">=0.2.2-0 <0.3.0"
