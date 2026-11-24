@@ -57,11 +57,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795311843,
+     "publishTimestamp": 1795365997,
      "source": {
       "type": "git",
       "url": "https://github.com/zhu1090093659/dsh-web",
-      "commit": "716f469264218ad2f9f1c72a5c3cda7e573d952e"
+      "commit": "c569e3dc5fcce7bbb9819a483113e655a8e0631a"
      },
      "engines": {
       "dsh": "^0.2.2-rc.3"
@@ -91,7 +91,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/QingYunA/answer-me-with-html",
-      "commit": "997479b6f34c8a5141c61b03f144e821c8f99f2d"
+      "commit": "8411df37a9aecb62a6048f18ba63bd27bb74abec"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -121,7 +121,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/c1overzz/dsh-bili-scroll",
-      "commit": "6f3ab83993ccc51df9331048a8f9a51bef19bc28"
+      "commit": "9af983215cfe82117dff870b0d38021e53d18975"
      },
      "engines": {
       "dsh": ">=0.1.7-rc.1"
@@ -331,7 +331,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/V1ki/dsh-plugin-subscriptions",
-      "commit": "c58464c92f86b03ca99e2706d5573f1db8bcf4fb"
+      "commit": "093569c2b0e88eee14488f6d72d631dbdbeb9753"
      },
      "engines": {
       "dsh": "0.2.2-rc.3"
@@ -347,7 +347,7 @@
    },
    "description": {
     "en": "把你能白嫖的模型额度接进 DSH 同一个池：WorkBuddy 多账号自动容错、十四家扫码登录、76 家免费额度聚合、用量看板、模型路由、本地 OpenAI 网关、积分自动化。",
-    "zh": "把各家免费模型额度聚到一个池子里，多账号自动容错、扫码登录、用量看板加本地网关，白嫖不浪费。"
+    "zh": "把各家免费模型额度汇进一个池子，多账号自动容错、扫码登录、用量看板加本地网关，白嫖额度不浪费。"
    },
    "author": "XDTrees",
    "homepage": "https://www.npmjs.com/package/dsh-xdpool",
@@ -357,11 +357,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794803664,
+     "publishTimestamp": 1795358422,
      "source": {
       "type": "git",
       "url": "https://github.com/XDTrees/dsh-xdpool",
-      "commit": "2c1bac06d61ddb23d496636f1c1ae2e28b88c8cd"
+      "commit": "4a86b4c080318618dfcd65265bd13ee00cb7b05c"
      },
      "engines": {
       "dsh": "0.1.5-rc.2"
@@ -481,7 +481,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/YUsaltyfish/dsh-onebot-qq",
-      "commit": "f73336e56ad20049d6cfa611ac8357dd7412deeb"
+      "commit": "0ce34deb3d8cb183a9d196bb6ec116e74f007f04"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -537,11 +537,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795059648,
+     "publishTimestamp": 1795354902,
      "source": {
       "type": "git",
       "url": "https://github.com/huaguoxingkong/dsh-prompt-rewriter",
-      "commit": "754e121dfbd6ebddb0d514fe3105b6a6b1398c46"
+      "commit": "fbecffae4865d83986e33b970d53cd19633b9cce"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -687,14 +687,14 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795258886,
+     "publishTimestamp": 1795333883,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-auto-review",
-      "commit": "f65a1d844fe556c38571e28789f40a2e3c169834"
+      "commit": "2555514ab7f6149b3314b0a1ce7d9393f3b8120b"
      },
      "engines": {
-      "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
+      "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
      }
     }
    ]
@@ -747,7 +747,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795268213,
+     "publishTimestamp": 1795354110,
      "source": {
       "type": "git",
       "url": "https://github.com/LarryE135/dsh-flash-presets",
@@ -777,14 +777,14 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795258718,
+     "publishTimestamp": 1795334394,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-research-report",
-      "commit": "95b9ad8b8143c0c4f0bb5e13bf686ac6d3d4bce3"
+      "commit": "165343e438508afced3cb810cd1959c72b82669c"
      },
      "engines": {
-      "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
+      "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
      }
     }
    ]
@@ -991,7 +991,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/Yuuyuko-uu/dsh-qq-link",
-      "commit": "151bb3e32a9106cbfce8920d89a34c153e4c7541"
+      "commit": "9ecce11fa040255a3126ee4047ad2bc7a81aeff5"
      },
      "engines": {
       "dsh": ">=0.2.1-rc.2"
@@ -1197,11 +1197,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795258660,
+     "publishTimestamp": 1795334333,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-memento",
-      "commit": "563e5565ecb91cf264cac4f3acc16794e509aa23"
+      "commit": "3918e000e3371af4c4e241da63eb33e4d4d953f9"
      },
      "engines": {
       "dsh": "0.2.2-rc.4"
@@ -1227,44 +1227,14 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795258665,
+     "publishTimestamp": 1795335343,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-permission-rules",
-      "commit": "0eb27d07a3d8443a24a21a47f902450ee5d328ba"
+      "commit": "c406dc4353e71db7837b8065fe33a4149262ce24"
      },
      "engines": {
       "dsh": "0.2.2-rc.4"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@noob-stupid/dsh-plugin-gating-hub",
-   "title": {
-    "en": "dsh-plugin-gating-hub",
-    "zh": "dsh-plugin-gating-hub"
-   },
-   "description": {
-    "en": "A plugin manager and GitHub dsh-plugin marketplace for the DSH Web UI.",
-    "zh": "在 DSH Web 界面里管理插件、逛 GitHub 插件市场，还能安全升级和回滚。"
-   },
-   "author": "Noob-stupid",
-   "homepage": "https://github.com/Noob-stupid/dsh-plugin-hub/tree/main/docs",
-   "repository": {
-    "url": "https://github.com/Noob-stupid/dsh-plugin-gating-hub"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1795294375,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/Noob-stupid/dsh-plugin-gating-hub",
-      "commit": "73f3b20a958c15f170abf98eefe9f7386d0de652"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
      }
     }
    ]
@@ -1291,10 +1261,40 @@
      "source": {
       "type": "git",
       "url": "https://github.com/2026heshao/dsh-armory",
-      "commit": "c61e89f45b85d1850d8e120675ec0da145556784"
+      "commit": "f0c14b2a2dee6fff90e0abcade50de108cfa0825"
      },
      "engines": {
       "dsh": ">=0.1.5-rc.1"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@noob-stupid/dsh-plugin-gating-hub",
+   "title": {
+    "en": "dsh-plugin-gating-hub",
+    "zh": "dsh-plugin-gating-hub"
+   },
+   "description": {
+    "en": "A plugin manager and GitHub dsh-plugin marketplace for the DSH Web UI.",
+    "zh": "在 DSH Web 界面里管理插件、逛 GitHub 插件市场，还能安全升级和回滚。"
+   },
+   "author": "Noob-stupid",
+   "homepage": "https://github.com/Noob-stupid/dsh-plugin-hub/tree/main/docs",
+   "repository": {
+    "url": "https://github.com/Noob-stupid/dsh-plugin-gating-hub"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1795381237,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/Noob-stupid/dsh-plugin-gating-hub",
+      "commit": "55b297b6203b576903cbc0c6b1ddaf3812f37415"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
      }
     }
    ]
@@ -1381,7 +1381,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/aa2246740/dsh-watcher",
-      "commit": "a63d2360b784cabd413a0728bb3327f10599bc28"
+      "commit": "e7899d6c96072e1ebd4593f8fe2f555e36982a72"
      },
      "engines": {
       "dsh": "0.2.2-rc.5"
@@ -1480,6 +1480,36 @@
    ]
   },
   {
+   "name": "@deiael/dsh-live-vibecoding",
+   "title": {
+    "en": "dsh-live-vibeCoding",
+    "zh": "dsh-live-vibeCoding"
+   },
+   "description": {
+    "en": "DeepSeek Harness plugin",
+    "zh": "让 DSH 智能体帮你开 B 站直播，自动读弹幕、谢礼物、欢迎观众、记住老粉并排队接观众需求。"
+   },
+   "author": "Deiael",
+   "homepage": "https://github.com/Deiael/dsh-live-vibeCoding",
+   "repository": {
+    "url": "https://github.com/Deiael/dsh-live-vibeCoding"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1793604901,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/Deiael/dsh-live-vibeCoding",
+      "commit": "d34f72e04023fdcef6d95ca23a7cd41ee498dbc5"
+     },
+     "engines": {
+      "dsh": "0.2.0-rc.2"
+     }
+    }
+   ]
+  },
+  {
    "name": "@sanqi-normal/dsh-webui-market-plugin",
    "title": {
     "en": "dsh-webui-market-plugin",
@@ -1502,6 +1532,36 @@
       "type": "git",
       "url": "https://github.com/Sanqi-normal/dsh-webui-market-plugin",
       "commit": "f0cfc501a9e66b3c77da37e346d311d092cb1e41"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@titanwings/dsh-automation",
+   "title": {
+    "en": "dsh-automation",
+    "zh": "dsh-automation"
+   },
+   "description": {
+    "en": "DSH 自动化插件：让 Coding 任务按计划在全新 Agent Session 中运行，并由用户或 Agent 创建和管理定时任务。 / Run coding tasks in fresh Agent sessions and manage schedules from DSH Web or an Agent.",
+    "zh": "定时在全新 Agent 会话中自动运行 Coding 任务，支持在网页或通过 Agent 灵活创建和管理计划任务。"
+   },
+   "author": "titanwings",
+   "homepage": "https://github.com/titanwings/dsh-automation",
+   "repository": {
+    "url": "https://github.com/titanwings/dsh-automation"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1788869348,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/titanwings/dsh-automation",
+      "commit": "0d73a4e03639d4f63d0771ae4490e2718b7e7aa0"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -1570,36 +1630,6 @@
    ]
   },
   {
-   "name": "@titanwings/dsh-automation",
-   "title": {
-    "en": "dsh-automation",
-    "zh": "dsh-automation"
-   },
-   "description": {
-    "en": "DSH 自动化插件：让 Coding 任务按计划在全新 Agent Session 中运行，并由用户或 Agent 创建和管理定时任务。 / Run coding tasks in fresh Agent sessions and manage schedules from DSH Web or an Agent.",
-    "zh": "定时在全新 Agent 会话中自动运行 Coding 任务，支持在网页或通过 Agent 灵活创建和管理计划任务。"
-   },
-   "author": "titanwings",
-   "homepage": "https://github.com/titanwings/dsh-automation",
-   "repository": {
-    "url": "https://github.com/titanwings/dsh-automation"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1788869348,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/titanwings/dsh-automation",
-      "commit": "0d73a4e03639d4f63d0771ae4490e2718b7e7aa0"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
    "name": "@perrylink/dsh-mcp-panel",
    "title": {
     "en": "dsh-mcp-panel",
@@ -1617,44 +1647,14 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795258657,
+     "publishTimestamp": 1795333950,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-mcp-panel",
-      "commit": "d4722424f2270c4dad159d3896a0e2ceadf1ab27"
+      "commit": "f26b3ffede5397b110859c7611fa808174207904"
      },
      "engines": {
-      "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@deiael/dsh-live-vibecoding",
-   "title": {
-    "en": "dsh-live-vibeCoding",
-    "zh": "dsh-live-vibeCoding"
-   },
-   "description": {
-    "en": "DeepSeek Harness plugin",
-    "zh": "让 DSH 智能体帮你开 B 站直播，自动读弹幕、谢礼物、欢迎观众、记住老粉并排队接观众需求。"
-   },
-   "author": "Deiael",
-   "homepage": "https://github.com/Deiael/dsh-live-vibeCoding",
-   "repository": {
-    "url": "https://github.com/Deiael/dsh-live-vibeCoding"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1793604901,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/Deiael/dsh-live-vibeCoding",
-      "commit": "d34f72e04023fdcef6d95ca23a7cd41ee498dbc5"
-     },
-     "engines": {
-      "dsh": "0.2.0-rc.2"
+      "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
      }
     }
    ]
@@ -1887,44 +1887,14 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795088263,
+     "publishTimestamp": 1795332222,
      "source": {
       "type": "git",
       "url": "https://github.com/Vncntvx/dsh-zotero",
-      "commit": "0ad6f59e3943afc82418360dbcc8dd8cb7e11ede"
+      "commit": "ff63a4b7cabc9b3d321ca9acd8590bbe2cb28327"
      },
      "engines": {
-      "dsh": ">=0.2.2-rc.4"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@luminousyyh/skill-wb-exec",
-   "title": {
-    "en": "skill-wb-exec",
-    "zh": "skill-wb-exec"
-   },
-   "description": {
-    "en": "Delegate bounded coding tasks to a headless WorkBuddy/CodeBuddy CLI agent from DeepSeek Harness — structured result, real diff, path whitelist and worktree isolation.",
-    "zh": "把有限的编码任务交给后台 CLI 代理执行，自动返回结构化结果和真实 diff，省心又安全。"
-   },
-   "author": "Luminousyyh",
-   "homepage": "https://github.com/Luminousyyh/skill-wb-exec",
-   "repository": {
-    "url": "https://github.com/Luminousyyh/skill-wb-exec"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1794156537,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/Luminousyyh/skill-wb-exec",
-      "commit": "f02c7f259bab490722dc2f2adc41481500cfd61d"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
+      "dsh": ">=0.2.2-rc.5"
      }
     }
    ]
@@ -1955,6 +1925,36 @@
      },
      "engines": {
       "dsh": "^0.1.1-rc.2"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@luminousyyh/skill-wb-exec",
+   "title": {
+    "en": "skill-wb-exec",
+    "zh": "skill-wb-exec"
+   },
+   "description": {
+    "en": "Delegate bounded coding tasks to a headless WorkBuddy/CodeBuddy CLI agent from DeepSeek Harness — structured result, real diff, path whitelist and worktree isolation.",
+    "zh": "把有限的编码任务交给后台 CLI 代理执行，自动返回结构化结果和真实 diff，省心又安全。"
+   },
+   "author": "Luminousyyh",
+   "homepage": "https://github.com/Luminousyyh/skill-wb-exec",
+   "repository": {
+    "url": "https://github.com/Luminousyyh/skill-wb-exec"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1794156537,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/Luminousyyh/skill-wb-exec",
+      "commit": "f02c7f259bab490722dc2f2adc41481500cfd61d"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
      }
     }
    ]
@@ -2277,14 +2277,14 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795258702,
+     "publishTimestamp": 1795334172,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-fund-research",
-      "commit": "688e9020cfa371641699655efbe62ca0f838d78a"
+      "commit": "dc38e0f4c48eb5a75dacf041ae0a427def7a5573"
      },
      "engines": {
-      "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0"
+      "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
      }
     }
    ]
@@ -2307,14 +2307,14 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795258726,
+     "publishTimestamp": 1795334349,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-plugin-guide",
-      "commit": "fa04d2c62359cdd910e21126dbd41fe80b85acfd"
+      "commit": "69cd81efffe7f0b14d3dc8dd12bde7e4160d76a1"
      },
      "engines": {
-      "dsh": ">=0.2.2-0 <0.3.0"
+      "dsh": ">=0.2.2-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
      }
     }
    ]
