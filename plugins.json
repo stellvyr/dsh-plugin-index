@@ -57,11 +57,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795365997,
+     "publishTimestamp": 1795487865,
      "source": {
       "type": "git",
       "url": "https://github.com/zhu1090093659/dsh-web",
-      "commit": "c569e3dc5fcce7bbb9819a483113e655a8e0631a"
+      "commit": "a4671e466780a7d704594c0ba848f691b54ff13e"
      },
      "engines": {
       "dsh": "^0.2.2-rc.3"
@@ -87,11 +87,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795139330,
+     "publishTimestamp": 1795491329,
      "source": {
       "type": "git",
       "url": "https://github.com/QingYunA/answer-me-with-html",
-      "commit": "8411df37a9aecb62a6048f18ba63bd27bb74abec"
+      "commit": "4ad397361bcb59b0791b84783ed99ef91d4b2f07"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -117,7 +117,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794500464,
+     "publishTimestamp": 1795429195,
      "source": {
       "type": "git",
       "url": "https://github.com/c1overzz/dsh-bili-scroll",
@@ -327,11 +327,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795235256,
+     "publishTimestamp": 1795452636,
      "source": {
       "type": "git",
       "url": "https://github.com/V1ki/dsh-plugin-subscriptions",
-      "commit": "093569c2b0e88eee14488f6d72d631dbdbeb9753"
+      "commit": "f422cb565c004e052adfa4d6319333ce2d234e94"
      },
      "engines": {
       "dsh": "0.2.2-rc.3"
@@ -347,7 +347,7 @@
    },
    "description": {
     "en": "把你能白嫖的模型额度接进 DSH 同一个池：WorkBuddy 多账号自动容错、十四家扫码登录、76 家免费额度聚合、用量看板、模型路由、本地 OpenAI 网关、积分自动化。",
-    "zh": "把各家免费模型额度汇进一个池子，多账号自动容错、扫码登录、用量看板加本地网关，白嫖额度不浪费。"
+    "zh": "把各家免费模型额度汇进一个池子，多账号自动容错、扫码登录、用量看板加本地网关，白嫖也能稳着用。"
    },
    "author": "XDTrees",
    "homepage": "https://www.npmjs.com/package/dsh-xdpool",
@@ -357,11 +357,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795358422,
+     "publishTimestamp": 1795432561,
      "source": {
       "type": "git",
       "url": "https://github.com/XDTrees/dsh-xdpool",
-      "commit": "4a86b4c080318618dfcd65265bd13ee00cb7b05c"
+      "commit": "81cb4e0fa08d4ee46eac9d9308c09a13844cf7ae"
      },
      "engines": {
       "dsh": "0.1.5-rc.2"
@@ -421,7 +421,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/Phant0Meow/dsh-meow-memory",
-      "commit": "9203521665c4101bd8c36720da9054e249dded18"
+      "commit": "0f698a1d96559f367e5e5f72bd9e5a29c8c3199a"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -460,36 +460,6 @@
    ]
   },
   {
-   "name": "@yusaltyfish/dsh-onebot-qq",
-   "title": {
-    "en": "dsh-onebot-qq",
-    "zh": "dsh-onebot-qq"
-   },
-   "description": {
-    "en": "DeepSeek Harness 的原生 QQ 机器人插件：微内核 + 子插件，Linux/Windows 通用。收消息、发图、生图、发表情，装完就能聊。此项目为个人因需求爱好，人力设计方案AI构建代码的插件，所以bug和不够合理的地方有许多，发出来仅为学习和分享",
-    "zh": "装完填几项就能用的 QQ 机器人，收消息、发图、生图、发表情，Linux 和 Windows 都能跑。"
-   },
-   "author": "YUsaltyfish",
-   "homepage": "https://github.com/YUsaltyfish/dsh-onebot-qq",
-   "repository": {
-    "url": "https://github.com/YUsaltyfish/dsh-onebot-qq"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1795139274,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/YUsaltyfish/dsh-onebot-qq",
-      "commit": "0ce34deb3d8cb183a9d196bb6ec116e74f007f04"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
    "name": "@xqpsec/dsh-jailbreak",
    "title": {
     "en": "dsh-jailbreak",
@@ -520,6 +490,36 @@
    ]
   },
   {
+   "name": "@yusaltyfish/dsh-onebot-qq",
+   "title": {
+    "en": "dsh-onebot-qq",
+    "zh": "dsh-onebot-qq"
+   },
+   "description": {
+    "en": "DeepSeek Harness 的原生 QQ 机器人插件：微内核 + 子插件，Linux/Windows 通用。收消息、发图、生图、发表情，装完就能聊。此项目为个人因需求爱好，人力设计方案AI构建代码的插件，所以bug和不够合理的地方有许多，发出来仅为学习和分享",
+    "zh": "装完填几项就能用的 QQ 机器人，收消息、发图、生图、发表情，Linux 和 Windows 都能跑。"
+   },
+   "author": "YUsaltyfish",
+   "homepage": "https://github.com/YUsaltyfish/dsh-onebot-qq",
+   "repository": {
+    "url": "https://github.com/YUsaltyfish/dsh-onebot-qq"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1795423629,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/YUsaltyfish/dsh-onebot-qq",
+      "commit": "0ce34deb3d8cb183a9d196bb6ec116e74f007f04"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
    "name": "@huaguoxingkong/dsh-prompt-rewriter",
    "title": {
     "en": "dsh-prompt-rewriter",
@@ -537,11 +537,41 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795354902,
+     "publishTimestamp": 1795416632,
      "source": {
       "type": "git",
       "url": "https://github.com/huaguoxingkong/dsh-prompt-rewriter",
       "commit": "fbecffae4865d83986e33b970d53cd19633b9cce"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@chokwinlee/deepseek-harness-desktop",
+   "title": {
+    "en": "deepseek-harness-desktop",
+    "zh": "deepseek-harness-desktop"
+   },
+   "description": {
+    "en": "Self-contained macOS/Windows desktop host for the official DSH Web UI; macOS uses Tauri/WKWebView and ships sub-90 MB DMGs with the Harness runtime bundled.",
+    "zh": "轻量级 DeepSeek Harness 桌面客户端，macOS 安装包不到 90MB，跨平台运行，让你在本地快速使用 AI 编程助手。"
+   },
+   "author": "chokwinlee",
+   "homepage": "https://github.com/chokwinlee/deepseek-harness-desktop",
+   "repository": {
+    "url": "https://github.com/chokwinlee/deepseek-harness-desktop"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1793556512,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/chokwinlee/deepseek-harness-desktop",
+      "commit": "1b17b8d82cd2b7d4b03fad3eade1de6bbc4acbce"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -575,36 +605,6 @@
      },
      "engines": {
       "dsh": "^0.2.2-rc.1"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@chokwinlee/deepseek-harness-desktop",
-   "title": {
-    "en": "deepseek-harness-desktop",
-    "zh": "deepseek-harness-desktop"
-   },
-   "description": {
-    "en": "Self-contained macOS/Windows desktop host for the official DSH Web UI; macOS uses Tauri/WKWebView and ships sub-90 MB DMGs with the Harness runtime bundled.",
-    "zh": "轻量级 DeepSeek Harness 桌面客户端，macOS 安装包不到 90MB，跨平台运行，让你在本地快速使用 AI 编程助手。"
-   },
-   "author": "chokwinlee",
-   "homepage": "https://github.com/chokwinlee/deepseek-harness-desktop",
-   "repository": {
-    "url": "https://github.com/chokwinlee/deepseek-harness-desktop"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1793556512,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/chokwinlee/deepseek-harness-desktop",
-      "commit": "1b17b8d82cd2b7d4b03fad3eade1de6bbc4acbce"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
      }
     }
    ]
@@ -687,7 +687,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795333883,
+     "publishTimestamp": 1795410566,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-auto-review",
@@ -747,11 +747,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795354110,
+     "publishTimestamp": 1795482313,
      "source": {
       "type": "git",
       "url": "https://github.com/LarryE135/dsh-flash-presets",
-      "commit": "fa89909cd2356fe3b8a3274b6d6f07fe8d6afac3"
+      "commit": "c2aef80db69b94932b1e7bda11ca68208ee62fac"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -777,11 +777,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795334394,
+     "publishTimestamp": 1795410588,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-research-report",
-      "commit": "165343e438508afced3cb810cd1959c72b82669c"
+      "commit": "c8a3aec972df0c7e563ee3f42e42e8941dd702fe"
      },
      "engines": {
       "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
@@ -987,7 +987,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795201801,
+     "publishTimestamp": 1795408465,
      "source": {
       "type": "git",
       "url": "https://github.com/Yuuyuko-uu/dsh-qq-link",
@@ -1197,11 +1197,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795334333,
+     "publishTimestamp": 1795410610,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-memento",
-      "commit": "3918e000e3371af4c4e241da63eb33e4d4d953f9"
+      "commit": "70094e0a6f59cb114cf19df93c9bb8d55b8853d6"
      },
      "engines": {
       "dsh": "0.2.2-rc.4"
@@ -1227,11 +1227,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795335343,
+     "publishTimestamp": 1795411999,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-permission-rules",
-      "commit": "c406dc4353e71db7837b8065fe33a4149262ce24"
+      "commit": "1a2b8568589a0f6f2999367e57e8a524471875a8"
      },
      "engines": {
       "dsh": "0.2.2-rc.4"
@@ -1257,11 +1257,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795184981,
+     "publishTimestamp": 1795491292,
      "source": {
       "type": "git",
       "url": "https://github.com/2026heshao/dsh-armory",
-      "commit": "f0c14b2a2dee6fff90e0abcade50de108cfa0825"
+      "commit": "3289dd6cdeb260c91c33c33c2566e3bb7d78b0e4"
      },
      "engines": {
       "dsh": ">=0.1.5-rc.1"
@@ -1287,11 +1287,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795381237,
+     "publishTimestamp": 1795486121,
      "source": {
       "type": "git",
       "url": "https://github.com/Noob-stupid/dsh-plugin-gating-hub",
-      "commit": "55b297b6203b576903cbc0c6b1ddaf3812f37415"
+      "commit": "38a514c868677830f032c49874845b5056135311"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -1377,7 +1377,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795182340,
+     "publishTimestamp": 1795395097,
      "source": {
       "type": "git",
       "url": "https://github.com/aa2246740/dsh-watcher",
@@ -1445,6 +1445,36 @@
      },
      "engines": {
       "dsh": "0.1.0-rc.7"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@fb0sh/dsh-pentester",
+   "title": {
+    "en": "dsh-pentester",
+    "zh": "dsh-pentester"
+   },
+   "description": {
+    "en": "基于 DeepSeek Harness 的多 Agent PTES 渗透测试编排插件，支持自动化侦察、漏洞分析、验证与报告，使用 Docker/Kali 隔离工具箱 | Multi-agent PTES penetration testing plugin for DeepSeek Harness with automated recon, vulnerability analysis, validation, reporting, and Docker/Kali toolbox",
+    "zh": "为 DeepSeek Harness 提供 PTES 渗透测试流程编排，按计划文档驱动自动化安全评估。"
+   },
+   "author": "fb0sh",
+   "homepage": "https://github.com/fb0sh/dsh-pentester",
+   "repository": {
+    "url": "https://github.com/fb0sh/dsh-pentester"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1793152278,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/fb0sh/dsh-pentester",
+      "commit": "1c69c8e4bd7923fa1e8da38c4b4521a90acd55f0"
+     },
+     "engines": {
+      "dsh": "^0.2.0-rc.1"
      }
     }
    ]
@@ -1570,36 +1600,6 @@
    ]
   },
   {
-   "name": "@fb0sh/dsh-pentester",
-   "title": {
-    "en": "dsh-pentester",
-    "zh": "dsh-pentester"
-   },
-   "description": {
-    "en": "基于 DeepSeek Harness 的多 Agent PTES 渗透测试编排插件，支持自动化侦察、漏洞分析、验证与报告，使用 Docker/Kali 隔离工具箱 | Multi-agent PTES penetration testing plugin for DeepSeek Harness with automated recon, vulnerability analysis, validation, reporting, and Docker/Kali toolbox",
-    "zh": "为 DeepSeek Harness 提供 PTES 渗透测试流程编排，按计划文档驱动自动化安全评估。"
-   },
-   "author": "fb0sh",
-   "homepage": "https://github.com/fb0sh/dsh-pentester",
-   "repository": {
-    "url": "https://github.com/fb0sh/dsh-pentester"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1793152278,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/fb0sh/dsh-pentester",
-      "commit": "1c69c8e4bd7923fa1e8da38c4b4521a90acd55f0"
-     },
-     "engines": {
-      "dsh": "^0.2.0-rc.1"
-     }
-    }
-   ]
-  },
-  {
    "name": "@tasihi89/dsh-talk-map",
    "title": {
     "en": "dsh-talk-map",
@@ -1647,11 +1647,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795333950,
+     "publishTimestamp": 1795410581,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-mcp-panel",
-      "commit": "f26b3ffede5397b110859c7611fa808174207904"
+      "commit": "dd72ed7625215f34180e6dfc8402a668f9a01eea"
      },
      "engines": {
       "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
@@ -1887,74 +1887,14 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795332222,
+     "publishTimestamp": 1795433174,
      "source": {
       "type": "git",
       "url": "https://github.com/Vncntvx/dsh-zotero",
       "commit": "ff63a4b7cabc9b3d321ca9acd8590bbe2cb28327"
      },
      "engines": {
-      "dsh": ">=0.2.2-rc.5"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@kytolly/dsh-evolve-in-git",
-   "title": {
-    "en": "dsh-evolve-in-git",
-    "zh": "dsh-evolve-in-git"
-   },
-   "description": {
-    "en": "A deepseek-harness plugin, making your agent evolve in customed git repository.",
-    "zh": "让智能体在自定义 Git 仓库中持续进化，自动迭代代码与配置，提升开发效率。"
-   },
-   "author": "Kytolly",
-   "homepage": "https://github.com/Kytolly/dsh-evolve-in-git",
-   "repository": {
-    "url": "https://github.com/Kytolly/dsh-evolve-in-git"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1788300489,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/Kytolly/dsh-evolve-in-git",
-      "commit": "f9c19adbebe3b1117bdd488a4627302b4f37fc3b"
-     },
-     "engines": {
-      "dsh": "^0.1.1-rc.2"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@luminousyyh/skill-wb-exec",
-   "title": {
-    "en": "skill-wb-exec",
-    "zh": "skill-wb-exec"
-   },
-   "description": {
-    "en": "Delegate bounded coding tasks to a headless WorkBuddy/CodeBuddy CLI agent from DeepSeek Harness — structured result, real diff, path whitelist and worktree isolation.",
-    "zh": "把有限的编码任务交给后台 CLI 代理执行，自动返回结构化结果和真实 diff，省心又安全。"
-   },
-   "author": "Luminousyyh",
-   "homepage": "https://github.com/Luminousyyh/skill-wb-exec",
-   "repository": {
-    "url": "https://github.com/Luminousyyh/skill-wb-exec"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1794156537,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/Luminousyyh/skill-wb-exec",
-      "commit": "f02c7f259bab490722dc2f2adc41481500cfd61d"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
+      "dsh": ">=0.2.3-alpha.2"
      }
     }
    ]
@@ -1990,31 +1930,61 @@
    ]
   },
   {
-   "name": "@cheshirejcat/blender",
+   "name": "@luminousyyh/skill-wb-exec",
    "title": {
-    "en": "blender",
-    "zh": "blender"
+    "en": "skill-wb-exec",
+    "zh": "skill-wb-exec"
    },
    "description": {
-    "en": "DeepSeek Harness plugin for complete Blender 3D modeling, reconstruction, rendering, validation, and export workflows",
-    "zh": "让 DeepSeek Harness 直接驱动 Blender，搞定 3D 建模、重建、渲染、验证和导出的一站式工作流。"
+    "en": "Delegate bounded coding tasks to a headless WorkBuddy/CodeBuddy CLI agent from DeepSeek Harness — structured result, real diff, path whitelist and worktree isolation.",
+    "zh": "把有限的编码任务交给后台 CLI 代理执行，自动返回结构化结果和真实 diff，省心又安全。"
    },
-   "author": "CheshireJCat",
-   "homepage": "https://www.npmjs.com/package/dsh-blender",
+   "author": "Luminousyyh",
+   "homepage": "https://github.com/Luminousyyh/skill-wb-exec",
    "repository": {
-    "url": "https://github.com/CheshireJCat/blender"
+    "url": "https://github.com/Luminousyyh/skill-wb-exec"
    },
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1792824256,
+     "publishTimestamp": 1794156537,
      "source": {
       "type": "git",
-      "url": "https://github.com/CheshireJCat/blender",
-      "commit": "1441134b2281bc7c473e95af41fcc5cc6f0757b6"
+      "url": "https://github.com/Luminousyyh/skill-wb-exec",
+      "commit": "f02c7f259bab490722dc2f2adc41481500cfd61d"
      },
      "engines": {
-      "dsh": "0.1.0-rc.6"
+      "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@kytolly/dsh-evolve-in-git",
+   "title": {
+    "en": "dsh-evolve-in-git",
+    "zh": "dsh-evolve-in-git"
+   },
+   "description": {
+    "en": "A deepseek-harness plugin, making your agent evolve in customed git repository.",
+    "zh": "让智能体在自定义 Git 仓库中持续进化，自动迭代代码与配置，提升开发效率。"
+   },
+   "author": "Kytolly",
+   "homepage": "https://github.com/Kytolly/dsh-evolve-in-git",
+   "repository": {
+    "url": "https://github.com/Kytolly/dsh-evolve-in-git"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1788300489,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/Kytolly/dsh-evolve-in-git",
+      "commit": "f9c19adbebe3b1117bdd488a4627302b4f37fc3b"
+     },
+     "engines": {
+      "dsh": "^0.1.1-rc.2"
      }
     }
    ]
@@ -2080,6 +2050,36 @@
    ]
   },
   {
+   "name": "@cheshirejcat/blender",
+   "title": {
+    "en": "blender",
+    "zh": "blender"
+   },
+   "description": {
+    "en": "DeepSeek Harness plugin for complete Blender 3D modeling, reconstruction, rendering, validation, and export workflows",
+    "zh": "让 DeepSeek Harness 直接驱动 Blender，搞定 3D 建模、重建、渲染、验证和导出的一站式工作流。"
+   },
+   "author": "CheshireJCat",
+   "homepage": "https://www.npmjs.com/package/dsh-blender",
+   "repository": {
+    "url": "https://github.com/CheshireJCat/blender"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1792824256,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/CheshireJCat/blender",
+      "commit": "1441134b2281bc7c473e95af41fcc5cc6f0757b6"
+     },
+     "engines": {
+      "dsh": "0.1.0-rc.6"
+     }
+    }
+   ]
+  },
+  {
    "name": "@aitabby/dockyard-dsh",
    "title": {
     "en": "dockyard-dsh",
@@ -2101,7 +2101,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/AITabby/dockyard-dsh",
-      "commit": "fa00cd810e02ce85213a42ea9c91bde84136323f"
+      "commit": "adb9877229151014d1a0d465ac6eb0744fa115d5"
      },
      "engines": {
       "dsh": ">=0.1.7-alpha.2"
@@ -2277,7 +2277,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795334172,
+     "publishTimestamp": 1795410573,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-fund-research",
@@ -2307,7 +2307,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795334349,
+     "publishTimestamp": 1795410585,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-plugin-guide",
