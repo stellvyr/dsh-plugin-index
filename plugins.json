@@ -57,11 +57,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795487865,
+     "publishTimestamp": 1795575251,
      "source": {
       "type": "git",
       "url": "https://github.com/zhu1090093659/dsh-web",
-      "commit": "a4671e466780a7d704594c0ba848f691b54ff13e"
+      "commit": "8ecd74250df8d238e06969b997d85a73ed292505"
      },
      "engines": {
       "dsh": "^0.2.2-rc.3"
@@ -87,7 +87,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795491329,
+     "publishTimestamp": 1795505482,
      "source": {
       "type": "git",
       "url": "https://github.com/QingYunA/answer-me-with-html",
@@ -327,11 +327,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795452636,
+     "publishTimestamp": 1795561970,
      "source": {
       "type": "git",
       "url": "https://github.com/V1ki/dsh-plugin-subscriptions",
-      "commit": "f422cb565c004e052adfa4d6319333ce2d234e94"
+      "commit": "407256cafa3c7270cf8ea878608ce8a1174315e0"
      },
      "engines": {
       "dsh": "0.2.2-rc.3"
@@ -357,7 +357,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795432561,
+     "publishTimestamp": 1795519959,
      "source": {
       "type": "git",
       "url": "https://github.com/XDTrees/dsh-xdpool",
@@ -417,7 +417,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795282178,
+     "publishTimestamp": 1795519679,
      "source": {
       "type": "git",
       "url": "https://github.com/Phant0Meow/dsh-meow-memory",
@@ -541,7 +541,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/huaguoxingkong/dsh-prompt-rewriter",
-      "commit": "fbecffae4865d83986e33b970d53cd19633b9cce"
+      "commit": "d3a4f8baf57d00aa835298b9cd46ab4c3fd931b1"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -747,7 +747,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795482313,
+     "publishTimestamp": 1795580616,
      "source": {
       "type": "git",
       "url": "https://github.com/LarryE135/dsh-flash-presets",
@@ -777,7 +777,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795410588,
+     "publishTimestamp": 1795517598,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-research-report",
@@ -991,7 +991,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/Yuuyuko-uu/dsh-qq-link",
-      "commit": "9ecce11fa040255a3126ee4047ad2bc7a81aeff5"
+      "commit": "ca0fa6cc0e58a76e36334b4e272a45342c7bf525"
      },
      "engines": {
       "dsh": ">=0.2.1-rc.2"
@@ -1030,36 +1030,6 @@
    ]
   },
   {
-   "name": "@tyan66666/billion-context-dsh",
-   "title": {
-    "en": "billion-context-dsh",
-    "zh": "billion-context-dsh"
-   },
-   "description": {
-    "en": "Model-driven context compression (ACP) for DeepSeek Harness, ported from billion-context-pi — the model decides when and what to compress.",
-    "zh": "让模型自己决定何时压缩上下文，大幅扩展对话长度，告别长文本截断烦恼。"
-   },
-   "author": "Tyan66666",
-   "homepage": "https://www.npmjs.com/package/billion-context-dsh",
-   "repository": {
-    "url": "https://github.com/Tyan66666/billion-context-dsh"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1794293032,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/Tyan66666/billion-context-dsh",
-      "commit": "3b893134452810909f2b31fe1643b7c70cf77ea4"
-     },
-     "engines": {
-      "dsh": "0.2.0-rc.2"
-     }
-    }
-   ]
-  },
-  {
    "name": "@laynechai/superpowers-dsh",
    "title": {
     "en": "superpowers-dsh",
@@ -1085,6 +1055,36 @@
      },
      "engines": {
       "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@tyan66666/billion-context-dsh",
+   "title": {
+    "en": "billion-context-dsh",
+    "zh": "billion-context-dsh"
+   },
+   "description": {
+    "en": "Model-driven context compression (ACP) for DeepSeek Harness, ported from billion-context-pi — the model decides when and what to compress.",
+    "zh": "让模型自己决定何时压缩上下文，大幅扩展对话长度，告别长文本截断烦恼。"
+   },
+   "author": "Tyan66666",
+   "homepage": "https://www.npmjs.com/package/billion-context-dsh",
+   "repository": {
+    "url": "https://github.com/Tyan66666/billion-context-dsh"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1794293032,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/Tyan66666/billion-context-dsh",
+      "commit": "3b893134452810909f2b31fe1643b7c70cf77ea4"
+     },
+     "engines": {
+      "dsh": "0.2.0-rc.2"
      }
     }
    ]
@@ -1197,7 +1197,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795410610,
+     "publishTimestamp": 1795517522,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-memento",
@@ -1227,11 +1227,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795411999,
+     "publishTimestamp": 1795517539,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-permission-rules",
-      "commit": "1a2b8568589a0f6f2999367e57e8a524471875a8"
+      "commit": "a82daa6301885ad5b640afeca5de6a68a6e10c40"
      },
      "engines": {
       "dsh": "0.2.2-rc.4"
@@ -1287,11 +1287,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795486121,
+     "publishTimestamp": 1795564293,
      "source": {
       "type": "git",
       "url": "https://github.com/Noob-stupid/dsh-plugin-gating-hub",
-      "commit": "38a514c868677830f032c49874845b5056135311"
+      "commit": "85aa8568be2ec471567d87f40cdd3166cb0e0709"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -1377,7 +1377,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795395097,
+     "publishTimestamp": 1795516530,
      "source": {
       "type": "git",
       "url": "https://github.com/aa2246740/dsh-watcher",
@@ -1420,36 +1420,6 @@
    ]
   },
   {
-   "name": "@hanshenmesen/dsh-turn-delete",
-   "title": {
-    "en": "dsh-turn-delete",
-    "zh": "dsh-turn-delete"
-   },
-   "description": {
-    "en": "Delete one complete turn from a DeepSeek Harness session without deleting the session",
-    "zh": "从 DeepSeek Harness 会话中单独删除某一轮完整对话，无需删除整个会话。"
-   },
-   "author": "hanshenmesen",
-   "homepage": "https://github.com/hanshenmesen/dsh-turn-delete",
-   "repository": {
-    "url": "https://github.com/hanshenmesen/dsh-turn-delete"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1787027837,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/hanshenmesen/dsh-turn-delete",
-      "commit": "4716bcbdee27b110ceea9df21f027c6dfe5888b8"
-     },
-     "engines": {
-      "dsh": "0.1.0-rc.7"
-     }
-    }
-   ]
-  },
-  {
    "name": "@fb0sh/dsh-pentester",
    "title": {
     "en": "dsh-pentester",
@@ -1475,6 +1445,36 @@
      },
      "engines": {
       "dsh": "^0.2.0-rc.1"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@hanshenmesen/dsh-turn-delete",
+   "title": {
+    "en": "dsh-turn-delete",
+    "zh": "dsh-turn-delete"
+   },
+   "description": {
+    "en": "Delete one complete turn from a DeepSeek Harness session without deleting the session",
+    "zh": "从 DeepSeek Harness 会话中单独删除某一轮完整对话，无需删除整个会话。"
+   },
+   "author": "hanshenmesen",
+   "homepage": "https://github.com/hanshenmesen/dsh-turn-delete",
+   "repository": {
+    "url": "https://github.com/hanshenmesen/dsh-turn-delete"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1787027837,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/hanshenmesen/dsh-turn-delete",
+      "commit": "4716bcbdee27b110ceea9df21f027c6dfe5888b8"
+     },
+     "engines": {
+      "dsh": "0.1.0-rc.7"
      }
     }
    ]
@@ -1647,7 +1647,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795410581,
+     "publishTimestamp": 1795519343,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-mcp-panel",
@@ -1682,6 +1682,36 @@
       "type": "git",
       "url": "https://github.com/Andersen216/dsh-whale-girl-live2d",
       "commit": "f977bef508690e75ba6535cd8f4ce18e7f6ba9b0"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@vibe-any/dsh-plugin-save-token",
+   "title": {
+    "en": "dsh-plugin-save-token",
+    "zh": "dsh-plugin-save-token"
+   },
+   "description": {
+    "en": "A DeepSeek Harness (dsh) dynamic plugin that cuts token cost without cutting model intelligence",
+    "zh": "自动精简过大的工具输出，在不牺牲模型能力的前提下大幅降低Token消耗，省钱又省心。"
+   },
+   "author": "vibe-any",
+   "homepage": "https://playwithai.fun",
+   "repository": {
+    "url": "https://github.com/vibe-any/dsh-plugin-save-token"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1792804576,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/vibe-any/dsh-plugin-save-token",
+      "commit": "eb85c421758e56d6a1ae8c87dd10f0d38e621559"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -1745,36 +1775,6 @@
      },
      "engines": {
       "dsh": "^0.1.0-rc.2"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@vibe-any/dsh-plugin-save-token",
-   "title": {
-    "en": "dsh-plugin-save-token",
-    "zh": "dsh-plugin-save-token"
-   },
-   "description": {
-    "en": "A DeepSeek Harness (dsh) dynamic plugin that cuts token cost without cutting model intelligence",
-    "zh": "自动精简过大的工具输出，在不牺牲模型能力的前提下大幅降低Token消耗，省钱又省心。"
-   },
-   "author": "vibe-any",
-   "homepage": "https://playwithai.fun",
-   "repository": {
-    "url": "https://github.com/vibe-any/dsh-plugin-save-token"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1792804576,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/vibe-any/dsh-plugin-save-token",
-      "commit": "eb85c421758e56d6a1ae8c87dd10f0d38e621559"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
      }
     }
    ]
@@ -1891,7 +1891,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/Vncntvx/dsh-zotero",
-      "commit": "ff63a4b7cabc9b3d321ca9acd8590bbe2cb28327"
+      "commit": "b2326cba4a3397e1c105170d6db41a11aa4b0034"
      },
      "engines": {
       "dsh": ">=0.2.3-alpha.2"
@@ -1990,6 +1990,36 @@
    ]
   },
   {
+   "name": "@yiheng-guo/dsh-boot-animation-pro",
+   "title": {
+    "en": "dsh-boot-animation-pro",
+    "zh": "dsh-boot-animation-pro"
+   },
+   "description": {
+    "en": "DSH 片头开机动画增强版：播放控制、触发规则、会话名单、分时段片头、片库管理、中英双语。A full-frame intro animation for DSH. Fork of NativeDog1/dsh-boot-animation.",
+    "zh": "给 DSH 加开机动画，打开或切换会话时视频铺满窗口播放，还能分时段换片头。"
+   },
+   "author": "Yiheng-guo",
+   "homepage": "https://github.com/Yiheng-guo/dsh-boot-animation-pro",
+   "repository": {
+    "url": "https://github.com/Yiheng-guo/dsh-boot-animation-pro"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1790778084,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/Yiheng-guo/dsh-boot-animation-pro",
+      "commit": "0e6a9287fa9c92af569e9f7ad95683a77bf6a1e9"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
    "name": "@c3ll256/dsh-toy",
    "title": {
     "en": "dsh-toy",
@@ -2020,31 +2050,31 @@
    ]
   },
   {
-   "name": "@yiheng-guo/dsh-boot-animation-pro",
+   "name": "@aitabby/dockyard-dsh",
    "title": {
-    "en": "dsh-boot-animation-pro",
-    "zh": "dsh-boot-animation-pro"
+    "en": "dockyard-dsh",
+    "zh": "dockyard-dsh"
    },
    "description": {
-    "en": "DSH 片头开机动画增强版：播放控制、触发规则、会话名单、分时段片头、片库管理、中英双语。A full-frame intro animation for DSH. Fork of NativeDog1/dsh-boot-animation.",
-    "zh": "给 DSH 加开机动画，打开或切换会话时视频铺满窗口播放，还能分时段换片头。"
+    "en": "A native account-pool and provider plugin for DeepSeek Harness — Codex, Antigravity, Grok, Claude, Cursor, WorkBuddy, Command Code, Hermes and OpenRouter Free, on macOS and Windows.dsh-plugin",
+    "zh": "macOS 专属账号池与原生登录插件，帮你轻松管理多个 DeepSeek Harness 账号，自动切换免折腾。"
    },
-   "author": "Yiheng-guo",
-   "homepage": "https://github.com/Yiheng-guo/dsh-boot-animation-pro",
+   "author": "AITabby",
+   "homepage": "https://github.com/AITabby/dockyard-dsh",
    "repository": {
-    "url": "https://github.com/Yiheng-guo/dsh-boot-animation-pro"
+    "url": "https://github.com/AITabby/dockyard-dsh"
    },
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1790778084,
+     "publishTimestamp": 1795497210,
      "source": {
       "type": "git",
-      "url": "https://github.com/Yiheng-guo/dsh-boot-animation-pro",
-      "commit": "0e6a9287fa9c92af569e9f7ad95683a77bf6a1e9"
+      "url": "https://github.com/AITabby/dockyard-dsh",
+      "commit": "adb9877229151014d1a0d465ac6eb0744fa115d5"
      },
      "engines": {
-      "dsh": ">=0.1.0"
+      "dsh": ">=0.1.7-alpha.2"
      }
     }
    ]
@@ -2080,36 +2110,6 @@
    ]
   },
   {
-   "name": "@aitabby/dockyard-dsh",
-   "title": {
-    "en": "dockyard-dsh",
-    "zh": "dockyard-dsh"
-   },
-   "description": {
-    "en": "A native account-pool and provider plugin for DeepSeek Harness — Codex, Antigravity, Grok, Claude, Cursor, WorkBuddy, Command Code, Hermes and OpenRouter Free, on macOS and Windows.dsh-plugin",
-    "zh": "macOS 专属账号池与原生登录插件，帮你轻松管理多个 DeepSeek Harness 账号，自动切换免折腾。"
-   },
-   "author": "AITabby",
-   "homepage": "https://github.com/AITabby/dockyard-dsh",
-   "repository": {
-    "url": "https://github.com/AITabby/dockyard-dsh"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1794852792,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/AITabby/dockyard-dsh",
-      "commit": "adb9877229151014d1a0d465ac6eb0744fa115d5"
-     },
-     "engines": {
-      "dsh": ">=0.1.7-alpha.2"
-     }
-    }
-   ]
-  },
-  {
    "name": "@wm-coder/custom-first-control-prompt",
    "title": {
     "en": "custom-first-control-prompt",
@@ -2140,36 +2140,6 @@
    ]
   },
   {
-   "name": "@feibi-mochi/deepseek-harness-control-center",
-   "title": {
-    "en": "deepseek-harness-control-center",
-    "zh": "deepseek-harness-control-center"
-   },
-   "description": {
-    "en": "DeepSeek Harness control center for balance, usage, peak/off-peak pricing, encrypted multi-account switching, health checks, reminders, recharge, and session controls. / 余额、用量、峰谷计费、加密多账户、健康检查、提醒、充值与会话控制",
-    "zh": "一站式管理 DeepSeek 账户：实时监控余额与用量，超支提醒，快捷充值，灵活布局，还能用 AI 助手控制会话。"
-   },
-   "author": "feibi-mochi",
-   "homepage": "https://github.com/feibi-mochi/deepseek-harness-control-center",
-   "repository": {
-    "url": "https://github.com/feibi-mochi/deepseek-harness-control-center"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1788923090,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/feibi-mochi/deepseek-harness-control-center",
-      "commit": "1ec74d2a176072d7dbfdf5cb8bf1e8e9515d9657"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
    "name": "@eri64/dsh-claude-ux",
    "title": {
     "en": "dsh-claude-ux",
@@ -2192,6 +2162,36 @@
       "type": "git",
       "url": "https://github.com/eri64/dsh-claude-ux",
       "commit": "23f565aee7ffb55924ee6e36e30259f06a67877c"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@feibi-mochi/deepseek-harness-control-center",
+   "title": {
+    "en": "deepseek-harness-control-center",
+    "zh": "deepseek-harness-control-center"
+   },
+   "description": {
+    "en": "DeepSeek Harness control center for balance, usage, peak/off-peak pricing, encrypted multi-account switching, health checks, reminders, recharge, and session controls. / 余额、用量、峰谷计费、加密多账户、健康检查、提醒、充值与会话控制",
+    "zh": "一站式管理 DeepSeek 账户：实时监控余额与用量，超支提醒，快捷充值，灵活布局，还能用 AI 助手控制会话。"
+   },
+   "author": "feibi-mochi",
+   "homepage": "https://github.com/feibi-mochi/deepseek-harness-control-center",
+   "repository": {
+    "url": "https://github.com/feibi-mochi/deepseek-harness-control-center"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1788923090,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/feibi-mochi/deepseek-harness-control-center",
+      "commit": "1ec74d2a176072d7dbfdf5cb8bf1e8e9515d9657"
      },
      "engines": {
       "dsh": ">=0.1.0"
