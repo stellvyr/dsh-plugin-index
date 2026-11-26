@@ -57,14 +57,14 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795575251,
+     "publishTimestamp": 1795604456,
      "source": {
       "type": "git",
       "url": "https://github.com/zhu1090093659/dsh-web",
-      "commit": "8ecd74250df8d238e06969b997d85a73ed292505"
+      "commit": "5dcde41cae73a714b0057e32f0777ab31177c9dd"
      },
      "engines": {
-      "dsh": "^0.2.2-rc.3"
+      "dsh": "^0.2.3-alpha.2"
      }
     }
    ]
@@ -87,7 +87,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795505482,
+     "publishTimestamp": 1795636501,
      "source": {
       "type": "git",
       "url": "https://github.com/QingYunA/answer-me-with-html",
@@ -327,7 +327,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795561970,
+     "publishTimestamp": 1795594234,
      "source": {
       "type": "git",
       "url": "https://github.com/V1ki/dsh-plugin-subscriptions",
@@ -481,7 +481,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/xqpsec/dsh-jailbreak",
-      "commit": "d40fa84748d1f2e663b443078955b75a218cdb5c"
+      "commit": "daca8adabe36b573ab719c4a253ab24aeb61d7c8"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -537,11 +537,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795416632,
+     "publishTimestamp": 1795621277,
      "source": {
       "type": "git",
       "url": "https://github.com/huaguoxingkong/dsh-prompt-rewriter",
-      "commit": "d3a4f8baf57d00aa835298b9cd46ab4c3fd931b1"
+      "commit": "1dee4849e1a31bd75403eb9bdb23bea26623d5bc"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -747,11 +747,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795580616,
+     "publishTimestamp": 1795621853,
      "source": {
       "type": "git",
       "url": "https://github.com/LarryE135/dsh-flash-presets",
-      "commit": "c2aef80db69b94932b1e7bda11ca68208ee62fac"
+      "commit": "c0595252ab2621ece21d7caa2f1a5d4620f28a35"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -871,7 +871,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/HsiangNianian/dsh-auto-continue",
-      "commit": "1aff653f0e6a0c39224e58d43f8c269b41b9785a"
+      "commit": "85e5c751c802d4e301a16f6313ba34315a4f7cc5"
      },
      "engines": {
       "dsh": "0.1.2-rc.1"
@@ -987,7 +987,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795408465,
+     "publishTimestamp": 1795618942,
      "source": {
       "type": "git",
       "url": "https://github.com/Yuuyuko-uu/dsh-qq-link",
@@ -1227,14 +1227,14 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795517539,
+     "publishTimestamp": 1795601667,
      "source": {
       "type": "git",
       "url": "https://github.com/PerryLink/dsh-permission-rules",
       "commit": "a82daa6301885ad5b640afeca5de6a68a6e10c40"
      },
      "engines": {
-      "dsh": "0.2.2-rc.4"
+      "dsh": ">=0.2.0-0 <0.4.0-0"
      }
     }
    ]
@@ -1261,7 +1261,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/2026heshao/dsh-armory",
-      "commit": "3289dd6cdeb260c91c33c33c2566e3bb7d78b0e4"
+      "commit": "9a9497fef6ef72f7a882fcc13738c6d2cb189bad"
      },
      "engines": {
       "dsh": ">=0.1.5-rc.1"
@@ -1291,7 +1291,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/Noob-stupid/dsh-plugin-gating-hub",
-      "commit": "85aa8568be2ec471567d87f40cdd3166cb0e0709"
+      "commit": "c539ad209275e1a204cfb163b25896712b73210a"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -1351,7 +1351,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/Tabbit-Browser/dsh-tabbit",
-      "commit": "4d256b7db3317961e3599bf2820e8b1be6e2d2be"
+      "commit": "cc0f21d18628a9cf30cf22f98a8687a6e3bb6fa1"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -1720,6 +1720,36 @@
    ]
   },
   {
+   "name": "@czcdr/dsh-plugin-rea",
+   "title": {
+    "en": "dsh-plugin-rea",
+    "zh": "dsh-plugin-rea"
+   },
+   "description": {
+    "en": "第三方适配插件：把上游 REA（github.com/morluto/rea）的 MCP 服务接入 DeepSeek Harness，提供 mcp__rea__* 工具。2.x 会自动准备 Node、REA CLI、JDK 与 Ghidra 并把那一行接好；逆向分析能力全部由上游 REA 提供。",
+    "zh": "把 REA 逆向分析能力接进 DSH，让 AI 直接分析二进制、APK、固件和网站。"
+   },
+   "author": "czcdr",
+   "homepage": "https://github.com/czcdr/dsh-plugin-rea",
+   "repository": {
+    "url": "https://github.com/czcdr/dsh-plugin-rea"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1794573554,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/czcdr/dsh-plugin-rea",
+      "commit": "82a13e5cdb29685cd518a964f7552685a5c9e331"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
    "name": "@oil-oil/dsh-vision",
    "title": {
     "en": "dsh-vision",
@@ -1775,36 +1805,6 @@
      },
      "engines": {
       "dsh": "^0.1.0-rc.2"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@czcdr/dsh-plugin-rea",
-   "title": {
-    "en": "dsh-plugin-rea",
-    "zh": "dsh-plugin-rea"
-   },
-   "description": {
-    "en": "第三方适配插件：把上游 REA（github.com/morluto/rea）的 MCP 服务接入 DeepSeek Harness，提供 mcp__rea__* 工具。2.x 会自动准备 Node、REA CLI、JDK 与 Ghidra 并把那一行接好；逆向分析能力全部由上游 REA 提供。",
-    "zh": "把 REA 逆向分析能力接进 DSH，让 AI 直接分析二进制、APK、固件和网站。"
-   },
-   "author": "czcdr",
-   "homepage": "https://github.com/czcdr/dsh-plugin-rea",
-   "repository": {
-    "url": "https://github.com/czcdr/dsh-plugin-rea"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1794573554,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/czcdr/dsh-plugin-rea",
-      "commit": "82a13e5cdb29685cd518a964f7552685a5c9e331"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
      }
     }
    ]
@@ -1876,7 +1876,7 @@
     "zh": "dsh-zotero"
    },
    "description": {
-    "en": "Zotero plugin for DeepSeek Harness: search and read papers in conversation, audit the literature trail, and browse the literature panel.",
+    "en": "DeepSeek Harness plugin for Zotero libraries. AI-native research workflows for finding and reading papers in chat, checking source passages in the Literature Trail, and browsing and citing papers in the Literature Panel.",
     "zh": "将 Zotero 文献管理接入 DeepSeek Harness，方便 AI 助手读取和引用你的文献库。"
    },
    "author": "Vncntvx",
@@ -1887,11 +1887,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795433174,
+     "publishTimestamp": 1795614587,
      "source": {
       "type": "git",
       "url": "https://github.com/Vncntvx/dsh-zotero",
-      "commit": "b2326cba4a3397e1c105170d6db41a11aa4b0034"
+      "commit": "ea51b0ebf42744532e2e27292d7150c533670b49"
      },
      "engines": {
       "dsh": ">=0.2.3-alpha.2"
@@ -1990,36 +1990,6 @@
    ]
   },
   {
-   "name": "@yiheng-guo/dsh-boot-animation-pro",
-   "title": {
-    "en": "dsh-boot-animation-pro",
-    "zh": "dsh-boot-animation-pro"
-   },
-   "description": {
-    "en": "DSH 片头开机动画增强版：播放控制、触发规则、会话名单、分时段片头、片库管理、中英双语。A full-frame intro animation for DSH. Fork of NativeDog1/dsh-boot-animation.",
-    "zh": "给 DSH 加开机动画，打开或切换会话时视频铺满窗口播放，还能分时段换片头。"
-   },
-   "author": "Yiheng-guo",
-   "homepage": "https://github.com/Yiheng-guo/dsh-boot-animation-pro",
-   "repository": {
-    "url": "https://github.com/Yiheng-guo/dsh-boot-animation-pro"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1790778084,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/Yiheng-guo/dsh-boot-animation-pro",
-      "commit": "0e6a9287fa9c92af569e9f7ad95683a77bf6a1e9"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
    "name": "@c3ll256/dsh-toy",
    "title": {
     "en": "dsh-toy",
@@ -2050,31 +2020,31 @@
    ]
   },
   {
-   "name": "@aitabby/dockyard-dsh",
+   "name": "@yiheng-guo/dsh-boot-animation-pro",
    "title": {
-    "en": "dockyard-dsh",
-    "zh": "dockyard-dsh"
+    "en": "dsh-boot-animation-pro",
+    "zh": "dsh-boot-animation-pro"
    },
    "description": {
-    "en": "A native account-pool and provider plugin for DeepSeek Harness — Codex, Antigravity, Grok, Claude, Cursor, WorkBuddy, Command Code, Hermes and OpenRouter Free, on macOS and Windows.dsh-plugin",
-    "zh": "macOS 专属账号池与原生登录插件，帮你轻松管理多个 DeepSeek Harness 账号，自动切换免折腾。"
+    "en": "DSH 片头开机动画增强版：播放控制、触发规则、会话名单、分时段片头、片库管理、中英双语。A full-frame intro animation for DSH. Fork of NativeDog1/dsh-boot-animation.",
+    "zh": "给 DSH 加开机动画，打开或切换会话时视频铺满窗口播放，还能分时段换片头。"
    },
-   "author": "AITabby",
-   "homepage": "https://github.com/AITabby/dockyard-dsh",
+   "author": "Yiheng-guo",
+   "homepage": "https://github.com/Yiheng-guo/dsh-boot-animation-pro",
    "repository": {
-    "url": "https://github.com/AITabby/dockyard-dsh"
+    "url": "https://github.com/Yiheng-guo/dsh-boot-animation-pro"
    },
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795497210,
+     "publishTimestamp": 1790778084,
      "source": {
       "type": "git",
-      "url": "https://github.com/AITabby/dockyard-dsh",
-      "commit": "adb9877229151014d1a0d465ac6eb0744fa115d5"
+      "url": "https://github.com/Yiheng-guo/dsh-boot-animation-pro",
+      "commit": "0e6a9287fa9c92af569e9f7ad95683a77bf6a1e9"
      },
      "engines": {
-      "dsh": ">=0.1.7-alpha.2"
+      "dsh": ">=0.1.0"
      }
     }
    ]
@@ -2110,6 +2080,36 @@
    ]
   },
   {
+   "name": "@aitabby/dockyard-dsh",
+   "title": {
+    "en": "dockyard-dsh",
+    "zh": "dockyard-dsh"
+   },
+   "description": {
+    "en": "A native account-pool and provider plugin for DeepSeek Harness — Codex, Antigravity, Grok, Claude, Cursor, WorkBuddy, Command Code, Hermes and OpenRouter Free, on macOS and Windows.dsh-plugin",
+    "zh": "macOS 专属账号池与原生登录插件，帮你轻松管理多个 DeepSeek Harness 账号，自动切换免折腾。"
+   },
+   "author": "AITabby",
+   "homepage": "https://github.com/AITabby/dockyard-dsh",
+   "repository": {
+    "url": "https://github.com/AITabby/dockyard-dsh"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1795497210,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/AITabby/dockyard-dsh",
+      "commit": "266e9bcd23b943676d9ab811fa823effb97a15fc"
+     },
+     "engines": {
+      "dsh": ">=0.1.7-alpha.2"
+     }
+    }
+   ]
+  },
+  {
    "name": "@wm-coder/custom-first-control-prompt",
    "title": {
     "en": "custom-first-control-prompt",
@@ -2140,36 +2140,6 @@
    ]
   },
   {
-   "name": "@eri64/dsh-claude-ux",
-   "title": {
-    "en": "dsh-claude-ux",
-    "zh": "dsh-claude-ux"
-   },
-   "description": {
-    "en": "DSH plugin: Claude-style Chinese risk control & conversation autonomy for DeepSeek Harness web",
-    "zh": "给 DeepSeek Harness 网页版加上 Claude 式区域风控和自动结束对话，本地判定更省心。"
-   },
-   "author": "eri64",
-   "homepage": "https://github.com/eri64/dsh-claude-web",
-   "repository": {
-    "url": "https://github.com/eri64/dsh-claude-ux"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1792045210,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/eri64/dsh-claude-ux",
-      "commit": "23f565aee7ffb55924ee6e36e30259f06a67877c"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
    "name": "@feibi-mochi/deepseek-harness-control-center",
    "title": {
     "en": "deepseek-harness-control-center",
@@ -2192,6 +2162,36 @@
       "type": "git",
       "url": "https://github.com/feibi-mochi/deepseek-harness-control-center",
       "commit": "1ec74d2a176072d7dbfdf5cb8bf1e8e9515d9657"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@eri64/dsh-claude-ux",
+   "title": {
+    "en": "dsh-claude-ux",
+    "zh": "dsh-claude-ux"
+   },
+   "description": {
+    "en": "DSH plugin: Claude-style Chinese risk control & conversation autonomy for DeepSeek Harness web",
+    "zh": "给 DeepSeek Harness 网页版加上 Claude 式区域风控和自动结束对话，本地判定更省心。"
+   },
+   "author": "eri64",
+   "homepage": "https://github.com/eri64/dsh-claude-web",
+   "repository": {
+    "url": "https://github.com/eri64/dsh-claude-ux"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1792045210,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/eri64/dsh-claude-ux",
+      "commit": "23f565aee7ffb55924ee6e36e30259f06a67877c"
      },
      "engines": {
       "dsh": ">=0.1.0"
