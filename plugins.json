@@ -57,11 +57,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795604456,
+     "publishTimestamp": 1795712964,
      "source": {
       "type": "git",
       "url": "https://github.com/zhu1090093659/dsh-web",
-      "commit": "5dcde41cae73a714b0057e32f0777ab31177c9dd"
+      "commit": "a0ec7fffd7583611a9931f001c25a08502b1ead3"
      },
      "engines": {
       "dsh": "^0.2.3-alpha.2"
@@ -331,7 +331,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/V1ki/dsh-plugin-subscriptions",
-      "commit": "407256cafa3c7270cf8ea878608ce8a1174315e0"
+      "commit": "3381cc1acd9ccf7d1fba7a7a8f2853c747391da0"
      },
      "engines": {
       "dsh": "0.2.2-rc.3"
@@ -477,7 +477,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1794070119,
+     "publishTimestamp": 1795665250,
      "source": {
       "type": "git",
       "url": "https://github.com/xqpsec/dsh-jailbreak",
@@ -520,31 +520,31 @@
    ]
   },
   {
-   "name": "@huaguoxingkong/dsh-prompt-rewriter",
+   "name": "@fishquito7/dsh-skill-mcp-panel",
    "title": {
-    "en": "dsh-prompt-rewriter",
-    "zh": "dsh-prompt-rewriter"
+    "en": "dsh-skill-mcp-panel",
+    "zh": "dsh-skill-mcp-panel"
    },
    "description": {
-    "en": "输入框旁一键提示词增强：把半成品草稿原地改成可执行的提示词，只改不发送。",
-    "zh": "输入框旁一键把半成品草稿改写成可执行的提示词，只改不发送，省去反复打磨的功夫。"
+    "en": "DSH plugin: skill and MCP management（skill/MCP管理工具）",
+    "zh": "在 DSH Web 侧边栏统一管理技能和 MCP 服务器，还能用 dsh-panel 命令一键操作。"
    },
-   "author": "huaguoxingkong",
-   "homepage": "https://github.com/huaguoxingkong/dsh-prompt-rewriter",
+   "author": "Fishquito7",
+   "homepage": "https://github.com/Fishquito7/dsh-skill-mcp-panel",
    "repository": {
-    "url": "https://github.com/huaguoxingkong/dsh-prompt-rewriter"
+    "url": "https://github.com/Fishquito7/dsh-skill-mcp-panel"
    },
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795621277,
+     "publishTimestamp": 1794837119,
      "source": {
       "type": "git",
-      "url": "https://github.com/huaguoxingkong/dsh-prompt-rewriter",
-      "commit": "1dee4849e1a31bd75403eb9bdb23bea26623d5bc"
+      "url": "https://github.com/Fishquito7/dsh-skill-mcp-panel",
+      "commit": "8797c338e4d41acce6d097a5ba26f1a2f0bbf5f5"
      },
      "engines": {
-      "dsh": ">=0.1.0"
+      "dsh": "^0.2.2-rc.1"
      }
     }
    ]
@@ -575,36 +575,6 @@
      },
      "engines": {
       "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@fishquito7/dsh-skill-mcp-panel",
-   "title": {
-    "en": "dsh-skill-mcp-panel",
-    "zh": "dsh-skill-mcp-panel"
-   },
-   "description": {
-    "en": "DSH plugin: skill and MCP management（skill/MCP管理工具）",
-    "zh": "在 DSH Web 侧边栏统一管理技能和 MCP 服务器，还能用 dsh-panel 命令一键操作。"
-   },
-   "author": "Fishquito7",
-   "homepage": "https://github.com/Fishquito7/dsh-skill-mcp-panel",
-   "repository": {
-    "url": "https://github.com/Fishquito7/dsh-skill-mcp-panel"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1794837119,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/Fishquito7/dsh-skill-mcp-panel",
-      "commit": "8797c338e4d41acce6d097a5ba26f1a2f0bbf5f5"
-     },
-     "engines": {
-      "dsh": "^0.2.2-rc.1"
      }
     }
    ]
@@ -747,11 +717,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795621853,
+     "publishTimestamp": 1795742673,
      "source": {
       "type": "git",
       "url": "https://github.com/LarryE135/dsh-flash-presets",
-      "commit": "c0595252ab2621ece21d7caa2f1a5d4620f28a35"
+      "commit": "40052db3d1561a030868a0b76a5141fb6e445dc5"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -867,7 +837,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795145570,
+     "publishTimestamp": 1795685521,
      "source": {
       "type": "git",
       "url": "https://github.com/HsiangNianian/dsh-auto-continue",
@@ -991,7 +961,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/Yuuyuko-uu/dsh-qq-link",
-      "commit": "ca0fa6cc0e58a76e36334b4e272a45342c7bf525"
+      "commit": "61a859a861eee8ae639f70246efaada1d1b68172"
      },
      "engines": {
       "dsh": ">=0.2.1-rc.2"
@@ -1021,7 +991,7 @@
      "source": {
       "type": "git",
       "url": "https://github.com/ymh0000123/dsh-theme-endfield",
-      "commit": "798718b6a8350a67ef36f2d4c4969ea0a6404c72"
+      "commit": "9d96b91ca716ff7104f162bf630031479935ce43"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -1257,7 +1227,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795491292,
+     "publishTimestamp": 1795680410,
      "source": {
       "type": "git",
       "url": "https://github.com/2026heshao/dsh-armory",
@@ -1287,11 +1257,11 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1795564293,
+     "publishTimestamp": 1795736710,
      "source": {
       "type": "git",
       "url": "https://github.com/Noob-stupid/dsh-plugin-gating-hub",
-      "commit": "c539ad209275e1a204cfb163b25896712b73210a"
+      "commit": "cae9c393c0e4dba0a822d0720cabc293e2afa7b0"
      },
      "engines": {
       "dsh": ">=0.1.0"
@@ -1347,7 +1317,7 @@
    "versions": [
     {
      "version": "0.1.0",
-     "publishTimestamp": 1793681366,
+     "publishTimestamp": 1795684275,
      "source": {
       "type": "git",
       "url": "https://github.com/Tabbit-Browser/dsh-tabbit",
@@ -1720,36 +1690,6 @@
    ]
   },
   {
-   "name": "@czcdr/dsh-plugin-rea",
-   "title": {
-    "en": "dsh-plugin-rea",
-    "zh": "dsh-plugin-rea"
-   },
-   "description": {
-    "en": "第三方适配插件：把上游 REA（github.com/morluto/rea）的 MCP 服务接入 DeepSeek Harness，提供 mcp__rea__* 工具。2.x 会自动准备 Node、REA CLI、JDK 与 Ghidra 并把那一行接好；逆向分析能力全部由上游 REA 提供。",
-    "zh": "把 REA 逆向分析能力接进 DSH，让 AI 直接分析二进制、APK、固件和网站。"
-   },
-   "author": "czcdr",
-   "homepage": "https://github.com/czcdr/dsh-plugin-rea",
-   "repository": {
-    "url": "https://github.com/czcdr/dsh-plugin-rea"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1794573554,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/czcdr/dsh-plugin-rea",
-      "commit": "82a13e5cdb29685cd518a964f7552685a5c9e331"
-     },
-     "engines": {
-      "dsh": ">=0.1.0"
-     }
-    }
-   ]
-  },
-  {
    "name": "@oil-oil/dsh-vision",
    "title": {
     "en": "dsh-vision",
@@ -1810,6 +1750,36 @@
    ]
   },
   {
+   "name": "@czcdr/dsh-plugin-rea",
+   "title": {
+    "en": "dsh-plugin-rea",
+    "zh": "dsh-plugin-rea"
+   },
+   "description": {
+    "en": "第三方适配插件：把上游 REA（github.com/morluto/rea）的 MCP 服务接入 DeepSeek Harness，提供 mcp__rea__* 工具。2.x 会自动准备 Node、REA CLI、JDK 与 Ghidra 并把那一行接好；逆向分析能力全部由上游 REA 提供。",
+    "zh": "把 REA 逆向分析能力接进 DSH，让 AI 直接分析二进制、APK、固件和网站。"
+   },
+   "author": "czcdr",
+   "homepage": "https://github.com/czcdr/dsh-plugin-rea",
+   "repository": {
+    "url": "https://github.com/czcdr/dsh-plugin-rea"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1794573554,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/czcdr/dsh-plugin-rea",
+      "commit": "82a13e5cdb29685cd518a964f7552685a5c9e331"
+     },
+     "engines": {
+      "dsh": ">=0.1.0"
+     }
+    }
+   ]
+  },
+  {
    "name": "@unclek/dsh-think-translate",
    "title": {
     "en": "dsh-think-translate",
@@ -1840,66 +1810,6 @@
    ]
   },
   {
-   "name": "@pensivefei/dsh-secure-audit",
-   "title": {
-    "en": "dsh-secure-audit",
-    "zh": "dsh-secure-audit"
-   },
-   "description": {
-    "en": "Read-only security & compliance plugin for DeepSeek Harness: prompt-injection detection, Chinese-PII redaction, and local configuration audit with redacted, reproducible reports.",
-    "zh": "为 DeepSeek Harness 提供只读安全审计：检测提示注入、脱敏中文个人隐私，并生成可复现的本地配置审计报告。"
-   },
-   "author": "PensiveFei",
-   "homepage": "https://github.com/PensiveFei/dsh-secure-audit",
-   "repository": {
-    "url": "https://github.com/PensiveFei/dsh-secure-audit"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1793623371,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/PensiveFei/dsh-secure-audit",
-      "commit": "ae94c94183ef785702d34cc90e08705e8c32177b"
-     },
-     "engines": {
-      "dsh": "0.1.2-rc.1"
-     }
-    }
-   ]
-  },
-  {
-   "name": "@vncntvx/dsh-zotero",
-   "title": {
-    "en": "dsh-zotero",
-    "zh": "dsh-zotero"
-   },
-   "description": {
-    "en": "DeepSeek Harness plugin for Zotero libraries. AI-native research workflows for finding and reading papers in chat, checking source passages in the Literature Trail, and browsing and citing papers in the Literature Panel.",
-    "zh": "将 Zotero 文献管理接入 DeepSeek Harness，方便 AI 助手读取和引用你的文献库。"
-   },
-   "author": "Vncntvx",
-   "homepage": "https://github.com/Vncntvx/dsh-zotero",
-   "repository": {
-    "url": "https://github.com/Vncntvx/dsh-zotero"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1795614587,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/Vncntvx/dsh-zotero",
-      "commit": "ea51b0ebf42744532e2e27292d7150c533670b49"
-     },
-     "engines": {
-      "dsh": ">=0.2.3-alpha.2"
-     }
-    }
-   ]
-  },
-  {
    "name": "@john-walks-slow/dsh-inject",
    "title": {
     "en": "dsh-inject",
@@ -1925,6 +1835,66 @@
      },
      "engines": {
       "dsh": "^0.2.1-rc.2"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@vncntvx/dsh-zotero",
+   "title": {
+    "en": "dsh-zotero",
+    "zh": "dsh-zotero"
+   },
+   "description": {
+    "en": "DeepSeek Harness plugin for Zotero libraries. AI-native research workflows for finding and reading papers in chat, checking source passages in the Literature Trail, and browsing and citing papers in the Literature Panel.",
+    "zh": "将 Zotero 文献管理接入 DeepSeek Harness，方便 AI 助手读取和引用你的文献库。"
+   },
+   "author": "Vncntvx",
+   "homepage": "https://github.com/Vncntvx/dsh-zotero",
+   "repository": {
+    "url": "https://github.com/Vncntvx/dsh-zotero"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1795670827,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/Vncntvx/dsh-zotero",
+      "commit": "9e026774f14b1b6efb927885b6f099689ead811a"
+     },
+     "engines": {
+      "dsh": ">=0.2.3-alpha.2"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@pensivefei/dsh-secure-audit",
+   "title": {
+    "en": "dsh-secure-audit",
+    "zh": "dsh-secure-audit"
+   },
+   "description": {
+    "en": "Read-only security & compliance plugin for DeepSeek Harness: prompt-injection detection, Chinese-PII redaction, and local configuration audit with redacted, reproducible reports.",
+    "zh": "为 DeepSeek Harness 提供只读安全审计：检测提示注入、脱敏中文个人隐私，并生成可复现的本地配置审计报告。"
+   },
+   "author": "PensiveFei",
+   "homepage": "https://github.com/PensiveFei/dsh-secure-audit",
+   "repository": {
+    "url": "https://github.com/PensiveFei/dsh-secure-audit"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1793623371,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/PensiveFei/dsh-secure-audit",
+      "commit": "ae94c94183ef785702d34cc90e08705e8c32177b"
+     },
+     "engines": {
+      "dsh": "0.1.2-rc.1"
      }
     }
    ]
@@ -2080,36 +2050,6 @@
    ]
   },
   {
-   "name": "@aitabby/dockyard-dsh",
-   "title": {
-    "en": "dockyard-dsh",
-    "zh": "dockyard-dsh"
-   },
-   "description": {
-    "en": "A native account-pool and provider plugin for DeepSeek Harness — Codex, Antigravity, Grok, Claude, Cursor, WorkBuddy, Command Code, Hermes and OpenRouter Free, on macOS and Windows.dsh-plugin",
-    "zh": "macOS 专属账号池与原生登录插件，帮你轻松管理多个 DeepSeek Harness 账号，自动切换免折腾。"
-   },
-   "author": "AITabby",
-   "homepage": "https://github.com/AITabby/dockyard-dsh",
-   "repository": {
-    "url": "https://github.com/AITabby/dockyard-dsh"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1795497210,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/AITabby/dockyard-dsh",
-      "commit": "266e9bcd23b943676d9ab811fa823effb97a15fc"
-     },
-     "engines": {
-      "dsh": ">=0.1.7-alpha.2"
-     }
-    }
-   ]
-  },
-  {
    "name": "@wm-coder/custom-first-control-prompt",
    "title": {
     "en": "custom-first-control-prompt",
@@ -2135,6 +2075,36 @@
      },
      "engines": {
       "dsh": "0.1.x"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@aitabby/dockyard-dsh",
+   "title": {
+    "en": "dockyard-dsh",
+    "zh": "dockyard-dsh"
+   },
+   "description": {
+    "en": "A native account-pool and provider plugin for DeepSeek Harness — Codex, Antigravity, Grok, Claude, Cursor, WorkBuddy, Command Code, Hermes and OpenRouter Free, on macOS and Windows.dsh-plugin",
+    "zh": "macOS 专属账号池与原生登录插件，帮你轻松管理多个 DeepSeek Harness 账号，自动切换免折腾。"
+   },
+   "author": "AITabby",
+   "homepage": "https://github.com/AITabby/dockyard-dsh",
+   "repository": {
+    "url": "https://github.com/AITabby/dockyard-dsh"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1795719445,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/AITabby/dockyard-dsh",
+      "commit": "266e9bcd23b943676d9ab811fa823effb97a15fc"
+     },
+     "engines": {
+      "dsh": ">=0.1.7-alpha.2"
      }
     }
    ]
@@ -2260,36 +2230,6 @@
    ]
   },
   {
-   "name": "@perrylink/dsh-fund-research",
-   "title": {
-    "en": "dsh-fund-research",
-    "zh": "dsh-fund-research"
-   },
-   "description": {
-    "en": "Deterministic research reports for Chinese public mutual funds: public-source data collection (Tiantian Fund/Eastmoney), pure-function metrics (performance decomposition, holdings penetration, style attribution, manager profile), and versioned reports with a per-number snapshot traceability appendix.",
-    "zh": "自动抓取天天基金等公开数据，为国内公募基金生成可复现的研究报告，业绩拆解、持仓穿透、风格分析一次搞定。"
-   },
-   "author": "PerryLink",
-   "homepage": "https://www.npmjs.com/package/dsh-fund-research",
-   "repository": {
-    "url": "https://github.com/PerryLink/dsh-fund-research"
-   },
-   "versions": [
-    {
-     "version": "0.1.0",
-     "publishTimestamp": 1795410573,
-     "source": {
-      "type": "git",
-      "url": "https://github.com/PerryLink/dsh-fund-research",
-      "commit": "dc38e0f4c48eb5a75dacf041ae0a427def7a5573"
-     },
-     "engines": {
-      "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
-     }
-    }
-   ]
-  },
-  {
    "name": "@perrylink/dsh-plugin-guide",
    "title": {
     "en": "dsh-plugin-guide",
@@ -2315,6 +2255,36 @@
      },
      "engines": {
       "dsh": ">=0.2.2-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@perrylink/dsh-fund-research",
+   "title": {
+    "en": "dsh-fund-research",
+    "zh": "dsh-fund-research"
+   },
+   "description": {
+    "en": "Deterministic research reports for Chinese public mutual funds: public-source data collection (Tiantian Fund/Eastmoney), pure-function metrics (performance decomposition, holdings penetration, style attribution, manager profile), and versioned reports with a per-number snapshot traceability appendix.",
+    "zh": "自动抓取天天基金等公开数据，为国内公募基金生成可复现的研究报告，业绩拆解、持仓穿透、风格分析一次搞定。"
+   },
+   "author": "PerryLink",
+   "homepage": "https://www.npmjs.com/package/dsh-fund-research",
+   "repository": {
+    "url": "https://github.com/PerryLink/dsh-fund-research"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1795410573,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/PerryLink/dsh-fund-research",
+      "commit": "dc38e0f4c48eb5a75dacf041ae0a427def7a5573"
+     },
+     "engines": {
+      "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0 || >=0.2.3-0 <0.3.0-0"
      }
     }
    ]
@@ -2405,6 +2375,36 @@
      },
      "engines": {
       "dsh": "^0.2.0-rc.2"
+     }
+    }
+   ]
+  },
+  {
+   "name": "@smalldy/godot-bridge",
+   "title": {
+    "en": "godot-bridge",
+    "zh": "godot-bridge"
+   },
+   "description": {
+    "en": "DSH (DeepSeek Harness) plugin that launches and drives a running Godot 4.x game through its in-game TCP interaction server — replaces the godot-mcp MCP server with native agent tools.",
+    "zh": "启动并操控 Godot 4.x 游戏，通过内置 TCP 服务提供原生智能体工具，替代 MCP 服务器。"
+   },
+   "author": "Smalldy",
+   "homepage": "https://github.com/Smalldy/godot-bridge",
+   "repository": {
+    "url": "https://github.com/Smalldy/godot-bridge"
+   },
+   "versions": [
+    {
+     "version": "0.1.0",
+     "publishTimestamp": 1795645333,
+     "source": {
+      "type": "git",
+      "url": "https://github.com/Smalldy/godot-bridge",
+      "commit": "e9c34db1fcd3d4096dccf2b1327905cf5c587c1a"
+     },
+     "engines": {
+      "dsh": ">=0.1.6-0"
      }
     }
    ]
